@@ -4,77 +4,77 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>//localhost:8000/</loc>
-<lastmod>2019-04-28T16:47:35-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/</loc>
+<lastmod>2019-04-28T17:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/archives.html</loc>
-<lastmod>2019-04-28T16:47:35-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/archives.html</loc>
+<lastmod>2019-04-28T17:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tags.html</loc>
-<lastmod>2019-04-28T16:47:35-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/tags.html</loc>
+<lastmod>2019-04-28T17:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/categories.html</loc>
-<lastmod>2019-04-28T16:47:35-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/categories.html</loc>
+<lastmod>2019-04-28T17:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/about.html</loc>
+<loc>https://NyaNekoplus.github.io/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/新的开始.html</loc>
+<loc>https://NyaNekoplus.github.io/新的开始.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/category/life.html</loc>
+<loc>https://NyaNekoplus.github.io/category/life.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/category/page.html</loc>
+<loc>https://NyaNekoplus.github.io/category/page.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tag/about.html</loc>
+<loc>https://NyaNekoplus.github.io/tag/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tag/life.html</loc>
+<loc>https://NyaNekoplus.github.io/tag/life.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/author/edward-tsai.html</loc>
+<loc>https://NyaNekoplus.github.io/author/edward-tsai.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
