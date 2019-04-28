@@ -1,0 +1,10 @@
+你好 世界
+==============
+
+:id: 新的开始
+:translation_id: first-post
+:lang: zhs
+:date: 2019-04-21 15:30
+:tags: Life
+
+由此启程...
