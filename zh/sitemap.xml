@@ -4,29 +4,29 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>//NyaNekoplus.github.io/zh/</loc>
-<lastmod>2019-04-29T20:18:57-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/zh/</loc>
+<lastmod>2019-04-29T20:38:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//NyaNekoplus.github.io/zh/archives.html</loc>
-<lastmod>2019-04-29T20:18:57-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/zh/archives.html</loc>
+<lastmod>2019-04-29T20:38:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//NyaNekoplus.github.io/zh/tags.html</loc>
-<lastmod>2019-04-29T20:18:57-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/zh/tags.html</loc>
+<lastmod>2019-04-29T20:38:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//NyaNekoplus.github.io/zh/categories.html</loc>
-<lastmod>2019-04-29T20:18:57-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/zh/categories.html</loc>
+<lastmod>2019-04-29T20:38:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
