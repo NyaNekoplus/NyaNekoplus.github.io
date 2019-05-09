@@ -5,7 +5,9 @@
 :translation_id: about
 :lang: zhs
 :date: 2019-04-21 20:50
+:category: 关于
 :tags: about
+:issueid: 3
 
 关于此博客
 ----------
