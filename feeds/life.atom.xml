@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>像素之心 - life</title><link href="https://NyaNekoplus.github.io/" rel="alternate"></link><link href="https://NyaNekoplus.github.io/feeds/life.atom.xml" rel="self"></link><id>https://NyaNekoplus.github.io/</id><updated>2019-05-09T21:20:00+00:00</updated><entry><title>那些令我感到温暖的声音</title><link href="https://NyaNekoplus.github.io/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:nyanekoplus.github.io,2019-05-09:/warm-voice.html</id><summary type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>像素之心 - life</title><link href="//localhost:8000/" rel="alternate"></link><link href="//localhost:8000/feeds/life.atom.xml" rel="self"></link><id>//localhost:8000/</id><updated>2019-05-09T21:20:00+00:00</updated><entry><title>那些令我感到温暖的声音</title><link href="//localhost:8000/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:localhost,2019-05-09:/warm-voice.html</id><summary type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
 &lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
 那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
 &lt;p&gt;——为什麽这么忙？&lt;/p&gt;
@@ -27,6 +27,6 @@
 &lt;p&gt;A：这首
 &lt;a class="reference external" href="https://music.163.com/#/song?id=36270494"&gt;きみがくれたシャイニーストーリー&lt;/a&gt;
 已被某易购买了版权 &lt;del&gt;岂可休&lt;/del&gt; 至于打不开的问题。兄啊，都9102了还没学会科学上网麽。&lt;/p&gt;
-</content><category term="music"></category></entry><entry><title>你好 世界</title><link href="https://NyaNekoplus.github.io/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:nyanekoplus.github.io,2019-04-21:/新的开始.html</id><summary type="html">&lt;p&gt;由此启程...&lt;/p&gt;
+</content><category term="music"></category></entry><entry><title>你好 世界</title><link href="//localhost:8000/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:localhost,2019-04-21:/新的开始.html</id><summary type="html">&lt;p&gt;由此启程...&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;由此启程...&lt;/p&gt;
 </content><category term="Life"></category></entry></feed>
