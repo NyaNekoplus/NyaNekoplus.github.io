@@ -4,23 +4,22 @@
 &lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
 而namesilo在这一点上是免费提供的。&lt;/p&gt;
 &lt;p&gt;那麽就namesilo好了。&lt;/p&gt;
-&lt;p&gt;了解了一些选项的作用后顺利购买了:ruby:'tooisorahe|遠い空へ'.com这个域名。&lt;/p&gt;
+&lt;p&gt;了解了一些选项的作用后顺利购买了 :ruby:'tooisorahe|遠い空へ' .com这个域名。&lt;/p&gt;
 &lt;p&gt;然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
-不甘心的上网查找了一番，发现 'cloudflare&amp;lt;&lt;a class="reference external" href="https://www.cloudflare.com/"&gt;https://www.cloudflare.com/&lt;/a&gt;&amp;gt;'_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
+不甘心的上网查找了一番，发现 'cloudflare &amp;lt;&lt;a class="reference external" href="https://www.cloudflare.com/"&gt;https://www.cloudflare.com/&lt;/a&gt;&amp;gt;'_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
 利将个人博客的域名换了过来。看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)&lt;/p&gt;
 &lt;p&gt;搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
-只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的:ruby:'控制台|CMD'一整天，这的确有趣许
-多 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
+只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的 :ruby:'控制台|CMD' 一整天，这的确有趣许 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
 &lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
 &lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
 而namesilo在这一点上是免费提供的。&lt;/p&gt;
 &lt;p&gt;那麽就namesilo好了。&lt;/p&gt;
-&lt;p&gt;了解了一些选项的作用后顺利购买了:ruby:'tooisorahe|遠い空へ'.com这个域名。&lt;/p&gt;
+&lt;p&gt;了解了一些选项的作用后顺利购买了 :ruby:'tooisorahe|遠い空へ' .com这个域名。&lt;/p&gt;
 &lt;p&gt;然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
-不甘心的上网查找了一番，发现 'cloudflare&amp;lt;&lt;a class="reference external" href="https://www.cloudflare.com/"&gt;https://www.cloudflare.com/&lt;/a&gt;&amp;gt;'_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
+不甘心的上网查找了一番，发现 'cloudflare &amp;lt;&lt;a class="reference external" href="https://www.cloudflare.com/"&gt;https://www.cloudflare.com/&lt;/a&gt;&amp;gt;'_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
 利将个人博客的域名换了过来。看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)&lt;/p&gt;
 &lt;p&gt;搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
-只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的:ruby:'控制台|CMD'一整天，这的确有趣许
+只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的 :ruby:'控制台|CMD' 一整天，这的确有趣许
 多，但我更倾向於了解事物的“本质”。&lt;/p&gt;
 &lt;p&gt;这个博客的搭建大概就在这里结束了。然而人的折腾之魂是没有止境的，日后若是再有在博客上折腾的想法的话，大
 概要反问自己一句：今天，你学会c++了吗？（大误）&lt;/p&gt;
