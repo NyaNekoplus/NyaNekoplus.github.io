@@ -4,91 +4,91 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>//localhost:8000/</loc>
-<lastmod>2019-05-10T18:57:38-00:00</lastmod>
+<loc>//tooisorahe.com/</loc>
+<lastmod>2019-05-11T09:00:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/archives.html</loc>
-<lastmod>2019-05-10T18:57:38-00:00</lastmod>
+<loc>//tooisorahe.com/archives.html</loc>
+<lastmod>2019-05-11T09:00:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tags.html</loc>
-<lastmod>2019-05-10T18:57:38-00:00</lastmod>
+<loc>//tooisorahe.com/tags.html</loc>
+<lastmod>2019-05-11T09:00:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/categories.html</loc>
-<lastmod>2019-05-10T18:57:38-00:00</lastmod>
+<loc>//tooisorahe.com/categories.html</loc>
+<lastmod>2019-05-11T09:00:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/warm-voice.html</loc>
+<loc>//tooisorahe.com/warm-voice.html</loc>
 <lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/about.html</loc>
+<loc>//tooisorahe.com/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/新的开始.html</loc>
+<loc>//tooisorahe.com/新的开始.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/category/guan-yu.html</loc>
-<lastmod>2019-04-21T20:50:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//localhost:8000/category/life.html</loc>
+<loc>//tooisorahe.com/category/life.html</loc>
 <lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tag/music.html</loc>
-<lastmod>2019-05-09T21:20:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//localhost:8000/tag/about.html</loc>
+<loc>//tooisorahe.com/category/page.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/tag/life.html</loc>
+<loc>//tooisorahe.com/tag/music.html</loc>
+<lastmod>2019-05-09T21:20:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/tag/about.html</loc>
+<lastmod>2019-04-21T20:50:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/tag/life.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//localhost:8000/author/edward-tsai.html</loc>
+<loc>//tooisorahe.com/author/edward-tsai.html</loc>
 <lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

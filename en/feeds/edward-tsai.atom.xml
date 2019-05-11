@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pixel Spirit - Edward Tsai</title><link href="//localhost:8000/en/" rel="alternate"></link><link href="//localhost:8000/feeds/edward-tsai.atom.xml" rel="self"></link><id>//localhost:8000/en/</id><updated>2019-04-21T20:50:00+00:00</updated><entry><title>About</title><link href="//localhost:8000/en/about.html" rel="alternate"></link><published>2019-04-21T20:50:00+00:00</published><updated>2019-04-21T20:50:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:localhost,2019-04-21:/en/about.html</id><summary type="html">&lt;div class="section" id="about-this-blog"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pixel Spirit - Edward Tsai</title><link href="//tooisorahe.com/en/" rel="alternate"></link><link href="//tooisorahe.com/feeds/edward-tsai.atom.xml" rel="self"></link><id>//tooisorahe.com/en/</id><updated>2019-04-21T20:50:00+00:00</updated><entry><title>About</title><link href="//tooisorahe.com/en/about.html" rel="alternate"></link><published>2019-04-21T20:50:00+00:00</published><updated>2019-04-21T20:50:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-04-21:/en/about.html</id><summary type="html">&lt;div class="section" id="about-this-blog"&gt;
 &lt;h2&gt;About This Blog&lt;/h2&gt;
 &lt;p&gt;Try to combine programming with life.
 I will try to use 3 languages, namely Chinese, Japanese and English to write this blog.&lt;/p&gt;
@@ -19,6 +19,6 @@ I will try to use 3 languages, namely Chinese, Japanese and English to write thi
 &lt;p&gt;My name is  CAI guoxi&lt;/p&gt;
 &lt;p&gt;18 years old, A student&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="about"></category></entry><entry><title>HELLO WORLD</title><link href="//localhost:8000/en/HELLO%20WORLD.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:localhost,2019-04-21:/en/HELLO WORLD.html</id><summary type="html">&lt;p&gt;A New Beginning&lt;/p&gt;
+</content><category term="about"></category></entry><entry><title>HELLO WORLD</title><link href="//tooisorahe.com/en/HELLO%20WORLD.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-04-21:/en/HELLO WORLD.html</id><summary type="html">&lt;p&gt;A New Beginning&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;A New Beginning&lt;/p&gt;
 </content><category term="Life"></category></entry></feed>
