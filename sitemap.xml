@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/</loc>
-<lastmod>2019-05-11T11:54:11-00:00</lastmod>
+<lastmod>2019-05-11T14:27:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/archives.html</loc>
-<lastmod>2019-05-11T11:54:11-00:00</lastmod>
+<lastmod>2019-05-11T14:27:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/tags.html</loc>
-<lastmod>2019-05-11T11:54:11-00:00</lastmod>
+<lastmod>2019-05-11T14:27:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/categories.html</loc>
-<lastmod>2019-05-11T11:54:11-00:00</lastmod>
+<lastmod>2019-05-11T14:27:01-00:00</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//tooisorahe.com/warm-voice.html</loc>
-<lastmod>2019-05-09T21:20:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/warm-voice.html</loc>
+<lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,22 +60,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//tooisorahe.com/category/page.html</loc>
-<lastmod>2019-04-21T20:50:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>//tooisorahe.com/tag/music.html</loc>
 <lastmod>2019-05-09T21:20:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//tooisorahe.com/tag/about.html</loc>
-<lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
