@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-Hant"
+<html lang="zh-Hans"
 >
 <head>
-    <title>全部分类 - 像素之心</title>
+    <title>避免投入过多时间在前端上 - 像素之心</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -20,15 +20,23 @@
 <link rel="icon" type="image/png" href="//tooisorahe.com/images/favicon-16x16.png" sizes="16x16">
 <link rel="mask-icon" href="//tooisorahe.com/images/safari-pinned-tab.svg" color="#603cba">
 
+<link rel="canonical" href="//tooisorahe.com/avoid-unprofundity.html">
 
         <meta name="author" content="Edward Tsai" />
+        <meta name="keywords" content="writing" />
+        <meta name="description" content="本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。 既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?) 上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。 而namesilo在这一点上是免费提供的。 那麽就namesilo好了。 了解了一些选项的作用后顺利购买了:ruby:&#39;tooisorahe|遠い空へ&#39;.com这个域名。 然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。 不甘心的上网查找了一番，发现 &#39;cloudflare&lt;https://www.cloudflare.com/&gt;&#39;_ 提供免费且支持ssl的cdn服务！一顿操作之后顺 利将个人博客的域名换了过来。看着网址旁边那把绿色的小锁，不自觉地笑出了声(误) 搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的 只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的:ruby:&#39;控制台|CMD&#39;一整天，这的确有趣许 多 …" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="像素之心" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="像素之心"/>
-        <meta property="og:url" content="//tooisorahe.com"/>
-        <meta property="og:description" content="像素之心"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="避免投入过多时间在前端上"/>
+        <meta property="og:url" content="//tooisorahe.com/avoid-unprofundity.html"/>
+        <meta property="og:description" content="本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。 既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?) 上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。 而namesilo在这一点上是免费提供的。 那麽就namesilo好了。 了解了一些选项的作用后顺利购买了:ruby:&#39;tooisorahe|遠い空へ&#39;.com这个域名。 然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。 不甘心的上网查找了一番，发现 &#39;cloudflare&lt;https://www.cloudflare.com/&gt;&#39;_ 提供免费且支持ssl的cdn服务！一顿操作之后顺 利将个人博客的域名换了过来。看着网址旁边那把绿色的小锁，不自觉地笑出了声(误) 搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的 只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的:ruby:&#39;控制台|CMD&#39;一整天，这的确有趣许 多 …"/>
+        <meta property="article:published_time" content="2019-05-11" />
+            <meta property="article:section" content="life" />
+            <meta property="article:tag" content="writing" />
+            <meta property="article:author" content="Edward Tsai" />
+        <meta property="og:image"
+                  content="//tooisorahe.com/avoid-unprofundity.png"/>
 
 
 
@@ -50,7 +58,7 @@
     <link href="//tooisorahe.com/theme/css/github-markdown.css" rel="stylesheet">
 </head>
 <body>
-<div style="display:none" id="title">全部分类 - 像素之心</div>
+<div style="display:none" id="title">避免投入过多时间在前端上 - 像素之心</div>
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -110,7 +118,7 @@
                             <i class="fa fa-user"></i><span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li >
+                            <li class="active">
                                 <a href="//tooisorahe.com/category/life.html"><i class="fa fa-user"></i> Life</a>
                             </li>
                         </ul>
@@ -118,7 +126,7 @@
                 </ul>
 
                     <ul class="nav navbar-nav hidden-xs hidden-sm">
-                        <li >
+                        <li class="active">
                             <a href="//tooisorahe.com/category/life.html"><i class="fa fa-user"></i> Life</a>
                         </li>
                     </ul>
@@ -162,30 +170,125 @@
     <div class="row" style="padding-bottom:80px;padding-top:80px;">
         <div class="col-xl-21 col-lg-20 col-md-18">
             <div id="loading-block">
-    <ol class="breadcrumb">
-        <li><a href="//tooisorahe.com/" title="像素之心"><i class="fa fa-home fa-lg"></i></a></li>
-        <li class="active">全部分类</li>
-    </ol>
-    <section id="categories" class="well">
-        <h1>像素之心 的全部分类</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
+            <ol class="breadcrumb">
+                <li><a href="//tooisorahe.com/" title="像素之心"><i class="fa fa-home fa-lg"></i></a></li>
+                <li><a href="//tooisorahe.com/category/life.html" title="life">life</a></li>
+                <li class="active">避免投入过多时间在前端上</li>
+            </ol>
+    <section id="content" class="article-content">
+        <article>
+            <header class="page-header jumbotron jumbotron-primary panel-primary" id="article-header">
                 <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-life">life <span class="badge pull-right">3</span></a>
-                    </h4>
+                    <h1>
+                        避免投入过多时间在前端上
+                        <a href="//tooisorahe.com/avoid-unprofundity.html"
+                           rel="bookmark"
+                           class="btn btn-primary btn-lg"
+                           title="到 避免投入过多时间在前端上 的永久链接">
+                           <i class="mdi-action-launch"></i>
+                        </a>
+                    </h1>
                 </div>
-                <div id="collapse-life" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2019-05-11T15:00:00+00:00">2019年05月11日(周六)</time></span> <a href="//tooisorahe.com/avoid-unnecessary-operations.html">避免投入过多时间在博客设计上</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2019-05-09T21:20:00+00:00">2019年05月09日(周四)</time></span> <a href="//tooisorahe.com/warm-voice.html">那些令我感到温暖的声音</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2019-04-21T15:30:00+00:00">2019年04月21日(周日)</time></span> <a href="//tooisorahe.com/新的开始.html">你好 世界</a></p>
-                    </div>
+                <div class="panel-body">
+<div class="post-info">
+    <span class="published">
+        <time datetime="2019-05-11T15:00:00+00:00"><i class="fa fa-calendar"></i> 2019年05月11日(周六)</time>
+    </span>
+
+
+
+
+    <a onclick="$.get('//tooisorahe.com/avoid-unprofundity.rst.html', function(data){$('#source-code').html(data)});$('#article-content').toggle();$('#source-content').toggle();" class="btn btn-primary" title="显示这篇文章的源文件"><i class="fa fa-code"></i></a>
+    <a href="//tooisorahe.com/avoid-unprofundity.pdf" class="btn btn-primary" title="显示这篇文章的印刷版PDF文件" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+    <a href="//tooisorahe.com/avoid-unprofundity.png" class="btn btn-primary" title="显示这篇文章的截图PNG文件" target="_blank""><i class="fa fa-file-photo-o"></i></a>
+
+<small><span><a href="//tooisorahe.com/avoid-unprofundity.html#disqus_thread" class="btn btn-primary" data-disqus-identifier="avoid-unprofundity" data-disqus-url="http://tooisorahe.com/avoid-unprofundity.html"><i class="fa fa-comments-o"></i></a></span></small><span class="btn-group">
+	<a href="//tooisorahe.com/tag/writing.html" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> writing</a>
+</span>
+
+
+
+</div><!-- /.post-info -->                </div>
+            </header>
+
+            <div class="entry-content jumbotron" id="article-content">
+                <p>本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。</p>
+<p>既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)</p>
+<p>上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
+而namesilo在这一点上是免费提供的。</p>
+<p>那麽就namesilo好了。</p>
+<p>了解了一些选项的作用后顺利购买了:ruby:'tooisorahe|遠い空へ'.com这个域名。</p>
+<p>然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
+不甘心的上网查找了一番，发现 'cloudflare&lt;<a class="reference external" href="https://www.cloudflare.com/">https://www.cloudflare.com/</a>&gt;'_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
+利将个人博客的域名换了过来。看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)</p>
+<p>搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
+只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的:ruby:'控制台|CMD'一整天，这的确有趣许
+多，但我更倾向於了解事物的“本质”。</p>
+<p>这个博客的搭建大概就在这里结束了。然而人的折腾之魂是没有止境的，日后若是再有在这:ruby:'上面|前端'折腾的想法的话，大
+概要反问自己一句：今天，你学会c++了吗？（大误）</p>
+
+            </div>
+            <div class="entry-content jumbotron" id="source-content" style="display: none">
+                <!-- <pre><code id="source-code">
+                </code></pre> -->
+                <div id="source-code"></div>
+            </div>
+            <!-- /.entry-content -->
+
+            <div class="row" id="prevnext">
+                <div class="col-xs-12">
+                </div>
+                <div class="col-xs-12">
                 </div>
             </div>
-        </div>
 
+
+<section class="comments" id="comments">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-primary">
+        <div class="panel-heading" role="tab" id="disqus-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#disqus-comments" aria-expanded="false" aria-controls="disqus-comments">
+              <i class="fa fa-comments-o"></i> Disqus 留言            </a>
+          </h4>
+        </div>
+        <div id="disqus-comments" class="panel-collapse collapse" role="tabpanel" aria-labelledby="disqus-heading">
+          <div class="panel-body">
+            <div class="tab-pane fade active in" id="disqus-comments">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'NyaNekoplusgithub'; // required: replace example with your forum shortname
+
+                            var disqus_identifier = 'avoid-unprofundity';
+                        var disqus_url = 'http://tooisorahe.com/avoid-unprofundity.html';
+
+                    var disqus_config = function () {
+
+                        this.language = "zh";
+                    };
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+                    Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>        </article>
     </section>
+
+
             </div>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
