@@ -5,7 +5,7 @@
 :translation_id: warm-voice
 :lang: zhs
 :date: 2019-05-09 21:20
-:tags: music，writing
+:tags: music, writing
 
 不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)
 
