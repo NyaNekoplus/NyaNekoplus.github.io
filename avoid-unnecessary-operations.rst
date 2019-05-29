@@ -16,7 +16,7 @@
 
 那麽就namesilo好了。
 
-了解了一些选项的作用后顺利购买了 :ruby:`tooisorahe|遠 い 空 へ` .com这个域名。
+了解了一些选项的作用后顺利购买了 :ruby:`tooisorahe|遠  い  空  へ` .com这个域名。
 
 然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
 不甘心的上网查找了一番，发现 `cloudflare <https://www.cloudflare.com/>`_ 提供免费且支持ssl的cdn服务！一顿操作之后顺
