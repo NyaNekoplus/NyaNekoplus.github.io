@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>像素之心 - Edward Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sat, 11 May 2019 15:00:00 +0000</lastBuildDate><item><title>避免投入过多时间在博客设计上</title><link>//tooisorahe.com/avoid-unnecessary-operations.html</link><description>&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
+<rss version="2.0"><channel><title>像素之心 - Edward Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sat, 08 Jun 2019 22:30:00 +0000</lastBuildDate><item><title>装了一台学习( 用pc</title><link>//tooisorahe.com/new-pc.html</link><description>&lt;p&gt;距离上次发博客，貌似又过了一个月的时间...
+目前是大一第二学期，说实在的，课是真的很多 &lt;del&gt;水课占一半&lt;/del&gt; 再加上我还报了计算机二级和英语四级，对于本就不多
+的时间来说无疑是雪上加霜。所幸计算机二级难度并不大，几周前已收到通过的信息，也算是减轻一些负担。&lt;/p&gt;
+&lt;p&gt;回到正题。旧电脑已经陪伴我四年有余，日常看看网页，玩下dota2并没有什么问题，但在使用某些软件时就有些捉襟见肘了。
+原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
+是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行，&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
+&lt;table border="0" class="docutils borderless table"&gt;
+&lt;colgroup&gt;
+&lt;col width="15%"/&gt;
+&lt;col width="85%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;CPU&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external" href="https://www.amd.com/en/products/cpu/amd-ryzen-7-2700x"&gt;AMD Ryzen™ 7 2700X&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;GPU&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external" href="https://www.colorful.cn/product_show.aspx?mid=102&amp;amp;id=1645"&gt;GeForce® RTX 2080&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MOTHER BOARD&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external" href="https://cn.msi.com/Motherboard/X470-GAMING-PLUS/Specification"&gt;X470 Chipset&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MONITOR&lt;/td&gt;
+&lt;td&gt;Acer VG270U&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;COMPUTER CASE&lt;/td&gt;
+&lt;td&gt;Fractal Design …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sat, 08 Jun 2019 22:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-06-08:/new-pc.html</guid><category>newPC</category></item><item><title>避免投入过多时间在博客设计上</title><link>//tooisorahe.com/avoid-unnecessary-operations.html</link><description>&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
 &lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
 &lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
 而namesilo在这一点上是免费提供的。&lt;/p&gt;
