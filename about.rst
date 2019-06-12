@@ -29,4 +29,4 @@ A：是学生(意味深
 
 目前在某 :del:`辣鸡` 大学实力摸鱼
 
-爱好：听音乐(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 系列)
+爱好：欣赏艺术(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 系列)
