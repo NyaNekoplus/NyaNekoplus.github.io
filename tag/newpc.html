@@ -194,7 +194,7 @@
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 <del>浑身散发着图吧垃圾佬的气息</del> ，很多游戏都只能在1080p的较低画质下运行。<del>这是最不能忍的地方</del></p>
 <p>在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：</p>
-<table border="0" class="docutils table borderless">
+<table border="0" class="table docutils borderless">
 <colgroup>
 <col width="15%"/>
 <col width="85%"/>
@@ -297,7 +297,21 @@
 </div>
 </div>
 
-
+<div class="sidebar-item hidden-xs">
+<div class="panel panel-default">
+	<div class="panel-heading">
+        <h4>
+<i class="fa fa-github fa-lg"></i><span class="icon-label">GitHub仓库</span>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <div id="gh_repos">
+            <p class="list-group-item">Status updating...</p>
+        </div>
+            <a href="https://github.com/NyaNekoplus">@NyaNekoplus</a> on GitHub<br>
+    </div>
+</div>
+</div>
 
 
     </div>
@@ -315,7 +329,11 @@
          <div class="col-md-24">
          <p><small>
             &copy; 2019 Edward Tsai
-            &middot; 通过            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a> 生成         </small></p>
+            &middot; 通过            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a> 生成                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+    <!-- Content -->
+  <!-- licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution 4.0 International License</a>, except where indicated otherwise. -->
+
+         </small></p>
          </div>
       </div>
    </div>
@@ -329,6 +347,27 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="//tooisorahe.com/theme/js/respond.min.js"></script>
 
+    <!-- GitHub JS -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '//tooisorahe.com/theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'NyaNekoplus',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
+    </script>
+    <script src="//tooisorahe.com/theme/js/github.js" type="text/javascript"></script>
+    <!-- End GitHub JS Code -->
     <!-- Disqus -->
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

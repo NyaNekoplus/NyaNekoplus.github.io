@@ -6,7 +6,7 @@
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -32,7 +32,7 @@
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -61,7 +61,7 @@
 而2600x可是有6C12T，多6T多开框框数着玩简直是excited啊！比辣鸡牙膏厂不知道高到哪里去了。AMD，YES！&lt;/p&gt;
 &lt;img alt="AMD YES" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
 &lt;p&gt;最后下单的配置大概就是下面这个样子，还有一些杂七杂八的就不一一列了。&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -104,7 +104,7 @@
 四级后还有期末考试，这里大概又要荒废一段时间了(笑)。暑假应该就会有比较多的时
 间了，到时应该就会把这段时间积压的想法一一付诸实现了吧。&lt;/p&gt;
 &lt;p&gt;最后再来一首歌放松一下心情吧~&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/NW-2NaJvJxs"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;香菜大法好!&lt;/p&gt;
+&lt;p&gt;香菜大法好!&lt;/p&gt;
 </content><category term="newPC"></category></entry><entry><title>避免投入过多时间在博客设计上</title><link href="//tooisorahe.com/avoid-unnecessary-operations.html" rel="alternate"></link><published>2019-05-11T15:00:00+00:00</published><updated>2019-05-11T15:00:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-11:/avoid-unnecessary-operations.html</id><summary type="html">&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
 &lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
 &lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
@@ -141,7 +141,7 @@
 &lt;del&gt;垃圾水课gc课程表&lt;/del&gt; ！————来自一个 &lt;del&gt;被迫&lt;/del&gt; 使用游戏时间来敲代码的辣鸡的深深怨念&lt;/blockquote&gt;
 &lt;p&gt;人在疲惫的时候总是需要一些放松的方式。&lt;/p&gt;
 &lt;p&gt;敲完代码，时间已近 &lt;del&gt;断网时间&lt;/del&gt; 11点。看来今晚不能跟小伙伴们快乐dota了。打开某易云...&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/pXHJH71H3xY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
+&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
 &lt;p&gt;11：30，该睡觉了。明天又是 &lt;del&gt;摸鱼&lt;/del&gt; 美好的一天。&lt;/p&gt;
 &lt;p&gt;Q：为什麽是Youtube？&lt;/p&gt;
 &lt;p&gt;A：这首
@@ -155,7 +155,7 @@
 &lt;del&gt;垃圾水课gc课程表&lt;/del&gt; ！————来自一个 &lt;del&gt;被迫&lt;/del&gt; 使用游戏时间来敲代码的辣鸡的深深怨念&lt;/blockquote&gt;
 &lt;p&gt;人在疲惫的时候总是需要一些放松的方式。&lt;/p&gt;
 &lt;p&gt;敲完代码，时间已近 &lt;del&gt;断网时间&lt;/del&gt; 11点。看来今晚不能跟小伙伴们快乐dota了。打开某易云...&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/pXHJH71H3xY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
+&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
 &lt;p&gt;11：30，该睡觉了。明天又是 &lt;del&gt;摸鱼&lt;/del&gt; 美好的一天。&lt;/p&gt;
 &lt;p&gt;Q：为什麽是Youtube？&lt;/p&gt;
 &lt;p&gt;A：这首
