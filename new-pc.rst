@@ -75,6 +75,9 @@
 
 最后再来一首歌放松一下心情吧~
 
-
+.. youtube:: NW-2NaJvJxs
+	:width: 480
+	:height: 360
+	:align: center
 
 香菜大法好!
