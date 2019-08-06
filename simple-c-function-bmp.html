@@ -24,13 +24,13 @@
 
         <meta name="author" content="Edward Tsai" />
         <meta name="keywords" content="C,toy" />
-        <meta name="description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y &lt; 256; ++y) { for …" />
+        <meta name="description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也有相当的兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 代码实现如下(toybmp.h)： 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y …" />
 
         <meta property="og:site_name" content="像素之心" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="一个简单的BMP编码函数 TOYBMP()"/>
         <meta property="og:url" content="//tooisorahe.com/simple-c-function-bmp.html"/>
-        <meta property="og:description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y &lt; 256; ++y) { for …"/>
+        <meta property="og:description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也有相当的兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 代码实现如下(toybmp.h)： 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y …"/>
         <meta property="article:published_time" content="2019-08-04" />
             <meta property="article:section" content="tech" />
             <meta property="article:tag" content="C" />
@@ -223,10 +223,12 @@
 <p>计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
 示图形，以及利用计算机进行图形的计算、处理和显示。</p>
-<p>我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了
+<p>我对这个领域也有相当的兴趣。为了更好地学习图形学，我尝试写了
 <a class="reference external" href="https://github.com/NyaNekoplus/toybmp">TOYBMP()</a> 。
 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB
 或 32-bit RGBA 无压缩的BMP。代码长度为25行。</p>
+<p>代码实现如下(<a class="reference external" href="https://github.com/NyaNekoplus/toybmp/blob/master/toybmp.h">toybmp.h</a>)：</p>
+<img alt="" class="img-responsive" src="//tooisorahe.com/images/toybmp.PNG"/>
 </div>
 <div class="section" id="id2">
 <h2>用法</h2>
@@ -248,9 +250,16 @@
 <p>上面的代码输出此文件:</p>
 <img alt="" class="img-responsive" src="//tooisorahe.com/images/rgb.bmp"/>
 <p>函数声明:</p>
-<p><code class="code">
-void toybmp(TOYBMP_OUTPUT, unsigned w, unsigned h, const unsigned char* img, int alpha)</code>
-</p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="cm">/*!</span></span>
+<span class="code-line"><span class="cm">    \brief Save a RGB/RGBA image in BMP format.</span></span>
+<span class="code-line"><span class="cm">    \param TOYBMP_OUTPUT Output stream (by default using file descriptor).</span></span>
+<span class="code-line"><span class="cm">    \param w Width of the image.</span></span>
+<span class="code-line"><span class="cm">    \param h Height of the image.</span></span>
+<span class="code-line"><span class="cm">    \param img Image pixel data in 24-bit RGB or 32-bit RGBA format.</span></span>
+<span class="code-line"><span class="cm">    \param alpha Whether the image contains alpha channel.</span></span>
+<span class="code-line"><span class="cm">*/</span></span>
+<span class="code-line"><span class="kt">void</span> <span class="n">toybmp</span><span class="p">(</span><span class="n">TOYBMP_OUTPUT</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">w</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">h</span><span class="p">,</span> <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">char</span><span class="o">*</span> <span class="n">img</span><span class="p">,</span> <span class="kt">int</span> <span class="n">alpha</span><span class="p">)</span></span>
+</pre></div>
 </div>
 <div class="section" id="id3">
 <h2>实现</h2>

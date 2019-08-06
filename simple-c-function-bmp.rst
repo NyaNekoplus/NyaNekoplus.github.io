@@ -9,17 +9,23 @@
 
 写在前面
 ------------------
+
 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
 示图形，以及利用计算机进行图形的计算、处理和显示。
 
-我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了
+我对这个领域也有相当的兴趣。为了更好地学习图形学，我尝试写了
 `TOYBMP() <https://github.com/NyaNekoplus/toybmp>`_ 。
 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 
 或 32-bit RGBA 无压缩的BMP。代码长度为25行。
 
+代码实现如下(`toybmp.h <https://github.com/NyaNekoplus/toybmp/blob/master/toybmp.h>`_)：
+
+.. image:: {static}/images/toybmp.PNG
+
 用法
 ------------------
+
 .. code-block:: c
 
     #include <stdio.h>
@@ -43,10 +49,22 @@
 
 函数声明:
 
-:code:`void toybmp(TOYBMP_OUTPUT, unsigned w, unsigned h, const unsigned char* img, int alpha)`
+.. code-block:: c
+
+    /*!
+	\brief Save a RGB/RGBA image in BMP format.
+	\param TOYBMP_OUTPUT Output stream (by default using file descriptor).
+	\param w Width of the image.
+	\param h Height of the image.
+	\param img Image pixel data in 24-bit RGB or 32-bit RGBA format.
+	\param alpha Whether the image contains alpha channel.
+    */
+    void toybmp(TOYBMP_OUTPUT, unsigned w, unsigned h, const unsigned char* img, int alpha)
+
 
 实现
 -----------------
+
 简单介绍下实现要点。不同于PNG与JPG格式，BMP的实现并不复杂。其基本结构如下。
 
 - BitmapFileHeader 共14bit 描述bmp格式，显示文件大小
