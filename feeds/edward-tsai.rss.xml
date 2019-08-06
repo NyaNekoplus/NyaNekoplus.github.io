@@ -11,14 +11,13 @@
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;用法&lt;/h2&gt;
-&lt;p&gt;..code-block:: c&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;#include &amp;lt;stdio.h&amp;gt;
-#include "toybmp.h"
-unsigned char rgb[256 * 256 * 3];
-int main(void) {&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;C:\myblog\content\tech\simple-c-function-bmp.zhs …&lt;/tt&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sun, 04 Aug 2019 21:22:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</guid><category>C</category><category>toy</category></item><item><title>秋刀鱼</title><link>//tooisorahe.com/cololabis-saira.html</link><description>&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;"toybmp.h"&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kt"&gt;unsigned&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="n"&gt;rgb&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;256&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;256&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;void&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="kt"&gt;unsigned&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rgb&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;256&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;for …&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sun, 04 Aug 2019 21:22:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</guid><category>C</category><category>toy</category></item><item><title>秋刀鱼</title><link>//tooisorahe.com/cololabis-saira.html</link><description>&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
 因其低廉的价格和相对还行的肉质而常年位于各种烧烤摊、食堂可选用鱼清单的榜首。&lt;/p&gt;
 &lt;p&gt;以上介绍得自百度百科以及个人经验。&lt;/p&gt;
 &lt;p&gt;我也是个秋刀鱼的狂热爱好者。曾创下在学校食堂连续点一周红烧秋刀鱼的记录(?)，
@@ -38,7 +37,7 @@ int main(void) {&lt;/p&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="borderless table docutils"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;

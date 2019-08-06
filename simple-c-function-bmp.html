@@ -24,13 +24,13 @@
 
         <meta name="author" content="Edward Tsai" />
         <meta name="keywords" content="C,toy" />
-        <meta name="description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 ..code-block:: c #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { System Message: ERROR/3 (C:\myblog\content\tech\simple-c-function-bmp.zhs …" />
+        <meta name="description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y &lt; 256; ++y) { for …" />
 
         <meta property="og:site_name" content="像素之心" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="一个简单的BMP编码函数 TOYBMP()"/>
         <meta property="og:url" content="//tooisorahe.com/simple-c-function-bmp.html"/>
-        <meta property="og:description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 ..code-block:: c #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { System Message: ERROR/3 (C:\myblog\content\tech\simple-c-function-bmp.zhs …"/>
+        <meta property="og:description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { unsigned char* p = rgb; for (int y = 0; y &lt; 256; ++y) { for …"/>
         <meta property="article:published_time" content="2019-08-04" />
             <meta property="article:section" content="tech" />
             <meta property="article:tag" content="C" />
@@ -230,54 +230,21 @@
 </div>
 <div class="section" id="id2">
 <h2>用法</h2>
-<p>..code-block:: c</p>
-<blockquote>
-<p>#include &lt;stdio.h&gt;
-#include "toybmp.h"
-unsigned char rgb[256 * 256 * 3];
-int main(void) {</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 29)</p>
-Unexpected indentation.</div>
-<blockquote>
-<p>unsigned char* p = rgb;
-for (int y = 0; y &lt; 256; ++y) {</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 31)</p>
-Unexpected indentation.</div>
-<blockquote>
-<dl class="docutils">
-<dt>for (int x = 0; x &lt; 256; ++x) {</dt>
-<dd><p class="first"><a href="#id3"><span class="problematic" id="id4">*</span></a>p++ = (unsigned char)x;
-<a href="#id5"><span class="problematic" id="id6">*</span></a>p++ = (unsigned char)y;
-<a href="#id7"><span class="problematic" id="id8">*</span></a>p++ = (unsigned char)128;</p>
-<div class="system-message" id="id3">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id4">backlink</a></em></p>
-Inline emphasis start-string without end-string.</div>
-<div class="system-message" id="id5">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id6">backlink</a></em></p>
-Inline emphasis start-string without end-string.</div>
-<div class="last system-message" id="id7">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id8">backlink</a></em></p>
-Inline emphasis start-string without end-string.</div>
-</dd>
-</dl>
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 35)</p>
-Definition list ends without a blank line; unexpected unindent.</div>
-<p>}</p>
-</blockquote>
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 36)</p>
-Block quote ends without a blank line; unexpected unindent.</div>
-<p>}
-toybmp(fopen("rgb.bmp", "wb"), 256, 256, p, 0);</p>
-</blockquote>
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\tech\simple-c-function-bmp.zhs.rst</tt>, line 38)</p>
-Block quote ends without a blank line; unexpected unindent.</div>
-<p>}</p>
-</blockquote>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span></span>
+<span class="code-line"><span class="cp">#include</span> <span class="cpf">"toybmp.h"</span><span class="cp"></span></span>
+<span class="code-line"><span class="kt">unsigned</span> <span class="kt">char</span> <span class="n">rgb</span><span class="p">[</span><span class="mi">256</span> <span class="o">*</span> <span class="mi">256</span> <span class="o">*</span> <span class="mi">3</span><span class="p">];</span></span>
+<span class="code-line"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">    <span class="kt">unsigned</span> <span class="kt">char</span><span class="o">*</span> <span class="n">p</span> <span class="o">=</span> <span class="n">rgb</span><span class="p">;</span></span>
+<span class="code-line">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">y</span> <span class="o">&lt;</span> <span class="mi">256</span><span class="p">;</span> <span class="o">++</span><span class="n">y</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">256</span><span class="p">;</span> <span class="o">++</span><span class="n">x</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">            <span class="o">*</span><span class="n">p</span><span class="o">++</span> <span class="o">=</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">char</span><span class="p">)</span><span class="n">x</span><span class="p">;</span></span>
+<span class="code-line">            <span class="o">*</span><span class="n">p</span><span class="o">++</span> <span class="o">=</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">char</span><span class="p">)</span><span class="n">y</span><span class="p">;</span></span>
+<span class="code-line">            <span class="o">*</span><span class="n">p</span><span class="o">++</span> <span class="o">=</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">char</span><span class="p">)</span><span class="mi">128</span><span class="p">;</span></span>
+<span class="code-line">        <span class="p">}</span></span>
+<span class="code-line">    <span class="p">}</span></span>
+<span class="code-line">    <span class="n">toybmp</span><span class="p">(</span><span class="n">fopen</span><span class="p">(</span><span class="s">"rgb.bmp"</span><span class="p">,</span> <span class="s">"wb"</span><span class="p">),</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span></span>
+<span class="code-line"><span class="p">}</span></span>
+</pre></div>
 <p>上面的代码输出此文件:</p>
 <img alt="" class="img-responsive" src="//tooisorahe.com/images/rgb.bmp"/>
 <p>函数声明:</p>
@@ -285,7 +252,7 @@ Block quote ends without a blank line; unexpected unindent.</div>
 void toybmp(TOYBMP_OUTPUT, unsigned w, unsigned h, const unsigned char* img, int alpha)</code>
 </p>
 </div>
-<div class="section" id="id9">
+<div class="section" id="id3">
 <h2>实现</h2>
 <p>简单介绍下实现要点。不同于PNG与JPG格式，BMP的实现并不复杂。其基本结构如下。</p>
 <ul class="simple">

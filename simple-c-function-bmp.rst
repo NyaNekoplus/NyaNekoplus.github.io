@@ -20,7 +20,7 @@
 
 用法
 ------------------
-..code-block:: c
+.. code-block:: c
 
     #include <stdio.h>
     #include "toybmp.h"
@@ -71,4 +71,5 @@
 两张调试过程中的错误图片:
 
 .. image:: {static}/images/err0.bmp
+
 .. image:: {static}/images/err1.bmp
