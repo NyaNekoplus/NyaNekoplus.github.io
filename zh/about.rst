@@ -29,8 +29,4 @@ A：是學生(意味深
 
 目前在某 :del:`辣鷄` 大學實力摸魚
 
-<<<<<<< HEAD
 愛好：聼音樂(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>` 係列)
-=======
-愛好：欣賞藝術(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 係列)
->>>>>>> d30dcc5ab1d2ef2f9eb72dc5da163b08cd5c8320
