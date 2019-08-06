@@ -37,7 +37,7 @@ A：是学生(意味深
 
 有深度的动漫、游戏作品
 
-欣赏艺术(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>` 系列)
+欣赏艺术(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 系列)
 
 联系方式
 ----------
