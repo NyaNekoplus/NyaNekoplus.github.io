@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-Hans"
+>
+<head>
+    <title>一个简单的BMP编码函数 TOYBMP() - 像素之心</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="theme-color" content="#6b5594">
+    <meta name="msapplication-navbutton-color" content="#6b5594">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#6b5594">
+    <link rel="manifest" href="/manifest.json">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="//tooisorahe.com/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="//tooisorahe.com/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="//tooisorahe.com/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="//tooisorahe.com/images/safari-pinned-tab.svg" color="#603cba">
+
+<link rel="canonical" href="//tooisorahe.com/simple-c-function-bmp.html">
+
+        <meta name="author" content="Edward Tsai" />
+        <meta name="keywords" content="C,toy" />
+        <meta name="description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 ..code-block:: c #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { System Message: ERROR/3 (C:\myblog\content\life\simple-c-function-bmp.zhs …" />
+
+        <meta property="og:site_name" content="像素之心" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="一个简单的BMP编码函数 TOYBMP()"/>
+        <meta property="og:url" content="//tooisorahe.com/simple-c-function-bmp.html"/>
+        <meta property="og:description" content="写在前面 计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表 示图形，以及利用计算机进行图形的计算、处理和显示。 我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了 TOYBMP() 。 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB 或 32-bit RGBA 无压缩的BMP。代码长度为25行。 用法 ..code-block:: c #include &lt;stdio.h&gt; #include &#34;toybmp.h&#34; unsigned char rgb[256 * 256 * 3]; int main(void) { System Message: ERROR/3 (C:\myblog\content\life\simple-c-function-bmp.zhs …"/>
+        <meta property="article:published_time" content="2019-08-04" />
+            <meta property="article:section" content="life" />
+            <meta property="article:tag" content="C" />
+            <meta property="article:tag" content="toy" />
+            <meta property="article:author" content="Edward Tsai" />
+        <meta property="og:image"
+                  content="//tooisorahe.com/simple-c-function-bmpzhs.png"/>
+
+
+
+    <!-- Bootstrap -->
+        <link href="//tooisorahe.com/theme/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="//tooisorahe.com/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//tooisorahe.com/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="//tooisorahe.com/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+        <link href="//tooisorahe.com/theme/css/html4css1.css" rel="stylesheet">
+    <link rel="stylesheet" href="//tooisorahe.com/theme/css/style.css" type="text/css"/>
+
+
+        <link href="//tooisorahe.com/theme/css/material.min.css" rel="stylesheet">
+        <link href="//tooisorahe.com/theme/css/ripples.css" rel="stylesheet">
+    <link href="//tooisorahe.com/theme/css/github-markdown.css" rel="stylesheet">
+</head>
+<body>
+<div style="display:none" id="title">一个简单的BMP编码函数 TOYBMP() - 像素之心</div>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="//tooisorahe.com/" class="navbar-brand">
+像素之心            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+
+                    <li class="dropdown hidden-lg hidden-xl">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                            <i class="mdi-action-translate"></i><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="//tooisorahe.com/">简体</a></li>
+                            <li><a href="//tooisorahe.com/jp/">日本語</a></li>
+                            <li><a href="//tooisorahe.com/zh/">繁體</a></li>
+                            <li><a href="//tooisorahe.com/en/">English</a></li>
+                        </ul>
+                    </li>
+
+                    <ul class="nav navbar-nav hidden-xs hidden-md hidden-sm">
+                        <li class="active"><a href="//tooisorahe.com/"><i class="mdi-action-translate"></i>简体</a></li>
+                        <li><a href="//tooisorahe.com/jp/"><i class="mdi-action-translate"></i>日本語</a></li>
+                        <li><a href="//tooisorahe.com/zh/"><i class="mdi-action-translate"></i>繁體</a></li>
+                        <li><a href="//tooisorahe.com/en/"><i class="mdi-action-translate"></i>English</a></li>
+                    </ul>
+
+                    <li class="dropdown hidden-md hidden-lg hidden-xl">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                            <i class="fa fa-user"></i><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                             <li class=""><a href="//tooisorahe.com/about.html"><i class="fa fa-user"></i>
+                                 关于
+                              </a></li>
+                        </ul>
+                    </li>
+
+                  <ul class="nav navbar-nav hidden-xs hidden-sm">
+                     <li class=""><a href="//tooisorahe.com/about.html"><i class="fa fa-user"></i>
+                         关于
+                      </a></li>
+                  </ul>
+            </ul>
+
+                <ul class="nav navbar-nav hidden-md hidden-lg hidden-xl">
+                    <li class="dropdown hidden-md hidden-lg hidden-xl">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                            <i class="fa fa-folder-o"></i><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active">
+                                <a href="//tooisorahe.com/category/life.html"><i class="fa fa-folder-o"></i> Life</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                    <ul class="nav navbar-nav hidden-xs hidden-sm">
+                        <li class="active">
+                            <a href="//tooisorahe.com/category/life.html"><i class="fa fa-folder-o"></i> Life</a>
+                        </li>
+                    </ul>
+
+
+
+            <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg hidden-xl">
+                <li class="dropdown hidden-md hidden-lg hidden-xl">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                        <i class="fa fa-search"></i><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><span>
+                        <form class="navbar-search" action="/search.html">
+                          <input type="text" class="search-query form-control col-lg-16" placeholder="搜索" name="q" id="tipue_search_input" required>
+                        </form></span>
+                      </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-right navbar-form hidden-xs">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query form-control col-lg-16" placeholder="搜索" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+              <li><a href="//tooisorahe.com/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">归档</span></a></li>
+              <li><a href="//tooisorahe.com/feeds/atom.xml" title="Atom feeds for all articles"><i class="fa fa-rss"></i></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container" style="min-height: 100%;height: auto !important;height: 100%;">
+    <div class="row" style="padding-bottom:80px;padding-top:80px;">
+        <div class="col-xl-21 col-lg-20 col-md-18">
+            <div id="loading-block">
+            <ol class="breadcrumb">
+                <li><a href="//tooisorahe.com/" title="像素之心"><i class="fa fa-home fa-lg"></i></a></li>
+                <li><a href="//tooisorahe.com/category/life.html" title="life">life</a></li>
+                <li class="active">一个简单的BMP编码函数 TOYBMP()</li>
+            </ol>
+    <section id="content" class="article-content">
+        <article>
+            <header class="page-header jumbotron jumbotron-primary panel-primary" id="article-header">
+                <div class="panel-heading">
+                    <h1>
+                        一个简单的BMP编码函数 TOYBMP()
+                        <a href="//tooisorahe.com/simple-c-function-bmp.html"
+                           rel="bookmark"
+                           class="btn btn-primary btn-lg"
+                           title="到 一个简单的BMP编码函数 TOYBMP() 的永久链接">
+                           <i class="mdi-action-launch"></i>
+                        </a>
+                    </h1>
+                </div>
+                <div class="panel-body">
+<div class="post-info">
+    <span class="published">
+        <time datetime="2019-08-04T21:22:00+00:00"><i class="fa fa-calendar"></i> 2019年08月04日(周日)</time>
+    </span>
+
+
+
+
+    <a onclick="$.get('//tooisorahe.com/simple-c-function-bmp.rst.html', function(data){$('#source-code').html(data)});$('#article-content').toggle();$('#source-content').toggle();" class="btn btn-primary" title="显示这篇文章的源文件"><i class="fa fa-code"></i></a>
+    <a href="//tooisorahe.com/simple-c-function-bmp.pdf" class="btn btn-primary" title="显示这篇文章的印刷版PDF文件" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+    <a href="//tooisorahe.com/simple-c-function-bmp.png" class="btn btn-primary" title="显示这篇文章的截图PNG文件" target="_blank""><i class="fa fa-file-photo-o"></i></a>
+
+<small><span><a href="//tooisorahe.com/simple-c-function-bmp.html#disqus_thread" class="btn btn-primary" data-disqus-identifier="simple-c-function-bmpzhs" data-disqus-url="http://tooisorahe.com/simple-c-function-bmp.html"><i class="fa fa-comments-o"></i></a></span></small><span class="btn-group">
+	<a href="//tooisorahe.com/tag/c.html" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> C</a>
+	<a href="//tooisorahe.com/tag/toy.html" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> toy</a>
+</span>
+
+
+
+</div><!-- /.post-info -->                </div>
+            </header>
+
+            <div class="entry-content jumbotron" id="article-content">
+                <div class="section" id="id1">
+<h2>写在前面</h2>
+<p>计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
+显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
+示图形，以及利用计算机进行图形的计算、处理和显示。</p>
+<p>我对这个领域也相当感兴趣。为了更好地学习图形学，我尝试写了
+<a class="reference external" href="https://github.com/NyaNekoplus/toybmp">TOYBMP()</a> 。
+以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB
+或 32-bit RGBA 无压缩的BMP。代码长度为25行。</p>
+</div>
+<div class="section" id="id2">
+<h2>用法</h2>
+<p>..code-block:: c</p>
+<blockquote>
+<p>#include &lt;stdio.h&gt;
+#include "toybmp.h"
+unsigned char rgb[256 * 256 * 3];
+int main(void) {</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 29)</p>
+Unexpected indentation.</div>
+<blockquote>
+<p>unsigned char* p = rgb;
+for (int y = 0; y &lt; 256; ++y) {</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 31)</p>
+Unexpected indentation.</div>
+<blockquote>
+<dl class="docutils">
+<dt>for (int x = 0; x &lt; 256; ++x) {</dt>
+<dd><p class="first"><a href="#id3"><span class="problematic" id="id4">*</span></a>p++ = (unsigned char)x;
+<a href="#id5"><span class="problematic" id="id6">*</span></a>p++ = (unsigned char)y;
+<a href="#id7"><span class="problematic" id="id8">*</span></a>p++ = (unsigned char)128;</p>
+<div class="system-message" id="id3">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id4">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+<div class="system-message" id="id5">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id6">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+<div class="last system-message" id="id7">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 32); <em><a href="#id8">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+</dd>
+</dl>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 35)</p>
+Definition list ends without a blank line; unexpected unindent.</div>
+<p>}</p>
+</blockquote>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 36)</p>
+Block quote ends without a blank line; unexpected unindent.</div>
+<p>}
+toybmp(fopen("rgb.bmp", "wb"), 256, 256, p, 0);</p>
+</blockquote>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">C:\myblog\content\life\simple-c-function-bmp.zhs.rst</tt>, line 38)</p>
+Block quote ends without a blank line; unexpected unindent.</div>
+<p>}</p>
+</blockquote>
+<p>上面的代码输出此文件:</p>
+<img alt="" class="img-responsive" src="//tooisorahe.com/images/rgb.bmp"/>
+<p>函数声明:</p>
+<p><code class="code">
+void toybmp(TOYBMP_OUTPUT, unsigned w, unsigned h, const unsigned char* img, int alpha)</code>
+</p>
+</div>
+<div class="section" id="id9">
+<h2>实现</h2>
+<p>简单介绍下实现要点。不同于PNG与JPG格式，BMP的实现并不复杂。其基本结构如下。</p>
+<ul class="simple">
+<li>BitmapFileHeader 共14bit 描述bmp格式，显示文件大小</li>
+<li>BitmapInfoHeader 共40bit 描述位图的维度，色深，压缩方式</li>
+<li>BitmapData 位图像素数据</li>
+</ul>
+<p>在位图文件头中值得注意的是，Windows中的数据是倒着显示的。即如果
+一段数据显示为36 00 04 00，则实际数据为00 04 00 36。</p>
+<p>在位图数据区中，由于位图信息头中的图像高度是正数，所以位图数据在文件中的排列
+顺序是从左下角到右上角，以行为主序排列的。可以理解为标准的二维平面坐标系。
+此外，24-bit RGB在BMP中按照BGR的顺序储存各通道的值。32-bit RGBA则按照BGRA
+顺序储存。</p>
+<p>最后是对齐规则。在Windows中，默认扫描的最小单位是4byte，如果数据按此规则对齐
+则获取数据的速度会大大加快。也因此，BMP要求每行数据的长度必须是4的倍数，如果
+不够则需要在每行末尾补零(比特填充)。</p>
+<p>填充后每行的字节数可以表示为:
+<code class="code">
+((宽度*位深+7)/​8+3)/​4</code>
+</p>
+<p>两张调试过程中的错误图片:</p>
+<img alt="" class="img-responsive" src="//tooisorahe.com/images/err0.bmp"/>
+<img alt="" class="img-responsive" src="//tooisorahe.com/images/err1.bmp"/>
+</div>
+
+            </div>
+            <div class="entry-content jumbotron" id="source-content" style="display: none">
+                <!-- <pre><code id="source-code">
+                </code></pre> -->
+                <div id="source-code"></div>
+            </div>
+            <!-- /.entry-content -->
+
+            <div class="row" id="prevnext">
+                <div class="col-xs-12">
+                </div>
+                <div class="col-xs-12">
+                </div>
+            </div>
+
+
+<section class="comments" id="comments">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-primary">
+        <div class="panel-heading" role="tab" id="disqus-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#disqus-comments" aria-expanded="false" aria-controls="disqus-comments">
+              <i class="fa fa-comments-o"></i> Disqus 留言            </a>
+          </h4>
+        </div>
+        <div id="disqus-comments" class="panel-collapse collapse" role="tabpanel" aria-labelledby="disqus-heading">
+          <div class="panel-body">
+            <div class="tab-pane fade active in" id="disqus-comments">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'tooisorahe-com'; // required: replace example with your forum shortname
+
+                            var disqus_identifier = 'simple-c-function-bmpzhs';
+                        var disqus_url = 'http://tooisorahe.com/simple-c-function-bmp.html';
+
+                    var disqus_config = function () {
+
+                        this.language = "zh";
+                    };
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+                    Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>        </article>
+    </section>
+
+
+            </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <a data-dismiss="modal" href="javascript:void(0);">
+            <img id="mimg" src="" style="width:100%;height:auto">
+          </a>
+        </div>
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6" id="sidebar">
+            <aside>
+
+<section>
+    <div class="sidebar-container">
+<div class="sidebar-item ">
+<div class="panel panel-default">
+	<div class="panel-heading">
+        <h4>
+<i class="fa fa-user fa-lg"></i>
+<a href="//tooisorahe.com/about.html">
+关于 Edward Tsai</a>
+        </h4>
+    </div>
+<div class="panel-body" id="aboutme">
+        <a href="//tooisorahe.com/about.html"><img width="100%" src="//tooisorahe.com/../avatar.jpg"/></a>
+    <h3 style="text-align:center">
+<a href="https://twitter.com/eywrrnGCaTB8BiB"                  target="_blank">
+<i class="fa fa-twitter" style="text-align:center"></i></a>
+<a href="https://github.com/NyaNekoplus"                   target="_blank">
+<i class="fa fa-github" style="text-align:center"></i></a>
+</h3>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="sidebar-item hidden-xs">
+<div class="panel panel-default">
+	<div class="panel-heading">
+        <h4>
+<a href="//tooisorahe.com/tags.html"><i class="fa fa-tags fa-lg"></i><span class="icon-label">标签云</span></a>
+        </h4>
+    </div>
+<div class="panel-body">
+    <ul class="list-group list-inline tagcloud" id="tags">
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/c.html">
+                    C <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/toy.html">
+                    toy <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-1">
+                <a href="//tooisorahe.com/tag/writing.html">
+                    writing <sup> 3</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/newpc.html">
+                    newPC <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/music.html">
+                    music <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/life.html">
+                    Life <sup> 1</sup>
+                </a>
+            </li>
+    </ul>
+</div>
+</div>
+</div>
+
+
+
+
+    </div>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+
+
+<footer id="fcfooter">
+   <hr/>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-24">
+         <p><small>
+            &copy; 2019 Edward Tsai
+            &middot; 通过            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a> 生成         </small></p>
+         </div>
+      </div>
+   </div>
+   <a href="#" class="btn btn-primary btn-fab btn-raised mdi-editor-vertical-align-top withripple" style="position:fixed;bottom:30px;right:30px;z-index:1000"></a>
+</footer>
+<script src="//tooisorahe.com/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//tooisorahe.com/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="//tooisorahe.com/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'tooisorahe-com'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+
+<script src="//tooisorahe.com/theme/js/ripples.min.js"></script>
+<script src="//tooisorahe.com/theme/js/material.min.js"></script>
+<script src="//tooisorahe.com/theme/js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $.material.init();
+        $("div.navbar").autoHidingNavbar();
+        $(".img-responsive").css("cursor","pointer").on('click',function(){
+            var sr=$(this).attr('src');
+            $('#mimg').attr('src',sr);
+            $('#myModal').modal('show');
+        });
+        $('#affix-toc').affix({
+          offset: {
+            top: function(){
+                if($('#affix-toc').hasClass("affix"))
+                    return $('#sidebar').height();
+                return $('#sidebar').height() - $('#affix-toc').height();
+            },
+            bottom: function (){
+                return $("#fcfooter").offset().top -
+                    $("#article-content").offset().top -
+                    $("#article-content").height() + 20;
+            }
+          }
+        });
+        $('#affix-toc').width($('#sidebar').width());
+    });
+    $(window).resize(function () {
+       $('#affix-toc').width($('#sidebar').width());
+    });
+</script>
+
+</body>
+</html>
