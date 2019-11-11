@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/</loc>
-<lastmod>2019-08-06T22:35:49-00:00</lastmod>
+<lastmod>2019-11-11T22:59:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/archives.html</loc>
-<lastmod>2019-08-06T22:35:49-00:00</lastmod>
+<lastmod>2019-11-11T22:59:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/tags.html</loc>
-<lastmod>2019-08-06T22:35:49-00:00</lastmod>
+<lastmod>2019-11-11T22:59:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/categories.html</loc>
-<lastmod>2019-08-06T22:35:49-00:00</lastmod>
+<lastmod>2019-11-11T22:59:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//tooisorahe.com/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</loc>
+<lastmod>2019-08-25T22:10:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,13 +67,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//tooisorahe.com/avoid-unnecessary-operations.html</loc>
-<lastmod>2019-05-11T15:00:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>//tooisorahe.com/warm-voice.html</loc>
 <lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -82,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/category/life.html</loc>
-<lastmod>2019-07-25T14:10:00+00:00</lastmod>
+<lastmod>2019-08-25T22:10:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -90,6 +90,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//tooisorahe.com/category/tech.html</loc>
 <lastmod>2019-08-04T21:22:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/tag/writing.html</loc>
+<lastmod>2019-08-25T22:10:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -104,13 +111,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//tooisorahe.com/tag/toy.html</loc>
 <lastmod>2019-08-04T21:22:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//tooisorahe.com/tag/writing.html</loc>
-<lastmod>2019-07-25T14:10:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -138,7 +138,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/author/edward-tsai.html</loc>
-<lastmod>2019-08-04T21:22:00+00:00</lastmod>
+<lastmod>2019-08-25T22:10:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

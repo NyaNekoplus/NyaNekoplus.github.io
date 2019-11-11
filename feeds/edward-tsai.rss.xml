@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>像素之心 - Edward Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sun, 04 Aug 2019 21:22:00 +0000</lastBuildDate><item><title>一个简单的BMP编码函数 TOYBMP()</title><link>//tooisorahe.com/simple-c-function-bmp.html</link><description>&lt;div class="section" id="id1"&gt;
+<rss version="2.0"><channel><title>悠远的苍穹 - Edward Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sun, 25 Aug 2019 22:10:00 +0000</lastBuildDate><item><title>为了忘却的记忆</title><link>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</link><description>&lt;div class="section" id="ti9"&gt;
+&lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
+&lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
+TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
+&lt;img alt="OG" class="img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;看完最后的比赛，刷Max+时无意间刷到了这篇文章：
+&lt;a class="reference external" href="http://api.xiaoheihe.cn/maxnews/app/share/detail/1229894"&gt;如果你对Dota仍有爱意，请将TI9留在风中.&lt;/a&gt;
+虽然与文章作者算是差了一个时代，但仍有不少相似的地方。再想到自己已经很久没有主动地打开这个游戏，激动之余也有些许感伤，
+就趁这个机会写一些文字记录下我的Dota旅程，为这个贯穿我整个青春的游戏留下美好的回忆。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;起点&lt;/h2&gt;
+&lt;p&gt;最初接触到这个游戏，是在2012年小学升初中的暑假。而写下这段话的时间已是2019年，我也从一个准中学生转变成了大学生。7年，
+这是这个游戏陪伴我的时间，现在回想起来真是一段不可思议的时光。&lt;/p&gt;
+&lt;p&gt;小学升初中的暑假，由于小学生所知的娱乐方式比较少，大概是比较无聊的。记得那也是一个无聊的下午，大我三岁堂哥来家里玩，
+一进门就迫不及待地掏出u盘插到电脑上：“来看好康的！” 然后打开了一个叫魔兽争霸3：冰封王座的游戏，开始玩里面的官方地图。
+被疯狂人机虐了几盘之后————多操对那时的我们来说可能稍微有点困难 &lt;del&gt;现在还是打不过&lt;/del&gt; ————我哥显得有些无趣之余，打开了
+一幅新地图：DOTA6.73AI，我的Dota之路从此开始。&lt;/p&gt;
+&lt;img alt="DotA6.73" class="img-responsive" src="//tooisorahe.com/images/DotA6.73.jpg"/&gt;
+&lt;p&gt;当看到上面这张载入图片时，我已被深深地吸引 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sun, 25 Aug 2019 22:10:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</guid><category>writing</category></item><item><title>一个简单的BMP编码函数 TOYBMP()</title><link>//tooisorahe.com/simple-c-function-bmp.html</link><description>&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
@@ -57,19 +79,7 @@
 &lt;td&gt;Acer VG270U&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;COMPUTER CASE&lt;/td&gt;
-&lt;td&gt;Fractal Design …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sat, 08 Jun 2019 22:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-06-08:/new-pc.html</guid><category>newPC</category></item><item><title>避免投入过多时间在博客设计上</title><link>//tooisorahe.com/avoid-unnecessary-operations.html</link><description>&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
-&lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
-&lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
-而namesilo在这一点上是免费提供的。&lt;/p&gt;
-&lt;p&gt;那麽就namesilo好了。&lt;/p&gt;
-&lt;p&gt;了解了一些选项的作用后顺利购买了 &lt;ruby&gt;&lt;rb&gt;tooisorahe&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;遠  い  空  へ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; .com这个域名。&lt;/p&gt;
-&lt;p&gt;然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
-不甘心的上网查找了一番，发现 &lt;a class="reference external" href="https://www.cloudflare.com/"&gt;cloudflare&lt;/a&gt; 提供免费且支持ssl的cdn服务！一顿操作之后顺
-利将个人博客的域名换了过来。&lt;/p&gt;
-&lt;p&gt;看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)&lt;/p&gt;
-&lt;p&gt;搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
-只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的 &lt;ruby&gt;&lt;rb&gt;控制台&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;C M D&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 一整天，这的确有趣许
-多，但我更倾向於了解事物的 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sat, 11 May 2019 15:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-11:/avoid-unnecessary-operations.html</guid><category>writing</category></item><item><title>那些令我感到温暖的声音</title><link>//tooisorahe.com/warm-voice.html</link><description>&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
+&lt;td&gt;Fractal Design …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Tsai</dc:creator><pubDate>Sat, 08 Jun 2019 22:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-06-08:/new-pc.html</guid><category>newPC</category></item><item><title>那些令我感到温暖的声音</title><link>//tooisorahe.com/warm-voice.html</link><description>&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
 &lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
 那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
 &lt;p&gt;——为什麽这么忙？&lt;/p&gt;

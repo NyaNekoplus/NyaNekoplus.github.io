@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>像素之心</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/all-zhs.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2019-08-04T21:22:00+00:00</updated><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/all-zhs.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2019-08-25T22:10:00+00:00</updated><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
+&lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
+&lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
+TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
+&lt;img alt="OG" class="img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;看完最后的比赛，刷Max+时无意间刷到了这篇文章：
+&lt;a class="reference external" href="http://api.xiaoheihe.cn/maxnews/app/share/detail/1229894"&gt;如果你对Dota仍有爱意，请将TI9留在风中.&lt;/a&gt;
+虽然与文章作者算是差了一个时代，但仍有不少相似的地方。再想到自己已经很久没有主动地打开这个游戏，激动之余也有些许感伤，
+就趁这个机会写一些文字记录下我的Dota旅程，为这个贯穿我整个青春的游戏留下美好的回忆。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;起点&lt;/h2&gt;
+&lt;p&gt;最初接触到这个游戏，是在2012年小学升初中的暑假。而写下这段话的时间已是2019年，我也从一个准中学生转变成了大学生。7年，
+这是这个游戏陪伴我的时间，现在回想起来真是一段不可思议的时光。&lt;/p&gt;
+&lt;p&gt;小学升初中的暑假，由于小学生所知的娱乐方式比较少，大概是比较无聊的。记得那也是一个无聊的下午，大我三岁堂哥来家里玩，
+一进门就迫不及待地掏出u盘插到电脑上：“来看好康的！” 然后打开了一个叫魔兽争霸3：冰封王座的游戏，开始玩里面的官方地图。
+被疯狂人机虐了几盘之后————多操对那时的我们来说可能稍微有点困难 &lt;del&gt;现在还是打不过&lt;/del&gt; ————我哥显得有些无趣之余，打开了
+一幅新地图：DOTA6.73AI，我的Dota之路从此开始。&lt;/p&gt;
+&lt;img alt="DotA6.73" class="img-responsive" src="//tooisorahe.com/images/DotA6.73.jpg"/&gt;
+&lt;p&gt;当看到上面这张载入图片时，我已被深深地吸引 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="ti9"&gt;
+&lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
+&lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
+TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
+&lt;img alt="OG" class="img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;看完最后的比赛，刷Max+时无意间刷到了这篇文章：
+&lt;a class="reference external" href="http://api.xiaoheihe.cn/maxnews/app/share/detail/1229894"&gt;如果你对Dota仍有爱意，请将TI9留在风中.&lt;/a&gt;
+虽然与文章作者算是差了一个时代，但仍有不少相似的地方。再想到自己已经很久没有主动地打开这个游戏，激动之余也有些许感伤，
+就趁这个机会写一些文字记录下我的Dota旅程，为这个贯穿我整个青春的游戏留下美好的回忆。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;起点&lt;/h2&gt;
+&lt;p&gt;最初接触到这个游戏，是在2012年小学升初中的暑假。而写下这段话的时间已是2019年，我也从一个准中学生转变成了大学生。7年，
+这是这个游戏陪伴我的时间，现在回想起来真是一段不可思议的时光。&lt;/p&gt;
+&lt;p&gt;小学升初中的暑假，由于小学生所知的娱乐方式比较少，大概是比较无聊的。记得那也是一个无聊的下午，大我三岁堂哥来家里玩，
+一进门就迫不及待地掏出u盘插到电脑上：“来看好康的！” 然后打开了一个叫魔兽争霸3：冰封王座的游戏，开始玩里面的官方地图。
+被疯狂人机虐了几盘之后————多操对那时的我们来说可能稍微有点困难 &lt;del&gt;现在还是打不过&lt;/del&gt; ————我哥显得有些无趣之余，打开了
+一幅新地图：DOTA6.73AI，我的Dota之路从此开始。&lt;/p&gt;
+&lt;img alt="DotA6.73" class="img-responsive" src="//tooisorahe.com/images/DotA6.73.jpg"/&gt;
+&lt;p&gt;当看到上面这张载入图片时，我已被深深地吸引。第一盘是我哥玩的，隐约记得是名为鱼人夜行者的英雄，最后结果已经模糊不清，
+只记得我迫不及待要玩上一盘的模样。Dota1时代是在12个酒馆中挑选英雄，每个酒馆的英雄的主属性都不同，名字也很有“感觉”，譬如
+暮色酒馆，曙光酒馆之类的。初次接触，那些名字令我眼花缭乱，就选了“先知”————看起来比较厉害。被电脑杀了几次后这盘游戏毫无悬念
+地落败，记得我是在近卫军团，眼看着自己的世界之树被拆掉是真的很不甘心，但那时的我应该真的爱上了这个游戏。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id4"&gt;
+&lt;h2&gt;朋友们&lt;/h2&gt;
+&lt;p&gt;一个游戏的生命力在于玩它的人数。Dota也是一个多人游戏，如果只能与电脑博弈，我对它的热爱也不会到如此程度。&lt;/p&gt;
+&lt;p&gt;暑假结束后，我正式开始了我的初中生活。在一次玩闹中，不记得是谁无意间提起了这个游戏，在一瞬间发现一群志同道合的朋友，
+真的很开心。蒜蓉、伟伟、大师、大葱、浩楚、大亦，直到现在都是我最好的朋友。&lt;/p&gt;
+&lt;p&gt;现在回想初中的生活是真的非常“精彩”。记得当时教师机是固定在教室的，那么它所带来的结果就很显然了———放学后其他班的教室很快就空了，
+只有我们班还有几个人围着讲台不知道在捣鼓什么。电脑只有一台，还要提防没走的班主任和级长，分工也已明确。 &lt;del&gt;如果这算是坏事的话，
+不知道自习课时打开投影全程大屏幕直播和在图书馆上机区五人连坐美名其曰“绿色wb”要怎么定义。&lt;/del&gt; 无论好坏与否，这在那个电脑
+被管制使用的年纪，是非常难得的娱乐时间。&lt;/p&gt;
+&lt;img alt="PlayDota" class="img-responsive" src="//tooisorahe.com/images/11.png"/&gt;
+&lt;img alt="Memory" class="img-responsive" src="//tooisorahe.com/images/memory2.jpg"/&gt;
+&lt;p&gt;翻了翻旧手机找出上面两张图片，第一张是开黑截图，第二张是周末通宵。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id5"&gt;
+&lt;h2&gt;时代的变迁&lt;/h2&gt;
+&lt;p&gt;上高中之后，考上不同高中的我们仍保持着频繁的联系。此外，Dota2的Ti已经举办了五届，整体质量也在不断提高，Dota1玩家源源不断地
+加入到Dota2阵营，我们当然也在其中。毕竟Dota1整体基于War3的引擎，画质已经跟不上时代。而Dota2沿袭了原本玩法的同时不仅画质有
+很大的提高，还提供了比较完善的管理，随意退出的情况的到了遏制。在这之外还加入了饰品系统
+&lt;del&gt;当初听说Dota2不花钱，现在全家都怀疑我吸毒.jpg&lt;/del&gt; 。
+有一段时间我也对饰品抱有相当的兴趣，不过这大概是现在我对Dota2失去情热的原因之一吧。起初，饰品的确带来了很大的新鲜感，增加
+技能特效的同时还能令英雄模型更好看，饰品介绍上也会完善这个英雄的故事，这是很好的描述游戏背景的方式。但随着Valve不断推出新的
+改变特效的饰品，上面的介绍也变得极其简短且重复。譬如说船长2017年的Ti本子奖励，把大招的幽灵船改成了鲨鱼，特效是做足了，但却
+使这个游戏的独有魅力渐渐消散。Dota是英文DEFENCE OF THE ANCIENTS的缩写，翻译过来为“古代遗迹保卫战”，这样大规模的特效改变，
+使得游戏的整体风格也随之改变。我想要的“感觉”，具体来说应该是“史诗一般的战斗”，而游戏中的人物要有合格的故事之余，还要有与之相称
+的背景才能称作史诗。文字说明可能不够准确，&lt;del&gt;很残念语文作文从来没上过50&lt;/del&gt; 由于电脑下面是几张Dota1仍在更新时的载入图片。&lt;/p&gt;
+&lt;img alt="DotA6.49-6.54" class="img-responsive" src="//tooisorahe.com/images/DotA6.49-6.54.jpg"/&gt;
+&lt;img alt="DotA6.55-6.62" class="img-responsive" src="//tooisorahe.com/images/DotA6.55-6.62.jpg"/&gt;
+&lt;img alt="DotA6.63-6.68" class="img-responsive" src="//tooisorahe.com/images/DotA6.63-6.68.jpg"/&gt;
+&lt;img alt="DotA6.70-6.72" class="img-responsive" src="//tooisorahe.com/images/DotA6.70-6.72.jpg"/&gt;
+&lt;img alt="Dota6.75" class="img-responsive" src="//tooisorahe.com/images/Dota6.75.jpg"/&gt;
+&lt;p&gt;每一张都能带给我身临其境的感觉，相当震撼。
+所以就我个人而言，Dota2在某种程度上的确失去了一些东西。&lt;/p&gt;
+&lt;p&gt;第二个原因稍微有些牵强：对于现在的我来说，已经没有足够的时间去支撑一个一盘40分钟以上的游戏了。并不是说我的选择倾向了快餐化，
+而是我不希望一个游戏是开始了就不能中断的，这种机制会极大地限制我时间、空间层面上的自由。&lt;/p&gt;
+&lt;p&gt;上面两条也成为了我现在选择游戏的教条。剧情，人物塑造排在首位，画质其次。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id6"&gt;
+&lt;h2&gt;最后&lt;/h2&gt;
+&lt;p&gt;如果从最初的起点算起，Dota已经走过了15个年头(遗憾的是我没能经历那段时光，下面是远古大神整理的资料)。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://dota.uuu9.com/201005/61665.shtml"&gt;Dota史前掠影 by云天逝水&lt;/a&gt;
+&lt;a class="reference external" href="http://tieba.baidu.com/p/6112824497?share=9105&amp;amp;fr=share&amp;amp;see_lz=0&amp;amp;sfc=copy&amp;amp;client_type=2&amp;amp;client_version=10.3.8.12&amp;amp;st=1573391781&amp;amp;unique=22AE658F7E59F809B3FD5679FFD0FE3E"&gt;5.72-6.27更新日志 by HeavenFord&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以一款游戏来说，它的生命已经足够久远。近几年网路上也有不少声音认为它应该寿终正寝了，只看比赛不玩的“云玩家”数量也不断增长。
+对于我来说，或许目送着它远去就是最好的告别方式了吧。但无论如何，即使我变成了 &lt;del&gt;已经是&lt;/del&gt; 所谓的“云玩家”，Dota也是我最爱的游戏。
+祝愿Dota越来越好！&lt;/p&gt;
+&lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
+在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;樱&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed align="middle" allowfullscreen="true" allowscriptaccess="always" class="embed-responsive-item" quality="high" src="http://player.youku.com/player.php/sid/XMTU3NzEwMTA0/v.swf" type="application/x-shockwave-flash"/&gt;&lt;/div&gt;&lt;p&gt;日々を振り返られる                    私になりたい&lt;/p&gt;
+&lt;p&gt;桜、散る事                           見ないように生きようとした&lt;/p&gt;
+&lt;p&gt;花開く夢さえ                         知らないままで...&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="writing"></category></entry><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
@@ -220,35 +319,7 @@
 过也仅仅用于记录对这段时间的感悟罢了。这个博客里life分类的文章大概都会如此。
 四级后还有期末考试，这里大概又要荒废一段时间了(笑)。暑假应该就会有比较多的时
 间了，到时应该就会把这段时间积压的想法一一付诸实现了吧。&lt;/p&gt;
-</content><category term="newPC"></category></entry><entry><title>避免投入过多时间在博客设计上</title><link href="//tooisorahe.com/avoid-unnecessary-operations.html" rel="alternate"></link><published>2019-05-11T15:00:00+00:00</published><updated>2019-05-11T15:00:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-11:/avoid-unnecessary-operations.html</id><summary type="html">&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
-&lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
-&lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
-而namesilo在这一点上是免费提供的。&lt;/p&gt;
-&lt;p&gt;那麽就namesilo好了。&lt;/p&gt;
-&lt;p&gt;了解了一些选项的作用后顺利购买了 &lt;ruby&gt;&lt;rb&gt;tooisorahe&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;遠  い  空  へ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; .com这个域名。&lt;/p&gt;
-&lt;p&gt;然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
-不甘心的上网查找了一番，发现 &lt;a class="reference external" href="https://www.cloudflare.com/"&gt;cloudflare&lt;/a&gt; 提供免费且支持ssl的cdn服务！一顿操作之后顺
-利将个人博客的域名换了过来。&lt;/p&gt;
-&lt;p&gt;看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)&lt;/p&gt;
-&lt;p&gt;搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
-只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的 &lt;ruby&gt;&lt;rb&gt;控制台&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;C M D&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 一整天，这的确有趣许
-多，但我更倾向於了解事物的 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;本以为这个博客的搭建已经完成，不会再有改变，但还是忽略了自己对於折腾的热衷程度。&lt;/p&gt;
-&lt;p&gt;既然是个人博客，那自然不能用github的域名啊，得有自己的域名才行(?)&lt;/p&gt;
-&lt;p&gt;上网查了一下，决定在godaddy和namesilo两家之间选。然后发现狗爹近年来口碑似乎不怎么好，而且隐私保护需要付费。
-而namesilo在这一点上是免费提供的。&lt;/p&gt;
-&lt;p&gt;那麽就namesilo好了。&lt;/p&gt;
-&lt;p&gt;了解了一些选项的作用后顺利购买了 &lt;ruby&gt;&lt;rb&gt;tooisorahe&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;遠  い  空  へ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; .com这个域名。&lt;/p&gt;
-&lt;p&gt;然后尴尬得发现自定义域名不购买证书的话只能使用http，但如果使用github.io是可以使用https的。
-不甘心的上网查找了一番，发现 &lt;a class="reference external" href="https://www.cloudflare.com/"&gt;cloudflare&lt;/a&gt; 提供免费且支持ssl的cdn服务！一顿操作之后顺
-利将个人博客的域名换了过来。&lt;/p&gt;
-&lt;p&gt;看着网址旁边那把绿色的小锁，不自觉地笑出了声(误)&lt;/p&gt;
-&lt;p&gt;搭建博客、为其更换域名，似乎是非常有成就感的事，但这背后并不存在多少复杂的操作，也没有困难的数学论证。有的
-只是 模板 的套用，和查阅一些英文资料罢了。相对於为了理解一些算法而对着黑乎乎的 &lt;ruby&gt;&lt;rb&gt;控制台&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;C M D&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 一整天，这的确有趣许
-多，但我更倾向於了解事物的“本质”。&lt;/p&gt;
-&lt;p&gt;这个博客的搭建大概就在这里结束了。然而人的折腾之魂是没有止境的，日后若是再有在博客上折腾的想法的话，大
-概要反问自己一句：今天，你学会c++了吗？（大误）&lt;/p&gt;
-&lt;p&gt;毕竟，博客什么的，能用就行。&lt;/p&gt;
-</content><category term="writing"></category></entry><entry><title>那些令我感到温暖的声音</title><link href="//tooisorahe.com/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-09:/warm-voice.html</id><summary type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
+</content><category term="newPC"></category></entry><entry><title>那些令我感到温暖的声音</title><link href="//tooisorahe.com/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-09:/warm-voice.html</id><summary type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
 &lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
 那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
 &lt;p&gt;——为什麽这么忙？&lt;/p&gt;
