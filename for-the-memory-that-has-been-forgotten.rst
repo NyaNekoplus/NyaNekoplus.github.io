@@ -71,22 +71,37 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 改变特效的饰品，上面的介绍也变得极其简短且重复。譬如说船长2017年的Ti本子奖励，把大招的幽灵船改成了鲨鱼，特效是做足了，但却
 使这个游戏的独有魅力渐渐消散。Dota是英文DEFENCE OF THE ANCIENTS的缩写，翻译过来为“古代遗迹保卫战”，这样大规模的特效改变，
 使得游戏的整体风格也随之改变。我想要的“感觉”，具体来说应该是“史诗一般的战斗”，而游戏中的人物要有合格的故事之余，还要有与之相称
-的背景才能称作史诗。文字说明可能不够准确，:del:`很残念语文作文从来没上过50` 由于电脑下面是几张Dota1仍在更新时的载入图片。
+的背景才能称作史诗。文字说明可能不够准确，:del:`很残念语文作文从来没上过50` 由于电脑没装war3，从网上找了几张Dota1仍在更新时的载入图片。
 
-.. image:: {static}/images/DotA6.49-6.54.jpg
-    :alt: DotA6.49-6.54
+.. panel-default::
+    :title: DotA6.49-6.54
 
-.. image:: {static}/images/DotA6.55-6.62.jpg
-    :alt: DotA6.55-6.62
+    .. image:: {static}/images/DotA6.49-6.54.jpg
+        :alt: DotA6.49-6.54
 
-.. image:: {static}/images/DotA6.63-6.68.jpg
-    :alt: DotA6.63-6.68
+.. panel-default::
+    :title: DotA6.55-6.62
 
-.. image:: {static}/images/DotA6.70-6.72.jpg
-    :alt: DotA6.70-6.72
+    .. image:: {static}/images/DotA6.55-6.62.jpg
+        :alt: DotA6.55-6.62
 
-.. image:: {static}/images/Dota6.75.jpg
-    :alt: Dota6.75
+.. panel-default::
+    :title: DotA6.63-6.68
+
+    .. image:: {static}/images/DotA6.63-6.68.jpg
+        :alt: DotA6.63-6.68
+
+.. panel-default::
+    :title: DotA6.70-6.72
+
+    .. image:: {static}/images/DotA6.70-6.72.jpg
+        :alt: DotA6.70-6.72
+
+.. panel-default::
+    :title: Dota6.75-6.81
+
+    .. image:: {static}/images/Dota6.75.jpg
+        :alt: Dota6.75
 
 每一张都能带给我身临其境的感觉，相当震撼。
 所以就我个人而言，Dota2在某种程度上的确失去了一些东西。
@@ -113,6 +128,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 .. youku:: XMTU3NzEwMTA0
 
 .. translate-paragraph::
+
     日々を振り返られる
         私になりたい 
 
