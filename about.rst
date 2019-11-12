@@ -29,15 +29,13 @@ A：是学生(意味深
 
 暑假实力摸鱼中
 
-技能：C / Python? / Java? / :del:`C++`
+技能：C / Python? / :del:`C++`
 
 爱好
 ----------
-做 :del:`各种黑暗料理` 菜
-
 写 :ruby:`代码|Bug`
 
-有深度的动漫、游戏作品
+有深度的动漫、游戏作品、:del:`推Galgame`
 
 欣赏艺术(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 系列)
 

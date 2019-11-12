@@ -29,15 +29,13 @@ A：是學生(意味深
 
 暑假實力摸魚中
 
-技能：C / Python? / Java? / :del:`C++`
+技能：C / Python? / 
 
 愛好
 ----------
-做 :del:`各種黑暗料理` 菜
-
 寫 :ruby:`代碼|Bug`
 
-有深度的動漫、遊戲作品
+有深度的動漫、遊戲作品、:del:`推Galgame`
 
 欣賞藝術(指 `豪俊金曲 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 係列)
 
