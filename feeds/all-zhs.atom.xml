@@ -124,21 +124,15 @@ Dota6.75-6.81&lt;/div&gt;
 祝愿Dota越来越好！&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;樱&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。(版权问题Youtube上没有原曲)&lt;/p&gt;
-&lt;div class="well" style="padding: 0"&gt;
-&lt;div class="tab-content" id="youtubeku"&gt;
-&lt;div class="tab-pane fade active in" id="youtube_qAYb_VlOtjg"&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt; &lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/qAYb_VlOtjg"&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;C:\myblog\content\life\for-the-memory-that-has-been-forgotten.zhs.rst&lt;/tt&gt;, line 128)&lt;/p&gt;
+&lt;p&gt;Unknown directive type "youtubeku".&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+.. youtubeku:: qAYb_VlOtjg XMTU3NzEwMTA0
+
+&lt;/pre&gt;
 &lt;/div&gt;
-&lt;div class="tab-pane fade" id="youku_XMTU3NzEwMTA0"&gt;
-&lt;div align="left" class="youku embed-responsive embed-responsive-16by9"&gt; &lt;embed align="middle" allowfullscreen="true" allowscriptaccess="always" class="embed-responsive-item" quality="high" src="http://player.youku.com/player.php/sid/XMTU3NzEwMTA0/v.swf" type="application/x-shockwave-flash"/&gt; &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul class="nav nav-tabs"&gt;
-&lt;li class="active"&gt;&lt;a data-toggle="tab" href="#youtube_qAYb_VlOtjg"&gt;Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a data-toggle="tab" href="#youku_XMTU3NzEwMTA0"&gt;Youku&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;table border="0" class="docutils borderless table"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -157,7 +151,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</content><category term="writing"></category></entry><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+</content><category term="life"></category><category term="writing"></category></entry><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;计算机图形学(CG)，是一种使用数学算法将二维或三维图形转化为计算机
 显示器的栅格形式的科学。其主要的研究内容就是研究如何在计算机中表
@@ -244,7 +238,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;img alt="" class="img-responsive" src="//tooisorahe.com/images/err0.bmp"/&gt;
 &lt;img alt="" class="img-responsive" src="//tooisorahe.com/images/err1.bmp"/&gt;
 &lt;/div&gt;
-</content><category term="C"></category><category term="toy"></category></entry><entry><title>秋刀鱼</title><link href="//tooisorahe.com/cololabis-saira.html" rel="alternate"></link><published>2019-07-25T14:10:00+00:00</published><updated>2019-07-25T14:10:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-07-25:/cololabis-saira.html</id><summary type="html">&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
+</content><category term="tech"></category><category term="C"></category><category term="toy"></category></entry><entry><title>秋刀鱼</title><link href="//tooisorahe.com/cololabis-saira.html" rel="alternate"></link><published>2019-07-25T14:10:00+00:00</published><updated>2019-07-25T14:10:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-07-25:/cololabis-saira.html</id><summary type="html">&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
 因其低廉的价格和相对还行的肉质而常年位于各种烧烤摊、食堂可选用鱼清单的榜首。&lt;/p&gt;
 &lt;p&gt;以上介绍得自百度百科以及个人经验。&lt;/p&gt;
 &lt;p&gt;我也是个秋刀鱼的狂热爱好者。曾创下在学校食堂连续点一周红烧秋刀鱼的记录(?)，
@@ -274,14 +268,14 @@ Dota6.75-6.81&lt;/div&gt;
 激性食物..这种状态一直持续到现在，算起来已近一个月，而且还没有完全好转。&lt;/p&gt;
 &lt;p&gt;想起周杰伦有一首“七里香”，里面有一句：秋刀鱼的滋味，猫跟你都想了解。&lt;/p&gt;
 &lt;p&gt;但我不想了解，暂时一点都不想&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/Bbp9ZaJD_eA"&gt;&lt;/iframe&gt;&lt;/div&gt;</content><category term="writing"></category></entry><entry><title>装了一台学习()用pc</title><link href="//tooisorahe.com/new-pc.html" rel="alternate"></link><published>2019-06-08T22:30:00+00:00</published><updated>2019-06-08T22:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-06-08:/new-pc.html</id><summary type="html">&lt;p&gt;距离上次发博客，貌似又过了一个月的时间...&lt;/p&gt;
+&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/Bbp9ZaJD_eA"&gt;&lt;/iframe&gt;&lt;/div&gt;</content><category term="life"></category><category term="writing"></category></entry><entry><title>装了一台学习()用pc</title><link href="//tooisorahe.com/new-pc.html" rel="alternate"></link><published>2019-06-08T22:30:00+00:00</published><updated>2019-06-08T22:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-06-08:/new-pc.html</id><summary type="html">&lt;p&gt;距离上次发博客，貌似又过了一个月的时间...&lt;/p&gt;
 &lt;p&gt;目前是大一第二学期，说实在的，课是真的很多 &lt;del&gt;水课占一半&lt;/del&gt; 再加上还报了计算机二级和英语四级，对于本就不多
 的时间来说无疑是雪上加霜。所幸计算机二级难度并不大，几周前已收到通过的信息，也算是减轻一些负担。&lt;/p&gt;
 &lt;p&gt;回到正题。旧电脑已经陪伴我四年有余，日常看看网页，玩下dota2并没有什么问题，但在使用某些软件时就有些捉襟见肘了。
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils borderless table"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -307,7 +301,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils borderless table"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -336,7 +330,7 @@ Dota6.75-6.81&lt;/div&gt;
 而2600x可是有6C12T，多6T多开框框数着玩简直是excited啊！比辣鸡牙膏厂不知道高到哪里去了。AMD，YES！&lt;/p&gt;
 &lt;img alt="AMD YES" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
 &lt;p&gt;最后下单的配置大概就是下面这个样子，还有一些杂七杂八的就不一一列了。&lt;/p&gt;
-&lt;table border="0" class="docutils borderless table"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -378,7 +372,7 @@ Dota6.75-6.81&lt;/div&gt;
 过也仅仅用于记录对这段时间的感悟罢了。这个博客里life分类的文章大概都会如此。
 四级后还有期末考试，这里大概又要荒废一段时间了(笑)。暑假应该就会有比较多的时
 间了，到时应该就会把这段时间积压的想法一一付诸实现了吧。&lt;/p&gt;
-</content><category term="newPC"></category></entry><entry><title>那些令我感到温暖的声音</title><link href="//tooisorahe.com/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-09:/warm-voice.html</id><summary type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
+</content><category term="life"></category><category term="newPC"></category></entry><entry><title>那些令我感到温暖的声音</title><link href="//tooisorahe.com/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-09:/warm-voice.html</id><content type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
 &lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
 那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
 &lt;p&gt;——为什麽这么忙？&lt;/p&gt;
@@ -392,20 +386,5 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;p&gt;A：这首
 &lt;a class="reference external" href="https://music.163.com/#/song?id=36270494"&gt;きみがくれたシャイニーストーリー&lt;/a&gt;
 已被某易购买了版权，所以不能使用外链&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
-&lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
-那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
-&lt;p&gt;——为什麽这么忙？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;del&gt;垃圾水课gc课程表&lt;/del&gt; ！————来自一个 &lt;del&gt;被迫&lt;/del&gt; 使用游戏时间来敲代码的辣鸡的深深怨念&lt;/blockquote&gt;
-&lt;p&gt;人在疲惫的时候总是需要一些放松的方式。&lt;/p&gt;
-&lt;p&gt;敲完代码，时间已近 &lt;del&gt;断网时间&lt;/del&gt; 11点。看来今晚不能跟小伙伴们快乐dota了。打开某易云...&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/pXHJH71H3xY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
-&lt;p&gt;11：30，该睡觉了。明天又是 &lt;del&gt;摸鱼&lt;/del&gt; 美好的一天。&lt;/p&gt;
-&lt;p&gt;Q：为什麽是Youtube？&lt;/p&gt;
-&lt;p&gt;A：这首
-&lt;a class="reference external" href="https://music.163.com/#/song?id=36270494"&gt;きみがくれたシャイニーストーリー&lt;/a&gt;
-已被某易购买了版权，所以不能使用外链&lt;/p&gt;
-</content><category term="music"></category><category term="writing"></category></entry><entry><title>你好 世界</title><link href="//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-04-21:/新的开始.html</id><summary type="html">&lt;p&gt;由此启程...&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;由此启程...&lt;/p&gt;
-</content><category term="Life"></category></entry></feed>
+</content><category term="life"></category><category term="music"></category><category term="writing"></category></entry><entry><title>你好 世界</title><link href="//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-04-21:/新的开始.html</id><content type="html">&lt;p&gt;由此启程...&lt;/p&gt;
+</content><category term="life"></category><category term="Life"></category></entry></feed>
