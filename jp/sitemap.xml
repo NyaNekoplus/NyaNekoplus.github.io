@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/jp/</loc>
-<lastmod>2020-05-17T18:43:02-00:00</lastmod>
+<lastmod>2020-05-20T15:08:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/jp/archives.html</loc>
-<lastmod>2020-05-17T18:43:02-00:00</lastmod>
+<lastmod>2020-05-20T15:08:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/jp/tags.html</loc>
-<lastmod>2020-05-17T18:43:02-00:00</lastmod>
+<lastmod>2020-05-20T15:08:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/jp/categories.html</loc>
-<lastmod>2020-05-17T18:43:02-00:00</lastmod>
+<lastmod>2020-05-20T15:08:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,7 +60,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//tooisorahe.com/jp/author/edward-tsai.html</loc>
+<loc>//tooisorahe.com/jp/author/vincent-tsai.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
