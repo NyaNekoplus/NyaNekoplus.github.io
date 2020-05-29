@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹 - Vincent Tsai</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/vincent-tsai.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2019-08-25T22:10:00+00:00</updated><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹 - Vincent Tsai</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/vincent-tsai.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2020-05-28T09:00:00+00:00</updated><entry><title>肖战，永远滴神！</title><link href="//tooisorahe.com/xz666.html" rel="alternate"></link><published>2020-05-28T09:00:00+00:00</published><updated>2020-05-28T09:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-05-28:/xz666.html</id><summary type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
+自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
+&lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
+上面提出的问题，这种类型的数据对我而言没有意义，就没有选择这类网站。正苦恼
+于选择什么网站时，QQ上收到一张图片，内容大概是某群友跟肖战狂热粉丝的对线内
+容。肖战这个名字，就算是不关注娱乐圈的我也是如雷贯耳，此人如今的名气甚至一
+度超越身为2019年度之星的坤坤(当然是不好的方面)；想当年，坤坤靠一曲鸡你太美变态出道，
+成为全网津津乐道的对象。而当今肖战则更胜一筹，个人实力什么的无所谓，只要粉
+丝够多够无脑，我就是饭圈当之无愧的扛把子。&lt;/p&gt;
+&lt;p&gt;本人亦有幸被肖战的粉丝 &lt;ruby&gt;&lt;rb&gt;临幸&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;攻击&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 过，其言语之粗鄙，其态度之恶劣，实在
+是所有键盘侠的楷模。藉此次大作业的机会，我决定爬一爬肖战的微博，研究一下他
+粉丝的构成。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
+自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
+&lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
+上面提出的问题，这种类型的数据对我而言没有意义，就没有选择这类网站。正苦恼
+于选择什么网站时，QQ上收到一张图片，内容大概是某群友跟肖战狂热粉丝的对线内
+容。肖战这个名字，就算是不关注娱乐圈的我也是如雷贯耳，此人如今的名气甚至一
+度超越身为2019年度之星的坤坤(当然是不好的方面)；想当年，坤坤靠一曲鸡你太美变态出道，
+成为全网津津乐道的对象。而当今肖战则更胜一筹，个人实力什么的无所谓，只要粉
+丝够多够无脑，我就是饭圈当之无愧的扛把子。&lt;/p&gt;
+&lt;p&gt;本人亦有幸被肖战的粉丝 &lt;ruby&gt;&lt;rb&gt;临幸&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;攻击&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 过，其言语之粗鄙，其态度之恶劣，实在
+是所有键盘侠的楷模。藉此次大作业的机会，我决定爬一爬肖战的微博，研究一下他
+粉丝的构成。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;C:\myblog\content\tech\xz666.zhs.rst&lt;/tt&gt;, line 27)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+详细(实现具有时效性，一段时间后可能失效)
+-------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬)。我
+了解到微博有三个域名：m.weibo.cn, weibo.com。其中 是旧时代的遗物，页面简单，
+但信息少；在三个域名中是最好爬的。m.weibo.cn是手机端的页面，信息足够。
+weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种验证码、机器识别)，
+自带劝退属性。考虑到这次做的只是一个玩具，那么答案已经呼之欲出了————m.weibo.cn，
+就决定是你了！&lt;/p&gt;
+&lt;p&gt;然后是对网页的json数据结构的解析。我的目标是获得肖战每一篇微博下的评论人的
+信息，所以主要研究的是页面的跳转问题(微博-&amp;gt;评论页-&amp;gt;评论人个人信息页)。&lt;/p&gt;
+&lt;p&gt;程序的入口是肖战的 &lt;a class="reference external" href="https://m.weibo.cn/u/1792951112?uid=1792951112&amp;amp;t=0&amp;amp;luicode=10000011&amp;amp;lfid=100103type%3D1%26q%3D%E8%82%96%E6%88%98"&gt;微博首页&lt;/a&gt;
+这个主页有五个分类：主页，微博，视频，超话，相册；每个类有各自的containerid。
+由此可知有containerid就能跳转到相应的分类。手机端的微博页并不是将所有微博一次
+全部显示出来，而是隐式的将x条微博划分为一页。易知手机的操作方式是往下划动，
+所以这里的翻页方式是当滚动条划动到接近当页最后一条微博时请求下一页的所有微博
+信息。而每一页微博会有一个since_id指向下一页，所以翻页的方式就很浅显了。
+每条微博有专有的id，一条微博的评论页可以通过id获取；评论的翻页方式与微博相同，
+不过参数是max_id。&lt;/p&gt;
+&lt;p&gt;数据可视化使用了pyecharts库，很简单，很好用， &lt;a class="reference external" href="http://gallery.pyecharts.org/#/README"&gt;官方文档&lt;/a&gt; 的介绍非常详尽
+大抵的思路就是这样，下面看下结果。&lt;/p&gt;
+&lt;p&gt;虽然只有8000个样本，但也足以初见端倪&lt;/p&gt;
+&lt;img alt="性别统计" class="img-responsive" src="//tooisorahe.com/images/gender.PNG"/&gt;
+&lt;p&gt;性别是没有悬念的，至于那10%的男性身份也很好推定。&lt;/p&gt;
+&lt;img alt="热力图" class="img-responsive" src="//tooisorahe.com/images/geoHeat.PNG"/&gt;
+&lt;p&gt;粉丝的地理分布，北上广深没得跑，意外的是川渝也很密集。&lt;/p&gt;
+&lt;img alt="世代统计" class="img-responsive" src="//tooisorahe.com/images/generation.PNG"/&gt;
+&lt;p&gt;从肖战粉丝的言论看来，这样的世代分布很合理，毕竟是后浪嘛。
+不过最令我惊讶的是居然还有5%的10后...真-后浪。&lt;/p&gt;
+&lt;img alt="注册时间" class="img-responsive" src="//tooisorahe.com/images/signup.PNG"/&gt;
+&lt;p&gt;2009年8月14日，新浪微博开始内测。&lt;/p&gt;
+&lt;img alt="词频" class="img-responsive" src="//tooisorahe.com/images/frequency.PNG"/&gt;
+&lt;p&gt;得益于现在强大的控评和公关，并没有什么参考价值&lt;/p&gt;
+&lt;p&gt;写这东西大概用时三天，上课边摸边写的，程序本身没有任何难度，逻辑也非常简单；
+如果硬要说有坑的话，大概是手机端的微博经常会出现莫名其妙的丢包导致返回不正确
+的json数据，在必要的地方加异常处理就可以完美解决。还有就是请求频率不能过快,
+否则会被小棺家封号...解决方案是上某宝买点小号建个账号池，如果被封换个Cookie就
+完事了。&lt;/p&gt;
+&lt;p&gt;虽然只是个小玩具，但基本达到了目的。至于结论，不用多说也心知肚明，笑一笑就好。&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?1FV411d7u&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;/div&gt;
+</content><category term="tech"></category><category term="toy"></category><category term="python"></category></entry><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
@@ -59,6 +135,20 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 被管制使用的年纪，是非常难得的娱乐时间。&lt;/p&gt;
 &lt;img alt="PlayDota" class="img-responsive" src="//tooisorahe.com/images/11.png"/&gt;
 &lt;img alt="Memory" class="img-responsive" src="//tooisorahe.com/images/memory2.jpg"/&gt;
+&lt;p&gt;翻了翻旧手机找出上面两张图片，第一张是开黑截图，第二张是周末通宵。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id5"&gt;
+&lt;h2&gt;时代的变迁&lt;/h2&gt;
+&lt;p&gt;上高中之后，考上不同高中的我们仍保持着频繁的联系。此外，Dota2的Ti已经举办了五届，整体质量也在不断提高，Dota1玩家源源不断地
+加入到Dota2阵营，我们当然也在其中。毕竟Dota1整体基于War3的引擎，画质已经跟不上时代。而Dota2沿袭了原本玩法的同时不仅画质有
+很大的提高，还提供了比较完善的管理，随意退出的情况的到了遏制。在这之外还加入了饰品系统
+&lt;del&gt;当初听说Dota2不花钱，现在全家都怀疑我吸毒.jpg&lt;/del&gt; 。
+有一段时间我也对饰品抱有相当的兴趣，不过这大概是现在我对Dota2失去情热的原因之一吧。起初，饰品的确带来了很大的新鲜感，增加
+技能特效的同时还能令英雄模型更好看，饰品介绍上也会完善这个英雄的故事，这是很好的描述游戏背景的方式。但随着Valve不断推出新的
+改变特效的饰品，上面的介绍也变得极其简短且重复。譬如说船长2017年的Ti本子奖励，把大招的幽灵船改成了鲨鱼，特效是做足了，但却
+使这个游戏的独有魅力渐渐消散。Dota是英文DEFENCE OF THE ANCIENTS的缩写，翻译过来为“古代遗迹保卫战”，这样大规模的特效改变，
+使得游戏的整体风格也随之改变。我想要的“感觉”，具体来说应该是“史诗一般的战斗”，而游戏中的人物要有合格的故事之余，还要有与之相称
+的背景才能称作史诗。文字说明可能不够准确，&lt;del&gt;很残念语文作文从来没上过50&lt;/del&gt; 由于电脑下面是几张Dota1仍在更新时的载入图片。&lt;/p&gt;
 &lt;div class="panel panel-default"&gt;
 &lt;div class="panel-heading"&gt;
 DotA6.49-6.54&lt;/div&gt;
@@ -94,25 +184,21 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;img alt="Dota6.75" class="img-responsive" src="//tooisorahe.com/images/Dota6.75.jpg"/&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;翻了翻旧手机找出上面两张图片，第一张是开黑截图，第二张是周末通宵。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id5"&gt;
-&lt;h2&gt;时代的变迁&lt;/h2&gt;
-&lt;p&gt;上高中之后，考上不同高中的我们仍保持着频繁的联系。此外，Dota2的Ti已经举办了五届，整体质量也在不断提高，Dota1玩家源源不断地
-加入到Dota2阵营，我们当然也在其中。毕竟Dota1整体基于War3的引擎，画质已经跟不上时代。而Dota2沿袭了原本玩法的同时不仅画质有
-很大的提高，还提供了比较完善的管理，随意退出的情况的到了遏制。在这之外还加入了饰品系统
-&lt;del&gt;当初听说Dota2不花钱，现在全家都怀疑我吸毒.jpg&lt;/del&gt; 。
-有一段时间我也对饰品抱有相当的兴趣，不过这大概是现在我对Dota2失去情热的原因之一吧。起初，饰品的确带来了很大的新鲜感，增加
-技能特效的同时还能令英雄模型更好看，饰品介绍上也会完善这个英雄的故事，这是很好的描述游戏背景的方式。但随着Valve不断推出新的
-改变特效的饰品，上面的介绍也变得极其简短且重复。譬如说船长2017年的Ti本子奖励，把大招的幽灵船改成了鲨鱼，特效是做足了，但却
-使这个游戏的独有魅力渐渐消散。Dota是英文DEFENCE OF THE ANCIENTS的缩写，翻译过来为“古代遗迹保卫战”，这样大规模的特效改变，
-使得游戏的整体风格也随之改变。我想要的“感觉”，具体来说应该是“史诗一般的战斗”，而游戏中的人物要有合格的故事之余，还要有与之相称
-的背景才能称作史诗。文字说明可能不够准确，&lt;del&gt;很残念语文作文从来没上过50&lt;/del&gt; 由于电脑没装war3，从网上找了几张Dota1仍在更新时的载入图片。&lt;/p&gt;
 &lt;p&gt;每一张都能带给我身临其境的感觉，相当震撼。
+虽然Dota2的画质有很大的提升，但少了点“感觉”
 所以就我个人而言，Dota2在某种程度上的确失去了一些东西。&lt;/p&gt;
-&lt;p&gt;第二个原因稍微有些牵强：对于现在的我来说，已经没有足够的时间去支撑一个一盘40分钟以上的游戏了。并不是说我的选择倾向了快餐化，
-而是我不希望一个游戏是开始了就不能中断的，这种机制会极大地限制我时间、空间层面上的自由。&lt;/p&gt;
-&lt;p&gt;上面两条也成为了我现在选择游戏的教条。剧情，人物塑造排在首位，画质其次。&lt;/p&gt;
+&lt;p&gt;第二个原因则是游戏性上的问题。从Dota1到Dota2，这之间经历了无数个版本的迭代；但无论是地图大改，还是英雄重做，都不会改动的是
+游戏的随机性；这也是卡牌游戏风靡的原因。一次抽卡，就可以改变一局游戏的结局， :del: &lt;cite&gt;ドロー‼&lt;/cite&gt;　无限的可能性总是令人心驰神往。
+在Dota中也一样，大部分英雄都有着被动技能，也就是概率触发。这类技能一般与暴击、眩晕效果挂钩，这也是它能扭转战局的原因。对我
+来说，印象最深的被动技能无疑是混沌骑士(Chaos Knight, CK)的被动“混沌一击”。在我刚入坑的那个版本，这个被动升到满级后有11%的
+概率打出4倍暴击，而且还是个小技能。而我在一篇总结帖中了解到，在远古版本时这个被动甚至还有额外的效果：%1的概率打出11倍暴击。
+血条消失很好地诠释了这个技能的效果。试想，在一次团战中突然打出了一次这样的效果，该是多么的令人兴奋！当然这是不平衡的，要改。
+这就是游戏的竞技性与娱乐性的冲突(我认为)，竞技性要求大部分东西是可控的，你这样做了，那就会得到对应的结果，对于现在如火如荼
+的职业比赛来说，没有一个战队想要一次戏剧性的意外，毕竟那是吃饭的家伙。而娱乐性就如同上面所说的，讲究随机(也有不少人认为竞技
+就是娱乐，但这是我个人对游戏的认识)。比赛能带动游戏热度，v社作为运营商也不是傻子，战略围绕比赛是理所当然的。带来的结果就是
+前几个版本的更新中几个英雄的被动不再是概率触发，而是cd后必定触发，CK也在其列。改动面向比赛，这是趋势，但对我而言这多少会让
+我觉得这个游戏没那么好玩了。&lt;/p&gt;
+&lt;p&gt;上面两条也是我现在选择游戏的标准。剧情，自由度排在首位，画质其次。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id6"&gt;
 &lt;h2&gt;最后&lt;/h2&gt;
@@ -120,36 +206,21 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://dota.uuu9.com/201005/61665.shtml"&gt;Dota史前掠影 by云天逝水&lt;/a&gt;
 &lt;a class="reference external" href="http://tieba.baidu.com/p/6112824497?share=9105&amp;amp;fr=share&amp;amp;see_lz=0&amp;amp;sfc=copy&amp;amp;client_type=2&amp;amp;client_version=10.3.8.12&amp;amp;st=1573391781&amp;amp;unique=22AE658F7E59F809B3FD5679FFD0FE3E"&gt;5.72-6.27更新日志 by HeavenFord&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以一款游戏来说，它的生命已经足够久远。近几年网路上也有不少声音认为它应该寿终正寝了，只看比赛不玩的“云玩家”数量也不断增长。
-对于我来说，或许目送着它远去就是最好的告别方式了吧。但无论如何，即使我变成了 &lt;del&gt;已经是&lt;/del&gt; 所谓的“云玩家”，Dota也是我最爱的游戏。
-祝愿Dota越来越好！&lt;/p&gt;
+对于我来说，或许目送着它远去就是最好的告别方式了吧。但无论如何，即使我变成了 &lt;del&gt;已经是&lt;/del&gt; 所谓的“云玩家”，Dota也是我最爱的
+游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
-在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;樱&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。(版权问题Youtube上没有原曲)&lt;/p&gt;
+在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;樱&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
 &lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;C:\myblog\content\life\for-the-memory-that-has-been-forgotten.zhs.rst&lt;/tt&gt;, line 128)&lt;/p&gt;
-&lt;p&gt;Unknown directive type "youtubeku".&lt;/p&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;C:\myblog\content\life\for-the-memory-that-has-been-forgotten.zhs.rst&lt;/tt&gt;, line 140)&lt;/p&gt;
+&lt;p&gt;Unknown directive type "youku".&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-.. youtubeku:: qAYb_VlOtjg XMTU3NzEwMTA0
+.. youku:: XMTU3NzEwMTA0
 
 &lt;/pre&gt;
 &lt;/div&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
-&lt;colgroup&gt;
-&lt;col width="50%"/&gt;
-&lt;col width="50%"/&gt;
-&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;日々を振り返られる&lt;/td&gt;
-&lt;td&gt;私になりたい&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;桜、散る事&lt;/td&gt;
-&lt;td&gt;見ないように生きようとした&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;花開く夢さえ&lt;/td&gt;
-&lt;td&gt;知らないままで...&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;日々を振り返られる                    私になりたい&lt;/p&gt;
+&lt;p&gt;桜、散る事                           見ないように生きようとした&lt;/p&gt;
+&lt;p&gt;花開く夢さえ                         知らないままで...&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="life"></category><category term="writing"></category></entry><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
@@ -238,44 +309,27 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;img alt="" class="img-responsive" src="//tooisorahe.com/images/err0.bmp"/&gt;
 &lt;img alt="" class="img-responsive" src="//tooisorahe.com/images/err1.bmp"/&gt;
 &lt;/div&gt;
-</content><category term="tech"></category><category term="C"></category><category term="toy"></category></entry><entry><title>秋刀鱼</title><link href="//tooisorahe.com/cololabis-saira.html" rel="alternate"></link><published>2019-07-25T14:10:00+00:00</published><updated>2019-07-25T14:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-07-25:/cololabis-saira.html</id><summary type="html">&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
+</content><category term="tech"></category><category term="C"></category><category term="toy"></category></entry><entry><title>秋刀鱼</title><link href="//tooisorahe.com/cololabis-saira.html" rel="alternate"></link><published>2019-07-25T14:10:00+00:00</published><updated>2019-07-25T14:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-07-25:/cololabis-saira.html</id><content type="html">&lt;p&gt;秋刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
 因其低廉的价格和相对还行的肉质而常年位于各种烧烤摊、食堂可选用鱼清单的榜首。&lt;/p&gt;
-&lt;p&gt;以上介绍得自百度百科以及个人经验。&lt;/p&gt;
-&lt;p&gt;我也是个秋刀鱼的狂热爱好者。曾创下在学校食堂连续点一周红烧秋刀鱼的记录(?)，
-&lt;del&gt;只是因为食堂实在没啥好吃的了&lt;/del&gt; ，在学校循环往复一成不变的日常中能做到吃很多天一样的
-菜，我认为这足以显示出我对这种食材的热衷。&lt;/p&gt;
-&lt;p&gt;秋刀鱼的做法有很多，在此不详述，但吃法我认为只有一种。通常人们吃鱼，因惧于坚硬的鱼刺，总是
-小心翼翼，一块鱼肉要经过舌头的反复甄别，才敢咽下。但秋刀鱼不同，得益于它极软的骨骼，纵使其
-刺众多，也能嚼几下后大口吞下，借此显示出吃鱼时不该有的豪爽。我也曾奉此条为真理，并在食堂吃
-秋刀鱼时无往而不利，直到期末考的前一周。&lt;/p&gt;
-&lt;p&gt;那天，我在固定的时间段来到食堂，拿盘子，点菜，坐下开吃，并没有与以往不同的地方。唯一不同的，
-大概就是我在用惯用方法吃秋刀鱼的时候卡到鱼刺了吧。当时也没觉得多大事，用力咽了两口饭也就不
-管了。但喉咙里依旧有异物感，由于马上要考试，也暂时放在一边。&lt;/p&gt;
-&lt;p&gt;放假回家时，顺路去医院照了个喉镜 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;秋刀鱼又称竹刀鱼，学名Cololabis saira，由于其体形修长如刀，生产季节在秋天，故名秋刀鱼。
-因其低廉的价格和相对还行的肉质而常年位于各种烧烤摊、食堂可选用鱼清单的榜首。&lt;/p&gt;
-&lt;p&gt;以上介绍得自百度百科以及个人经验。&lt;/p&gt;
-&lt;p&gt;我也是个秋刀鱼的狂热爱好者。曾创下在学校食堂连续点一周红烧秋刀鱼的记录(?)，
-&lt;del&gt;只是因为食堂实在没啥好吃的了&lt;/del&gt; ，在学校循环往复一成不变的日常中能做到吃很多天一样的
-菜，我认为这足以显示出我对这种食材的热衷。&lt;/p&gt;
-&lt;p&gt;秋刀鱼的做法有很多，在此不详述，但吃法我认为只有一种。通常人们吃鱼，因惧于坚硬的鱼刺，总是
-小心翼翼，一块鱼肉要经过舌头的反复甄别，才敢咽下。但秋刀鱼不同，得益于它极软的骨骼，纵使其
-刺众多，也能嚼几下后大口吞下，借此显示出吃鱼时不该有的豪爽。我也曾奉此条为真理，并在食堂吃
-秋刀鱼时无往而不利，直到期末考的前一周。&lt;/p&gt;
-&lt;p&gt;那天，我在固定的时间段来到食堂，拿盘子，点菜，坐下开吃，并没有与以往不同的地方。唯一不同的，
-大概就是我在用惯用方法吃秋刀鱼的时候卡到鱼刺了吧。当时也没觉得多大事，用力咽了两口饭也就不
-管了。但喉咙里依旧有异物感，由于马上要考试，也暂时放在一边。&lt;/p&gt;
-&lt;p&gt;放假回家时，顺路去医院照了个喉镜，结果是喉咙上被扎了个伤口，还发炎了。不能多说话，不能吃刺
-激性食物..这种状态一直持续到现在，算起来已近一个月，而且还没有完全好转。&lt;/p&gt;
-&lt;p&gt;想起周杰伦有一首“七里香”，里面有一句：秋刀鱼的滋味，猫跟你都想了解。&lt;/p&gt;
+&lt;p&gt;以上介绍得自百度百科。&lt;/p&gt;
+&lt;p&gt;我也是个秋刀鱼的狂热爱好者。曾尝试在学校食堂连续点一周红烧秋刀鱼， &lt;del&gt;只是因为食堂实在没啥好吃的了&lt;/del&gt; 。
+当然这已经是过去的事了。&lt;/p&gt;
+&lt;p&gt;一周前去食堂吃饭，按照惯例要了道秋刀鱼。第一条，还是熟悉的配方，还是熟悉的味道，当然还有熟悉
+的吃法————因为秋刀鱼的骨头非常软，我吃的时候一般嚼都不带嚼，直接吞————，天知道那第二条是不是
+什么变种货，骨头的硬度基本接近一般的淡水鱼类，我第一口就着了道。尝试了许久也不能将鱼刺咳出，
+只好用强行吃饭咽下去。结果咽是咽下去了，但鱼骨也在喉咙上划了道口子。&lt;/p&gt;
+&lt;p&gt;放假回家时顺路去医院照了个喉镜，结果啥也没查出来，但该膈应还是膈应。&lt;/p&gt;
+&lt;p&gt;突然想起周杰伦有一首“七里香”，里面有一句：秋刀鱼的滋味，猫跟你都想了解。&lt;/p&gt;
 &lt;p&gt;但我不想了解，暂时一点都不想&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/Bbp9ZaJD_eA"&gt;&lt;/iframe&gt;&lt;/div&gt;</content><category term="life"></category><category term="writing"></category></entry><entry><title>装了一台学习()用pc</title><link href="//tooisorahe.com/new-pc.html" rel="alternate"></link><published>2019-06-08T22:30:00+00:00</published><updated>2019-06-08T22:30:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-06-08:/new-pc.html</id><summary type="html">&lt;p&gt;距离上次发博客，貌似又过了一个月的时间...&lt;/p&gt;
+&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/Bbp9ZaJD_eA"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;所谓一朝被蛇咬，十年怕井绳&lt;/p&gt;
+</content><category term="life"></category><category term="writing"></category></entry><entry><title>装了一台学习()用pc</title><link href="//tooisorahe.com/new-pc.html" rel="alternate"></link><published>2019-06-08T22:30:00+00:00</published><updated>2019-06-08T22:30:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-06-08:/new-pc.html</id><summary type="html">&lt;p&gt;距离上次发博客，貌似又过了一个月的时间...&lt;/p&gt;
 &lt;p&gt;目前是大一第二学期，说实在的，课是真的很多 &lt;del&gt;水课占一半&lt;/del&gt; 再加上还报了计算机二级和英语四级，对于本就不多
 的时间来说无疑是雪上加霜。所幸计算机二级难度并不大，几周前已收到通过的信息，也算是减轻一些负担。&lt;/p&gt;
 &lt;p&gt;回到正题。旧电脑已经陪伴我四年有余，日常看看网页，玩下dota2并没有什么问题，但在使用某些软件时就有些捉襟见肘了。
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -301,7 +355,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -330,7 +384,7 @@ Dota6.75-6.81&lt;/div&gt;
 而2600x可是有6C12T，多6T多开框框数着玩简直是excited啊！比辣鸡牙膏厂不知道高到哪里去了。AMD，YES！&lt;/p&gt;
 &lt;img alt="AMD YES" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
 &lt;p&gt;最后下单的配置大概就是下面这个样子，还有一些杂七杂八的就不一一列了。&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
