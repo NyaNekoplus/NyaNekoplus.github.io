@@ -14,8 +14,7 @@
 粉丝的构成。&lt;/p&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+&lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
 就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
 自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
 &lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
@@ -30,14 +29,6 @@
 粉丝的构成。&lt;/p&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;C:\myblog\content\tech\xz666.zhs.rst&lt;/tt&gt;, line 27)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-详细(实现具有时效性，一段时间后可能失效)
--------------------
-&lt;/pre&gt;
-&lt;/div&gt;
 &lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬)。我
 了解到微博有三个域名：m.weibo.cn, weibo.com。其中 是旧时代的遗物，页面简单，
 但信息少；在三个域名中是最好爬的。m.weibo.cn是手机端的页面，信息足够。
@@ -74,7 +65,8 @@ weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种�
 否则会被小棺家封号...解决方案是上某宝买点小号建个账号池，如果被封换个Cookie就
 完事了。&lt;/p&gt;
 &lt;p&gt;虽然只是个小玩具，但基本达到了目的。至于结论，不用多说也心知肚明，笑一笑就好。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?1FV411d7u&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1FV411d7u7&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;看的我真是无地自容&lt;/p&gt;
+&lt;/div&gt;
 </content><category term="tech"></category><category term="toy"></category><category term="python"></category></entry><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
@@ -329,7 +321,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="borderless docutils table"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -355,7 +347,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="borderless docutils table"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -384,7 +376,7 @@ Dota6.75-6.81&lt;/div&gt;
 而2600x可是有6C12T，多6T多开框框数着玩简直是excited啊！比辣鸡牙膏厂不知道高到哪里去了。AMD，YES！&lt;/p&gt;
 &lt;img alt="AMD YES" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
 &lt;p&gt;最后下单的配置大概就是下面这个样子，还有一些杂七杂八的就不一一列了。&lt;/p&gt;
-&lt;table border="0" class="borderless docutils table"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
