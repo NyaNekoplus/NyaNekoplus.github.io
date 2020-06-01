@@ -383,15 +383,7 @@ Dota6.75-6.81&lt;/div&gt;
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;樱&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;C:\myblog\content\life\for-the-memory-that-has-been-forgotten.zhs.rst&lt;/tt&gt;, line 140)&lt;/p&gt;
-&lt;p&gt;Unknown directive type "youku".&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-.. youku:: XMTU3NzEwMTA0
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;日々を振り返られる                    私になりたい&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;日々を振り返られる                    私になりたい&lt;/p&gt;
 &lt;p&gt;桜、散る事                           見ないように生きようとした&lt;/p&gt;
 &lt;p&gt;花開く夢さえ                         知らないままで...&lt;/p&gt;
 &lt;/div&gt;
@@ -502,7 +494,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -528,7 +520,7 @@ Dota6.75-6.81&lt;/div&gt;
 原因也很简单，X5570是在近10年前发售的，架构和工艺相较于现在落后太多，而4C8T在现在只能是中等偏下的水准。显卡则
 是丐中丐的网吧拆机962 &lt;del&gt;浑身散发着图吧垃圾佬的气息&lt;/del&gt; ，很多游戏都只能在1080p的较低画质下运行。&lt;del&gt;这是最不能忍的地方&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;在图吧和卡吧潜伏了几个月之后，经过对价格走势图的仔细研究，再结合自己的预算，得出第一套配置如下：&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
@@ -557,7 +549,7 @@ Dota6.75-6.81&lt;/div&gt;
 而2600x可是有6C12T，多6T多开框框数着玩简直是excited啊！比辣鸡牙膏厂不知道高到哪里去了。AMD，YES！&lt;/p&gt;
 &lt;img alt="AMD YES" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
 &lt;p&gt;最后下单的配置大概就是下面这个样子，还有一些杂七杂八的就不一一列了。&lt;/p&gt;
-&lt;table border="0" class="docutils table borderless"&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="15%"/&gt;
 &lt;col width="85%"/&gt;
