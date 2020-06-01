@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//tooisorahe.com/</loc>
-<lastmod>2020-06-01T10:27:44-00:00</lastmod>
+<lastmod>2020-06-01T13:52:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/archives.html</loc>
-<lastmod>2020-06-01T10:27:44-00:00</lastmod>
+<lastmod>2020-06-01T13:52:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/tags.html</loc>
-<lastmod>2020-06-01T10:27:44-00:00</lastmod>
+<lastmod>2020-06-01T13:52:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//tooisorahe.com/categories.html</loc>
-<lastmod>2020-06-01T10:27:44-00:00</lastmod>
+<lastmod>2020-06-01T13:52:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -76,6 +76,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//tooisorahe.com/new-pc.html</loc>
 <lastmod>2019-06-08T22:30:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//tooisorahe.com/my-blog.html</loc>
+<lastmod>2019-05-11T15:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,15 +158,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//tooisorahe.com/tag/music.html</loc>
-<lastmod>2019-05-09T21:20:00+00:00</lastmod>
+<loc>//tooisorahe.com/tag/life.html</loc>
+<lastmod>2019-05-11T15:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/tag/life.html</loc>
-<lastmod>2019-04-21T15:30:00+00:00</lastmod>
+<loc>//tooisorahe.com/tag/music.html</loc>
+<lastmod>2019-05-09T21:20:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
