@@ -20,12 +20,12 @@
 
 平时对CPU的需求不大，不拖GPU后腿就行，2600X不多说了， AMD，yes！辣鸡牙膏厂滚出！
 
-..image:: {static}/images/amdyes.jpg
+.. image:: {static}/images/amdyes.jpg
     :alt: AMD yes
 
 CPU低了GPU直接拉满，AMD的cpu和gpu的风评完全就是反比，gpu方面感觉amd拍马也赶不上核弹厂，特级厨师不是白叫的。
 
-..image:: {static}/images/huang.jpg
+.. image:: {static}/images/huang.jpg
     :alt: nVidia
 
 选了凄惨红的2080tiOC版。七彩虹的售后目前应该是几个大厂里做的最好的，支持个人送保也就不必

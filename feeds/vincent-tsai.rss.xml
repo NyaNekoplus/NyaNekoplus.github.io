@@ -10,7 +10,7 @@
 成为全网津津乐道的对象。而当今肖战则更胜一筹，个人实力什么的无所谓，只要粉
 丝够多够无脑，我就是饭圈当之无愧的扛把子。&lt;/p&gt;
 &lt;p&gt;本人亦有幸被肖战的粉丝 &lt;ruby&gt;&lt;rb&gt;临幸&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;攻击&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 过，其言语之粗鄙，其态度之恶劣，实在
-是所有键盘侠的楷模。藉此次大作业的机会，我决定爬一爬肖战的微博，研究一下他
+是所有键盘侠的楷模。藉此次机会，我决定爬一爬肖战的微博，研究一下他
 粉丝的构成。&lt;/p&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
@@ -91,13 +91,10 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 &lt;p&gt;既然要换电脑，图吧卡吧是免不了要去的，里面的老哥个个是人才说话又好听，还精通如何薅狗东羊毛；真的超喜欢
 在里面的。潜伏了几个月之后，得出的配置：&lt;/p&gt;
 &lt;p&gt;平时对CPU的需求不大，不拖GPU后腿就行，2600X不多说了， AMD，yes！辣鸡牙膏厂滚出！&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;..image:: {static}/images/amdyes.jpg&lt;/dt&gt;
-&lt;dd&gt;&lt;table border="0" class="first table last field-list docutils" frame="void" rules="none"&gt;
-&lt;col class="field-name"/&gt;
-&lt;col class="field-body"/&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;alt:&lt;/th&gt;&lt;td class="field-body"&gt;AMD …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/dd&gt;&lt;/dl&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 08 Jun 2019 22:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-06-08:/new-pc.html</guid><category>life</category><category>newPC</category></item><item><title>博客相关</title><link>//tooisorahe.com/my-blog.html</link><description>&lt;p&gt;偶尔想在网路上写些东西，但一直没有想到好的平台。
+&lt;img alt="AMD yes" class="img-responsive" src="//tooisorahe.com/images/amdyes.jpg"/&gt;
+&lt;p&gt;CPU低了GPU直接拉满，AMD的cpu和gpu的风评完全就是反比，gpu方面感觉amd拍马也赶不上核弹厂，特级厨师不是白叫的。&lt;/p&gt;
+&lt;img alt="nVidia" class="img-responsive" src="//tooisorahe.com/images/huang.jpg"/&gt;
+&lt;p&gt;选了凄惨红的2080tiOC版。七彩虹的售后目前应该是几个大厂里做的最好的，支持个人送保也就不必 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 08 Jun 2019 22:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-06-08:/new-pc.html</guid><category>life</category><category>newPC</category></item><item><title>博客相关</title><link>//tooisorahe.com/my-blog.html</link><description>&lt;p&gt;偶尔想在网路上写些东西，但一直没有想到好的平台。
 由于对微信的厌恶已经到了不是必要的话绝不打开的程度，所以想都不用想。
 QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系用，所以也剔除。
 受到前辈们的启发，我决定搭一个个人博客，这似乎也比较“符合”程序员的习惯(?)。&lt;/p&gt;
@@ -111,19 +108,5 @@ QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系
 慢了点，但可以省去备案之类一系列繁琐操作。 &lt;del&gt;私有的东西还想让我去登记一下简直是无稽之谈&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;主题来自 &lt;a class="reference external" href="https://farseerfc.me/zhs/"&gt;farseefc&lt;/a&gt; ，我自己再加了些许修改。&lt;/p&gt;
 &lt;p&gt;之前在网上看到了一段关于“写博客对程序员重不重要”的话：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="go"&gt;很重要 …&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 11 May 2019 15:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-11:/my-blog.html</guid><category>life</category><category>writing</category><category>life</category></item><item><title>那些令我感到温暖的声音</title><link>//tooisorahe.com/warm-voice.html</link><description>&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
-&lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
-那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
-&lt;p&gt;——为什麽这么忙？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;del&gt;垃圾水课gc课程表&lt;/del&gt; ！————来自一个 &lt;del&gt;被迫&lt;/del&gt; 使用游戏时间来敲代码的辣鸡的深深怨念&lt;/blockquote&gt;
-&lt;p&gt;人在疲惫的时候总是需要一些放松的方式。&lt;/p&gt;
-&lt;p&gt;敲完代码，时间已近 &lt;del&gt;断网时间&lt;/del&gt; 11点。看来今晚不能跟小伙伴们快乐dota了。打开某易云...&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/pXHJH71H3xY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
-&lt;p&gt;11：30，该睡觉了。明天又是 &lt;del&gt;摸鱼&lt;/del&gt; 美好的一天。&lt;/p&gt;
-&lt;p&gt;Q：为什麽是Youtube？&lt;/p&gt;
-&lt;p&gt;A：这首
-&lt;a class="reference external" href="https://music.163.com/#/song?id=36270494"&gt;きみがくれたシャイニーストーリー&lt;/a&gt;
-已被某易购买了版权，所以不能使用外链&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Thu, 09 May 2019 21:20:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-09:/warm-voice.html</guid><category>life</category><category>music</category><category>writing</category></item><item><title>你好 世界</title><link>//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html</link><description>&lt;p&gt;由此启程...&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="go"&gt;很重要 …&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 11 May 2019 15:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-11:/my-blog.html</guid><category>life</category><category>writing</category><category>life</category></item><item><title>你好 世界</title><link>//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html</link><description>&lt;p&gt;由此启程...&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 21 Apr 2019 15:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-04-21:/新的开始.html</guid><category>life</category><category>Life</category></item></channel></rss>
