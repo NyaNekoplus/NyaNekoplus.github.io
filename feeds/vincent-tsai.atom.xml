@@ -210,7 +210,8 @@ Planar Reflection&lt;/div&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;将获得的反射矩阵在观察空间中变换即可(先乘view再乘reflect)；但这并不是最终结果。当物体在平面下时，反射贴图本应不显示物体
 的反射虚像，但由于camera的frustum是下图的形式，所以依然会显示虚像，视觉上的效果是物体翻了个面。解决方法是将frustum的近
-平面与反射平面平齐。如下，参考了 &lt;a class="reference external" href="http://www.terathon.com/lengyel/Lengyel-Oblique.pdf"&gt;这个&lt;/a&gt;&lt;/p&gt;
+平面与反射平面平齐。如下，参考了 &lt;a class="reference external" href="http://www.terathon.com/lengyel/Lengyel-Oblique.pdf"&gt;这个&lt;/a&gt; 。需要启用CULL FACE
+将背面裁去，所以生成模型的时候顶点的顺序很重要。&lt;/p&gt;
 &lt;div class="panel panel-default"&gt;
 &lt;div class="panel-heading"&gt;
 FrustumClipping&lt;/div&gt;
@@ -245,8 +246,10 @@ FrustumClipping&lt;/div&gt;
 还有一些bug&lt;/p&gt;
 &lt;p&gt;一共用了一个月左右，不得不提OpenGL的api简直就是反直觉，用起来总感觉膈应，而且也非常底层，什么都要自己写的感觉实在是酸爽..
 最后就是写shader的时候没有任何语法联想，出错了只能看那短短几行的错误输出来定位..还好这次的shader并不复杂。&lt;/p&gt;
-&lt;p&gt;要说有什么实质性的收获的话，&lt;del&gt;学会了如何调节单机游戏里的图形选项在一般的硬件上以最好画质运行&lt;/del&gt; 代码水平提升了！&lt;/p&gt;
-&lt;p&gt;仓促间写的总结，应该会有很多纰漏，还有一些点也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；总之有时间再改吧&lt;/p&gt;
+&lt;p&gt;要说有什么实质性的收获的话，&lt;del&gt;学会了如何调单机游戏里的图形选项在一般的硬件上以最好画质运行&lt;/del&gt; 代码水平提升了！&lt;/p&gt;
+&lt;p&gt;仓促间写的总结，应该会有很多纰漏，还有一些细节也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；硬盘里10G galgame
+还没推，steam上买了很久的游戏一次都没启动过... &lt;del&gt;我都花钱买了凭什么还要花时间去玩&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;总之有时间再改吧(&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="tech"></category><category term="toy"></category><category term="c++"></category><category term="cg"></category></entry><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
@@ -383,7 +386,7 @@ Dota6.75-6.81&lt;/div&gt;
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;桜&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table borderless docutils"&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -395,7 +398,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table borderless docutils"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -407,7 +410,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table borderless docutils"&gt;
+&lt;table border="0" class="borderless table docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -554,8 +557,8 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;p&gt;装好后测了下买了很久的 &lt;del&gt;显卡&lt;/del&gt; 天国：救赎，不知道是不是优化太差，全高特效下在野外帧数稳定在140，而在城镇里只能勉强60帧。&lt;/p&gt;
 &lt;p&gt;可以愉快地开始 &lt;ruby&gt;&lt;rb&gt;学习&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;?&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 了。&lt;/p&gt;
 </content><category term="life"></category><category term="newPC"></category></entry><entry><title>博客相关</title><link href="//tooisorahe.com/my-blog.html" rel="alternate"></link><published>2019-05-11T15:00:00+00:00</published><updated>2019-05-11T15:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-05-11:/my-blog.html</id><summary type="html">&lt;p&gt;偶尔想在网路上写些东西，但一直没有想到好的平台。
-由于对微信的厌恶已经到了不是必要的话绝不打开的程度，所以想都不用想。
-QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系用，所以也剔除。
+由于对微信实在是没有好感，所以根本就没有考虑过。
+QQ虽然经常用，但对写作并不友好，主要还是朋友之间联系用，所以也剔除。
 受到前辈们的启发，我决定搭一个个人博客，这似乎也比较“符合”程序员的习惯(?)。&lt;/p&gt;
 &lt;p&gt;因为对资源没有特殊的需求，所以也没有买额外的服务器，直接用GitHub page搭了
 个静态博客，毕竟视频、音频什么的都可以外链解决。&lt;/p&gt;
@@ -568,9 +571,9 @@ QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系
 &lt;p&gt;主题来自 &lt;a class="reference external" href="https://farseerfc.me/zhs/"&gt;farseefc&lt;/a&gt; ，我自己再加了些许修改。&lt;/p&gt;
 &lt;p&gt;——之前在网上看到了一段关于“写博客对程序员重不重要”的话：&lt;/p&gt;
 &lt;blockquote&gt;
-很重要 …&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;偶尔想在网路上写些东西，但一直没有想到好的平台。
-由于对微信的厌恶已经到了不是必要的话绝不打开的程度，所以想都不用想。
-QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系用，所以也剔除。
+&lt;p&gt;很重要 …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;偶尔想在网路上写些东西，但一直没有想到好的平台。
+由于对微信实在是没有好感，所以根本就没有考虑过。
+QQ虽然经常用，但对写作并不友好，主要还是朋友之间联系用，所以也剔除。
 受到前辈们的启发，我决定搭一个个人博客，这似乎也比较“符合”程序员的习惯(?)。&lt;/p&gt;
 &lt;p&gt;因为对资源没有特殊的需求，所以也没有买额外的服务器，直接用GitHub page搭了
 个静态博客，毕竟视频、音频什么的都可以外链解决。&lt;/p&gt;
@@ -583,10 +586,11 @@ QQ虽然经常用，但在写作上并不友好，主要还是朋友之间联系
 &lt;p&gt;主题来自 &lt;a class="reference external" href="https://farseerfc.me/zhs/"&gt;farseefc&lt;/a&gt; ，我自己再加了些许修改。&lt;/p&gt;
 &lt;p&gt;——之前在网上看到了一段关于“写博客对程序员重不重要”的话：&lt;/p&gt;
 &lt;blockquote&gt;
-很重要。
-你需要一个练习表达能力的地方，
-你还需要一个通过表达来梳理思绪的地方，
-你更需要有一个树洞。&lt;/blockquote&gt;
+&lt;p&gt;很重要。&lt;/p&gt;
+&lt;p&gt;你需要一个练习表达能力的地方，&lt;/p&gt;
+&lt;p&gt;你还需要一个通过表达来梳理思绪的地方，&lt;/p&gt;
+&lt;p&gt;你更需要有一个树洞。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;这大概就是这个博客的目的所在吧。&lt;/p&gt;
 </content><category term="life"></category><category term="writing"></category><category term="life"></category></entry><entry><title>你好 世界</title><link href="//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html" rel="alternate"></link><published>2019-04-21T15:30:00+00:00</published><updated>2019-04-21T15:30:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-04-21:/新的开始.html</id><content type="html">&lt;p&gt;由此启程...&lt;/p&gt;
 </content><category term="life"></category><category term="Life"></category></entry></feed>

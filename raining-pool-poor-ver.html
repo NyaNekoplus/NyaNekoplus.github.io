@@ -352,7 +352,8 @@ Planar Reflection</div>
 </pre></div>
 <p>将获得的反射矩阵在观察空间中变换即可(先乘view再乘reflect)；但这并不是最终结果。当物体在平面下时，反射贴图本应不显示物体
 的反射虚像，但由于camera的frustum是下图的形式，所以依然会显示虚像，视觉上的效果是物体翻了个面。解决方法是将frustum的近
-平面与反射平面平齐。如下，参考了 <a class="reference external" href="http://www.terathon.com/lengyel/Lengyel-Oblique.pdf">这个</a></p>
+平面与反射平面平齐。如下，参考了 <a class="reference external" href="http://www.terathon.com/lengyel/Lengyel-Oblique.pdf">这个</a> 。需要启用CULL FACE
+将背面裁去，所以生成模型的时候顶点的顺序很重要。</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 FrustumClipping</div>
@@ -387,8 +388,10 @@ FrustumClipping</div>
 还有一些bug</p>
 <p>一共用了一个月左右，不得不提OpenGL的api简直就是反直觉，用起来总感觉膈应，而且也非常底层，什么都要自己写的感觉实在是酸爽..
 最后就是写shader的时候没有任何语法联想，出错了只能看那短短几行的错误输出来定位..还好这次的shader并不复杂。</p>
-<p>要说有什么实质性的收获的话，<del>学会了如何调节单机游戏里的图形选项在一般的硬件上以最好画质运行</del> 代码水平提升了！</p>
-<p>仓促间写的总结，应该会有很多纰漏，还有一些点也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；总之有时间再改吧</p>
+<p>要说有什么实质性的收获的话，<del>学会了如何调单机游戏里的图形选项在一般的硬件上以最好画质运行</del> 代码水平提升了！</p>
+<p>仓促间写的总结，应该会有很多纰漏，还有一些细节也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；硬盘里10G galgame
+还没推，steam上买了很久的游戏一次都没启动过... <del>我都花钱买了凭什么还要花时间去玩</del></p>
+<p>总之有时间再改吧(</p>
 </div>
 
             </div>
