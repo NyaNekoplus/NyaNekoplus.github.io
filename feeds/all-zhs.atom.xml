@@ -243,12 +243,14 @@ FrustumClipping&lt;/div&gt;
 &lt;h2&gt;最后&lt;/h2&gt;
 &lt;p&gt;为什么是丐版？&lt;/p&gt;
 &lt;p&gt;因为真的就只是把文刀秋二大佬文章中的features做了出来而已..全部代码大概1000行多点， &lt;del&gt;完全就是屎山&lt;/del&gt; ;最终效果一般而且
-还有一些bug&lt;/p&gt;
-&lt;p&gt;一共用了一个月左右，不得不提OpenGL的api简直就是反直觉，用起来总感觉膈应，而且也非常底层，什么都要自己写的感觉实在是酸爽..
-最后就是写shader的时候没有任何语法联想，出错了只能看那短短几行的错误输出来定位..还好这次的shader并不复杂。&lt;/p&gt;
-&lt;p&gt;要说有什么实质性的收获的话，&lt;del&gt;学会了如何调单机游戏里的图形选项在一般的硬件上以最好画质运行&lt;/del&gt; 代码水平提升了！&lt;/p&gt;
-&lt;p&gt;仓促间写的总结，应该会有很多纰漏，还有一些细节也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；硬盘里10G galgame
-还没推，steam上买了很久的游戏一次都没启动过... &lt;del&gt;我都花钱买了凭什么还要花时间去玩&lt;/del&gt;&lt;/p&gt;
+还有一些地方偷懒了。&lt;/p&gt;
+&lt;p&gt;因为之前完全没用过OpenGL，所以耗时比较长，一边学一边写总共用了一个多月。
+不得不提OpenGL的api有点反直觉，用起来总有微妙的感觉。因为接近底层的缘故，坑非常多，刚开始的VAO,VBO,EBO折腾了好一会儿才
+搞懂。api也相对原始，如果不适当抽象一下的话代码行数立马蹭蹭往上涨，过两天再看会觉得很痛苦。
+最后就是写shader的时候没有任何语法提示，出错了只能看那短短几行的错误输出来定位..还好这次的shader并不复杂。&lt;/p&gt;
+&lt;p&gt;要说有什么实质性的收获的话，&lt;del&gt;大概知道了单机游戏里的图形选项是怎么回事，以及消耗如何&lt;/del&gt; 代码水平提升了！&lt;/p&gt;
+&lt;p&gt;仓促间写的总结，应该会有很多纰漏，还有一些细节也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；
+steam上买了很久的游戏一次都没玩过... &lt;del&gt;我都花钱买了凭什么还要花时间去玩&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;总之有时间再改吧(&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="tech"></category><category term="toy"></category><category term="c++"></category><category term="cg"></category></entry><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
@@ -386,7 +388,7 @@ Dota6.75-6.81&lt;/div&gt;
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;桜&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="borderless table docutils"&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -398,7 +400,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="borderless table docutils"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -410,7 +412,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="borderless table docutils"&gt;
+&lt;table border="0" class="table docutils borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
