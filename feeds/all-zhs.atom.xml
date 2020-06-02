@@ -70,9 +70,13 @@ weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种�
 </content><category term="tech"></category><category term="toy"></category><category term="python"></category></entry><entry><title>丐版池塘夜雨</title><link href="//tooisorahe.com/raining-pool-poor-ver.html" rel="alternate"></link><published>2020-03-30T17:00:00+00:00</published><updated>2020-03-30T17:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</id><summary type="html">&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些
-图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：img，img。&lt;/p&gt;
-&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。众所周知，虽然ray tracing所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率简直不能看。上面的结果每像素1000samples，用时5min..效率感人。离线渲染坑太
+图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：&lt;/p&gt;
+&lt;p&gt;1000sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell" class="img-responsive" src="//tooisorahe.com/images/Cornell.png"/&gt;
+&lt;p&gt;100sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/&gt;
+&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。&lt;/p&gt;
 &lt;p&gt;之前看到过文刀秋二大大的 &lt;a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493"&gt;一篇文章&lt;/a&gt; ，正好这
@@ -80,12 +84,16 @@ weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种�
 索性就尝试一下，顺便学习一些实时渲染方面的知识。&lt;/p&gt;
 &lt;p&gt;先放上结果：&lt;/p&gt;
 &lt;img alt="池塘夜雨" class="img-responsive" src="//tooisorahe.com/images/rainingpool.PNG"/&gt;
-&lt;p&gt;完成了：天空盒、基本的水面效果 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id2"&gt;
+&lt;p&gt;完成了：天空盒 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些
-图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：img，img。&lt;/p&gt;
-&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。众所周知，虽然ray tracing所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率简直不能看。上面的结果每像素1000samples，用时5min..效率感人。离线渲染坑太
+图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：&lt;/p&gt;
+&lt;p&gt;1000sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell" class="img-responsive" src="//tooisorahe.com/images/Cornell.png"/&gt;
+&lt;p&gt;100sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/&gt;
+&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。&lt;/p&gt;
 &lt;p&gt;之前看到过文刀秋二大大的 &lt;a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493"&gt;一篇文章&lt;/a&gt; ，正好这
@@ -388,7 +396,7 @@ Dota6.75-6.81&lt;/div&gt;
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;桜&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table docutils borderless"&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="docutils table borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -400,7 +408,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="docutils table borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -412,7 +420,7 @@ Dota6.75-6.81&lt;/div&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="docutils table borderless"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;

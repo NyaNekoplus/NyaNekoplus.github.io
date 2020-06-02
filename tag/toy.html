@@ -231,9 +231,13 @@
                     <div class="summary"><div class="section" id="id2">
 <h2>写在前面</h2>
 <p>因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些
-图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 <del>看着还行</del> ：img，img。</p>
-<p>如前面所写的，我之前所了解的都是图形学中离线渲染的部分。众所周知，虽然ray tracing所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率简直不能看。上面的结果每像素1000samples，用时5min..效率感人。离线渲染坑太
+图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 <del>看着还行</del> ：</p>
+<p>1000sample per pixel</p>
+<img alt="Cornell" class="img-responsive" src="//tooisorahe.com/images/Cornell.png"/>
+<p>100sample per pixel</p>
+<img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/>
+<p>如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。</p>
 <p>之前看到过文刀秋二大大的 <a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493">一篇文章</a> ，正好这
@@ -241,7 +245,7 @@
 索性就尝试一下，顺便学习一些实时渲染方面的知识。</p>
 <p>先放上结果：</p>
 <img alt="池塘夜雨" class="img-responsive" src="//tooisorahe.com/images/rainingpool.PNG"/>
-<p>完成了：天空盒、基本的水面效果 …</p></div>
+<p>完成了：天空盒 …</p></div>
                     </div>
                 </div>
             </article>

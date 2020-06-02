@@ -17,9 +17,13 @@
 &lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Thu, 28 May 2020 09:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-05-28:/xz666.html</guid><category>tech</category><category>toy</category><category>python</category></item><item><title>丐版池塘夜雨</title><link>//tooisorahe.com/raining-pool-poor-ver.html</link><description>&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些
-图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：img，img。&lt;/p&gt;
-&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。众所周知，虽然ray tracing所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率简直不能看。上面的结果每像素1000samples，用时5min..效率感人。离线渲染坑太
+图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 &lt;del&gt;看着还行&lt;/del&gt; ：&lt;/p&gt;
+&lt;p&gt;1000sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell" class="img-responsive" src="//tooisorahe.com/images/Cornell.png"/&gt;
+&lt;p&gt;100sample per pixel&lt;/p&gt;
+&lt;img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/&gt;
+&lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。&lt;/p&gt;
 &lt;p&gt;之前看到过文刀秋二大大的 &lt;a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493"&gt;一篇文章&lt;/a&gt; ，正好这
@@ -27,7 +31,7 @@
 索性就尝试一下，顺便学习一些实时渲染方面的知识。&lt;/p&gt;
 &lt;p&gt;先放上结果：&lt;/p&gt;
 &lt;img alt="池塘夜雨" class="img-responsive" src="//tooisorahe.com/images/rainingpool.PNG"/&gt;
-&lt;p&gt;完成了：天空盒、基本的水面效果 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 30 Mar 2020 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</guid><category>tech</category><category>toy</category><category>c++</category><category>cg</category></item><item><title>为了忘却的记忆</title><link>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</link><description>&lt;div class="section" id="ti9"&gt;
+&lt;p&gt;完成了：天空盒 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 30 Mar 2020 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</guid><category>tech</category><category>toy</category><category>c++</category><category>cg</category></item><item><title>为了忘却的记忆</title><link>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</link><description>&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
