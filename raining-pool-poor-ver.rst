@@ -161,7 +161,7 @@
 .. panel-default::
     :title: FrustumClipping
         
-        .. image:: FrustumClipping.png
+        .. image:: {static}/images/FrustumClipping.png
             :alt: FrustumClipping
 
 .. code-block:: console
