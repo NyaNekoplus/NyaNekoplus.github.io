@@ -48,12 +48,12 @@ rst的行内角色，使用方法是
 
 .. code-block:: console
 
-    ..buriburi:: 后接AV/BV号
+    .. buriburi:: 后接AV/BV号
         :page: 可选分p页
 
 :del:`陈睿震怒` 
 
-.. image:: chenrui.jpg
+.. image:: {static}/images/chenrui.jpg
     :alt: 叔叔我啊，是真的生气了
     :align: center
 
