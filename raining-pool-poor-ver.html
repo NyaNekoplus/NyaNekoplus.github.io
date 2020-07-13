@@ -24,13 +24,13 @@
 
         <meta name="author" content="Vincent Tsai" />
         <meta name="keywords" content="toy,c++,cg" />
-        <meta name="description" content="写在前面 因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些 图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 看着还行 ： 1000sample per pixel 100sample per pixel 如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但 如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。 之前看到过文刀秋二大大的 一篇文章 ，正好这 学期了解了数据结构，与文中的背景基本相似。虽然大作业的题目并不是文中的“池塘夜雨”，但由于学校出的题目过于无聊， 索性就尝试一下，顺便学习一些实时渲染方面的知识。 先放上结果： 完成了：天空盒 …" />
+        <meta name="description" content="写在前面 因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些 图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 看着还行 ： 1000sample per pixel 100sample per pixel 如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但 如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min(600x600)...。离线渲染坑太 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。 之前看到过文刀秋二大大的 一篇文章 ，正好这 学期了解了数据结构，与文中的背景基本相似。虽然大作业的题目并不是文中的“池塘夜雨”，但由于学校出的题目过于无聊， 索性就尝试一下，顺便学习一些实时渲染方面的知识。 先放上结果： 完成了 …" />
 
         <meta property="og:site_name" content="悠远的苍穹" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="丐版池塘夜雨"/>
         <meta property="og:url" content="//tooisorahe.com/raining-pool-poor-ver.html"/>
-        <meta property="og:description" content="写在前面 因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些 图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 看着还行 ： 1000sample per pixel 100sample per pixel 如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但 如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。 之前看到过文刀秋二大大的 一篇文章 ，正好这 学期了解了数据结构，与文中的背景基本相似。虽然大作业的题目并不是文中的“池塘夜雨”，但由于学校出的题目过于无聊， 索性就尝试一下，顺便学习一些实时渲染方面的知识。 先放上结果： 完成了：天空盒 …"/>
+        <meta property="og:description" content="写在前面 因为对图形学比较感兴趣，前段时间陆续看了fundamentals of computer graphics、raytracing系列，了解了一些 图形学的基础知识，也手撸了一遍光追(丐中丐版)。出来的图的效果 看着还行 ： 1000sample per pixel 100sample per pixel 如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但 如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min(600x600)...。离线渲染坑太 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。 之前看到过文刀秋二大大的 一篇文章 ，正好这 学期了解了数据结构，与文中的背景基本相似。虽然大作业的题目并不是文中的“池塘夜雨”，但由于学校出的题目过于无聊， 索性就尝试一下，顺便学习一些实时渲染方面的知识。 先放上结果： 完成了 …"/>
         <meta property="article:published_time" content="2020-03-30" />
             <meta property="article:section" content="tech" />
             <meta property="article:tag" content="toy" />
@@ -231,7 +231,7 @@
 <p>100sample per pixel</p>
 <img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/>
 <p>如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min(600x600)...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。</p>
 <p>之前看到过文刀秋二大大的 <a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493">一篇文章</a> ，正好这
@@ -383,7 +383,7 @@ FrustumClipping</div>
 <li>数据结构的内容</li>
 </ul>
 <p>写了个循环队列来控制雨点和波纹的逻辑；每一次渲染循环将雨点出队，修改位置后在入队；如果已经飘落到湖面上则重置雨点位置，然后
-往波纹队列中增加一个波纹(在雨点飘落的位置)。同时将波纹出队，判断生命周期是否结束后入队。</p>
+往波纹队列中增加一个波纹(在雨点飘落的位置，通过uniform传入shader)。同时将波纹出队，判断生命周期是否结束后入队。</p>
 </div>
 <div class="section" id="id8">
 <h2>最后</h2>
@@ -394,7 +394,10 @@ FrustumClipping</div>
 不得不提OpenGL的api有点反直觉，用起来总有微妙的感觉。因为接近底层的缘故，坑非常多，刚开始的VAO,VBO,EBO折腾了好一会儿才
 搞懂。api也相对原始，如果不适当抽象一下的话代码行数立马蹭蹭往上涨，过两天再看会觉得很痛苦。
 最后就是写shader的时候没有任何语法提示，出错了只能看那短短几行的错误输出来定位..还好这次的shader并不复杂。</p>
-<p>要说有什么实质性的收获的话，<del>大概知道了单机游戏里的图形选项是怎么回事，以及消耗如何</del> 代码水平提升了！</p>
+<p>要说有什么收获的话，<del>大概知道了单机游戏里的图形选项是怎么回事，以及消耗如何</del> 代码水平提升了！
+还有就是顺利地将这玩意当数据结构大作业交上去了=。=，有个开明的老师真的是非常幸运，
+这一个多月的时间的价值最终还是体现出来了(指实质意义)
+<del>不然的话还要多花点时间在那几个莫名其妙的学校题目上</del> 。</p>
 <p>仓促间写的总结，应该会有很多纰漏，还有一些细节也没来得及写出来。学校的作业还没写完，然而我又想玩游戏了；；
 steam上买了很久的游戏一次都没玩过... <del>我都花钱买了凭什么还要花时间去玩</del></p>
 <p>总之有时间再改吧(</p>
@@ -517,6 +520,21 @@ steam上买了很久的游戏一次都没玩过... <del>我都花钱买了凭什
 <div class="panel-body">
     <ul class="list-group list-inline tagcloud" id="tags">
             <li class="list-group-item tag-1">
+                <a href="//tooisorahe.com/tag/writing.html">
+                    writing <sup> 4</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/game.html">
+                    game <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/darksouls.html">
+                    DarkSouls <sup> 1</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-1">
                 <a href="//tooisorahe.com/tag/toy.html">
                     toy <sup> 3</sup>
                 </a>
@@ -534,11 +552,6 @@ steam上买了很久的游戏一次都没玩过... <del>我都花钱买了凭什
             <li class="list-group-item tag-4">
                 <a href="//tooisorahe.com/tag/cg.html">
                     cg <sup> 1</sup>
-                </a>
-            </li>
-            <li class="list-group-item tag-1">
-                <a href="//tooisorahe.com/tag/writing.html">
-                    writing <sup> 3</sup>
                 </a>
             </li>
             <li class="list-group-item tag-4">

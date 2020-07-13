@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Thu, 28 May 2020 09:00:00 +0000</lastBuildDate><item><title>肖战，永远滴神！</title><link>//tooisorahe.com/xz666.html</link><description>&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Thu, 25 Jun 2020 12:10:00 +0000</lastBuildDate><item><title>火之将熄</title><link>//tooisorahe.com/the-fire-fades.html</link><description>&lt;p&gt;只是一篇零碎的游戏体验&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;源初的火焰&lt;/h2&gt;
+&lt;p&gt;前段时间通关了黑魂系列，之后因忙于一些意义不明的学校作业，一直没有时间，
+现在忙里偷闲写一写我对这个争议性颇大的ip的感想。&lt;/p&gt;
+&lt;p&gt;最初了解到黑暗之魂这个ip是在2016年，也就是这个系列的第三部发售的年份；
+游戏的监督宫崎英高似乎在这之前就已经凭借ps平台独占游戏 [血源诅咒] 在
+游戏界有了一席之地。正因如此，黑暗之魂3在发售后的第一时间就成为了热点
+话题；玩家都在讨论，那主播也不能落下；记得当时不管是什么游戏分区，播Dota2
+的也好播LOL的也罢，乃至于播CS的都有开荒黑暗之魂3的主播，可见当时的热度之大。&lt;/p&gt;
+&lt;p&gt;魂系列游戏以难度巨大而著称。当时我也看了几次实况，一开始还挺感兴趣的，
+但记得看的那个主播死了七八次连灰古达都过不去(灰烬审判者古达，第一个小boss)，
+而这游戏复活点离boss场景还有相当的距离，这意味着死了还要跑图；
+再加上魂3剧情背景的需求，其整体的美术风格都是以荒凉、死寂作为基调；&lt;/p&gt;
+&lt;p&gt;附图一张(灰烬墓地，2560*1440最高画质)&lt;/p&gt;
+&lt;img alt="灰烬墓地" class="img-responsive" src="//tooisorahe.com/images/darksoul3.png"/&gt;
+&lt;p&gt;可以想象，一次又一次地被新手村boss一戟剁死，然后在如此场景循环往复的跑图是
+多么无聊而又痛苦的事。然后我就被云劝退了(丢人&lt;/p&gt;
+&lt;p&gt;第二次接触魂3是在好友家中。大一暑假时去好友家里作客，此君算是个 &lt;ruby&gt;&lt;rb&gt;资深宅男&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;?&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; ,
+热衷于推Galgame， &lt;del&gt;当然我也喜欢&lt;/del&gt; ；交流了一波推Galgame的心得后 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Thu, 25 Jun 2020 12:10:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-06-25:/the-fire-fades.html</guid><category>life</category><category>writing</category><category>game</category><category>DarkSouls</category></item><item><title>肖战，永远滴神！</title><link>//tooisorahe.com/xz666.html</link><description>&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
 就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
 自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
 &lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
@@ -23,7 +42,7 @@
 &lt;p&gt;100sample per pixel&lt;/p&gt;
 &lt;img alt="Cornell2" class="img-responsive" src="//tooisorahe.com/images/Cornell2.png"/&gt;
 &lt;p&gt;如前面所写的，我之前所了解的都是图形学中离线渲染的部分。可以看到，虽然光线追踪所呈现的效果相对真实，但
-如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min...。离线渲染坑太
+如果不加一些黑魔法优化的话，效率太低。我记得渲染第一张图时好像用了5min(600x600)...。离线渲染坑太
 多，不是一时半会儿可以搞定的；图形学中还有另外一个分支实时渲染，就像名字中所描述的，效率大都能做到实时，也是
 游戏开发的主力，但相对于基本遵循物理定律的光追，真实度方面肯定有所差距。&lt;/p&gt;
 &lt;p&gt;之前看到过文刀秋二大大的 &lt;a class="reference external" href="https://www.zhihu.com/question/29504480/answer/44764493"&gt;一篇文章&lt;/a&gt; ，正好这
@@ -31,7 +50,7 @@
 索性就尝试一下，顺便学习一些实时渲染方面的知识。&lt;/p&gt;
 &lt;p&gt;先放上结果：&lt;/p&gt;
 &lt;img alt="池塘夜雨" class="img-responsive" src="//tooisorahe.com/images/rainingpool.PNG"/&gt;
-&lt;p&gt;完成了：天空盒 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 30 Mar 2020 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</guid><category>tech</category><category>toy</category><category>c++</category><category>cg</category></item><item><title>为了忘却的记忆</title><link>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</link><description>&lt;div class="section" id="ti9"&gt;
+&lt;p&gt;完成了 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 30 Mar 2020 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</guid><category>tech</category><category>toy</category><category>c++</category><category>cg</category></item><item><title>为了忘却的记忆</title><link>//tooisorahe.com/for-the-memory-that-has-been-forgotten.html</link><description>&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
@@ -39,7 +58,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
-&lt;p&gt;看完最后的比赛，刷Max+时无意间刷到了这篇文章：
+&lt;p&gt;看完最后的比赛，刷Max+时无意间看到了这篇文章：
 &lt;a class="reference external" href="http://api.xiaoheihe.cn/maxnews/app/share/detail/1229894"&gt;如果你对Dota仍有爱意，请将TI9留在风中.&lt;/a&gt;
 虽然与文章作者算是差了一个时代，但仍有不少相似的地方。再想到自己已经很久没有主动地打开这个游戏，激动之余也有些许感伤，
 就趁这个机会写一些文字记录下我的Dota旅程，为这个贯穿我整个青春的游戏留下美好的回忆。&lt;/p&gt;
@@ -104,14 +123,13 @@ QQ虽然经常用，但对写作并不友好，主要还是朋友之间联系用
 受到前辈们的启发，我决定搭一个个人博客，这似乎也比较“符合”程序员的习惯(?)。&lt;/p&gt;
 &lt;p&gt;因为对资源没有特殊的需求，所以也没有买额外的服务器，直接用GitHub page搭了
 个静态博客，毕竟视频、音频什么的都可以外链解决。&lt;/p&gt;
-&lt;p&gt;博客引擎是pelican，由python实现。单词的英文翻译是tigu，不过作者似乎是个
+&lt;p&gt;博客引擎是pelican，由python实现。单词的英文翻译是鹈鹕，不过作者似乎是个
 法国人..搞不清楚名字的意图。&lt;/p&gt;
 &lt;p&gt;如果使用GitHub page搭建博客，默认的域名是GitHub用户名+.io。
 既然是个人博客，那自然要有定制的元素， 果断去Namecilo上买了
 &lt;ruby&gt;&lt;rb&gt;tooisorahe&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;遠  い  空  へ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; .com这个域名。墙外的域名国内解析虽然
 慢了点，但可以省去备案之类一系列繁琐操作。 &lt;del&gt;私有的东西还想让我去登记一下简直是无稽之谈&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;主题来自 &lt;a class="reference external" href="https://farseerfc.me/zhs/"&gt;farseefc&lt;/a&gt; ，我自己再加了些许修改。&lt;/p&gt;
-&lt;p&gt;——之前在网上看到了一段关于“写博客对程序员重不重要”的话：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;很重要 …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 11 May 2019 15:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-11:/my-blog.html</guid><category>life</category><category>writing</category><category>life</category></item><item><title>你好 世界</title><link>//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html</link><description>&lt;p&gt;由此启程...&lt;/p&gt;
+&lt;p&gt;主题来自 &lt;a class="reference external" href="https://farseerfc.me/zhs/"&gt;farseefc&lt;/a&gt; ，我自己再加了些许修改。
+评论系统使用了disqus留言，前段时间还是可以正常使用的，不过由于天朝的网络管制条例
+“任何网络上的言论都必须登记在案 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sat, 11 May 2019 15:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-05-11:/my-blog.html</guid><category>life</category><category>writing</category><category>life</category></item><item><title>你好 世界</title><link>//tooisorahe.com/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B.html</link><description>&lt;p&gt;由此启程...&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 21 Apr 2019 15:30:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2019-04-21:/新的开始.html</guid><category>life</category><category>Life</category></item></channel></rss>
