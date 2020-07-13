@@ -14,6 +14,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 
 .. image:: {static}/images/ti9og.jpg
     :alt: OG
+    :align: center
 
 写在前面
 ----------------
@@ -57,6 +58,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 
 .. image:: {static}/images/memory2.jpg
     :alt: Memory
+
 
 翻了翻旧手机找出上面两张图片，第一张是开黑截图，第二张是周末通宵。
 
@@ -176,3 +178,4 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 
 .. image:: {static}/images/shield.jpg
     :alt: 冠军盾
+    :align: center
