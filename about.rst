@@ -21,9 +21,9 @@
 
 Q：那么首先能告诉我你的年龄吗？
 
-A：是19岁
+A：是20岁
 
-Q：19岁···已经工作了吗？
+Q：20岁···已经工作了吗？
 
 A：是学生(
 
@@ -47,7 +47,7 @@ A：是学生(
 
 有深度的动漫、游戏作品、:del:`推Galgame`
 
-古典乐? / off vocal, instrumental版的流行乐 / galgame的BGM
+古典乐? / 交响乐 / off vocal, instrumental版的流行乐 / galgame的BGM
 
 欣赏 `真正的艺术 <https://www.bilibili.com/video/av22293084?from=search&seid=11883145316146581123>`_ 
 
