@@ -213,7 +213,7 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 
 上面代码的测试结果(O2)：
 
-.. image:: .. image:: {static}/images/LUPGUASStimetest.PNG
+.. image:: {static}/images/LUPGUASStimetest.PNG
     :alt: Test
 
 可以看到结果与元矩阵相乘后的确是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。

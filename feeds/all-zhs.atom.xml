@@ -192,7 +192,7 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 &lt;span class="code-line"&gt;&lt;span class="go"&gt;}&lt;/span&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;上面代码的测试结果(O2)：&lt;/p&gt;
-&lt;img alt="Test" class="img-responsive" src="..image::{static}/images/LUPGUASStimetest.PNG"/&gt;
+&lt;img alt="Test" class="img-responsive" src="//tooisorahe.com/images/LUPGUASStimetest.PNG"/&gt;
 &lt;p&gt;可以看到结果与元矩阵相乘后的确是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。&lt;/p&gt;
 &lt;p&gt;放着一堆带优化的开源数学库不用自己去造轮子，我也是有够无聊(&lt;/p&gt;
 &lt;div class="math"&gt;
@@ -862,7 +862,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;桜&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table docutils borderless"&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -874,7 +874,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -886,7 +886,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="table borderless docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
