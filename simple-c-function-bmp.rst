@@ -22,6 +22,7 @@
 代码实现如下(`toybmp.h <https://github.com/NyaNekoplus/toybmp/blob/master/toybmp.h>`_)：
 
 .. image:: {static}/images/toybmp.PNG
+    :alt: Code
 
 用法
 ------------------
@@ -46,6 +47,7 @@
 上面的代码输出此文件:
 
 .. image:: {static}/images/rgb.bmp
+    :alt: rgb
 
 函数声明:
 
@@ -89,5 +91,7 @@
 两张调试过程中的错误图片:
 
 .. image:: {static}/images/err0.bmp
+    :alt: err0
 
 .. image:: {static}/images/err1.bmp
+    :alt: err1

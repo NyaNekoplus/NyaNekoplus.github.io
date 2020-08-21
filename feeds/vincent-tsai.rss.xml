@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Mon, 13 Jul 2020 13:40:00 +0000</lastBuildDate><item><title>20岁</title><link>//tooisorahe.com/twenty.html</link><description>&lt;p&gt;一些无关紧要的碎碎念&lt;/p&gt;
+<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sun, 09 Aug 2020 21:33:00 +0000</lastBuildDate><item><title>LU分解求逆矩阵</title><link>//tooisorahe.com/LU-decomposition.html</link><description>&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
+比较高的要求，所以特地研究一下。&lt;/p&gt;
+&lt;p&gt;在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计；
+要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用
+指令集，这是后话。乘法算法我所知的有Definition和Strassen。两种方法差距如下&lt;/p&gt;
+&lt;p&gt;Strassen： &lt;span class="math"&gt;\(O(n^{2.81})\)&lt;/span&gt; &amp;lt;-----&amp;gt;Definition： &lt;span class="math"&gt;\(O(n^3)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义；
+因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。&lt;/p&gt;
+&lt;p&gt;虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。
+如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为O(n^4)(要算出每个元素的代数余子式)；
+在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
+&lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
+&lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
+过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 09 Aug 2020 21:33:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-08-09:/LU-decomposition.html</guid><category>tech</category><category>note</category><category>Math</category></item><item><title>20岁</title><link>//tooisorahe.com/twenty.html</link><description>&lt;p&gt;一些无关紧要的碎碎念&lt;/p&gt;
 &lt;p&gt;-以前看过村上春树的《挪威的森林》，里面的一个桥段令我久久不能忘怀&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“对直子的二十岁，我竟有些不可思议。我也好，直子也好，总以为应该
@@ -76,7 +89,7 @@
 动物们的故乡是自然，但如今却对铁笼如此趋之若鹜，还是说铁笼才是动物们的故乡？
 (一周目黑魂，有点中毒&lt;/p&gt;
 &lt;p&gt;由于这只鹦鹉的头是黄色的，故命名小黄。上网查了下，品种是黄化玄凤，长这样：&lt;/p&gt;
-&lt;img alt="小黄" class="img-responsive align-center" src="//tooisorahe.com/images/yellow.jpg"/&gt;
+&lt;img alt="小黄" class="align-center img-responsive" src="//tooisorahe.com/images/yellow.jpg"/&gt;
 &lt;p&gt;刚逮住的时候凶得很，一旦有摸它的意图就免不了被咬上一口，竹子都能咬断的咬合力，
 一口出血是再正常不过了；所以也不敢把它放出来，就这样把它晾了一个月；&lt;/p&gt;
 &lt;p&gt;某天晚上回家时发现笼子竟然是开着的，想着它肯定越狱了，没想到开灯之后发现它躲在
@@ -94,7 +107,7 @@
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
-&lt;img alt="OG" class="img-responsive align-center" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;img alt="OG" class="align-center img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
@@ -122,7 +135,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 以MIT协议发布。这个函数由C语言实现，可以将数据写入24-bit RGB
 或 32-bit RGBA 无压缩的BMP。代码长度为25行。&lt;/p&gt;
 &lt;p&gt;代码实现如下(&lt;a class="reference external" href="https://github.com/NyaNekoplus/toybmp/blob/master/toybmp.h"&gt;toybmp.h&lt;/a&gt;)：&lt;/p&gt;
-&lt;img alt="" class="img-responsive" src="//tooisorahe.com/images/toybmp.PNG"/&gt;
+&lt;img alt="Code" class="img-responsive" src="//tooisorahe.com/images/toybmp.PNG"/&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;用法&lt;/h2&gt;
