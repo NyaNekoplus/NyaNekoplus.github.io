@@ -68,7 +68,7 @@ Ux = y
 &lt;/div&gt;
 &lt;p&gt;当b为单位阵时x为逆矩阵。&lt;/p&gt;
 &lt;p&gt;伪代码( &lt;a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf"&gt;来源&lt;/a&gt; )&lt;/p&gt;
-&lt;img alt="LU" class="img-responsive align-center" src="//tooisorahe.com/images/LU.PNG"/&gt;
+&lt;img alt="LU" class="align-center img-responsive" src="//tooisorahe.com/images/LU.PNG"/&gt;
 &lt;p&gt;但这样的算法在计算机上实现时会有运算问题，当Ujj为0时分母为0；为了避免这一点，需要使用LU分解
 的变种LUP分解。&lt;/p&gt;
 &lt;p&gt;其原理和LU分解相似，但逐行消元时要选择该列最大的元素来规避除0(还有保持数值稳定，
@@ -78,7 +78,7 @@ Ux = y
 &lt;p&gt;&lt;span class="math"&gt;\(PA = LU\)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class="math"&gt;\(P = \prod_{i=0}^{n-2}P_i\)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;伪代码( &lt;a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf"&gt;来源&lt;/a&gt; )&lt;/p&gt;
-&lt;img alt="LUP" class="img-responsive align-center" src="//tooisorahe.com/images/LUP.PNG"/&gt;
+&lt;img alt="LUP" class="align-center img-responsive" src="//tooisorahe.com/images/LUP.PNG"/&gt;
 &lt;p&gt;我个人的LUP求逆实现。Matrix4x4是我封装的4x4矩阵类，可视作2维数组&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kr"&gt;inline&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="nf"&gt;LUPdecomposition&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Matrix4x4&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Matrix4x4&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Matrix4x4&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;U&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;P&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
 &lt;span class="code-line"&gt;            &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;/span&gt;
@@ -665,7 +665,7 @@ steam上买了很久的游戏一次都没玩过... &lt;del&gt;我都花钱买了
 &lt;p&gt;总之有时间再改吧(&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="tech"></category><category term="toy"></category><category term="c++"></category><category term="cg"></category></entry><entry><title>声临其境</title><link href="//tooisorahe.com/the-reality-of-the-sound.html" rel="alternate"></link><published>2020-03-20T20:00:00+00:00</published><updated>2020-03-20T20:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-03-20:/the-reality-of-the-sound.html</id><summary type="html">&lt;p&gt;前段时间入了索大法的zx300a和1am2一套，记录下相关的一些东西。&lt;/p&gt;
-&lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
+&lt;img alt="x300a 1am2" class="align-center img-responsive" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
 &lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
 至于花这么多钱吗？&lt;/p&gt;
 &lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resulotion)的态度就有所改观，
@@ -680,7 +680,7 @@ steam上买了很久的游戏一次都没玩过... &lt;del&gt;我都花钱买了
 想听的歌。耗费如此力气，用户的体验反而变差了，颇有南辕北辙的意味。&lt;/p&gt;
 &lt;p&gt;在各个音乐平台间来回切换实在过于麻烦。早期的解决方法是将各个平台上的音乐下载到本地，
 然后选定一个平台使用。但这只是一时之计，没过多久各个平台就发布了自己的加密格式 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;前段时间入了索大法的zx300a和1am2一套，记录下相关的一些东西。&lt;/p&gt;
-&lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
+&lt;img alt="x300a 1am2" class="align-center img-responsive" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
 &lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
 至于花这么多钱吗？&lt;/p&gt;
 &lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resulotion)的态度就有所改观，
@@ -719,7 +719,7 @@ ape、flac、wav属于无损格式，且三者互相转换也不会丢失信息�
 &lt;div class="panel-heading"&gt;
 Signal Wave&lt;/div&gt;
 &lt;div class="panel-body"&gt;
-&lt;img alt="pcm" class="img-responsive" src="//tooisorahe.com/images/pcm.jpg"/&gt;
+&lt;img alt="pcm" class="img-responsive" src="//tooisorahe.com/images/PCM.jpg"/&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;图中的红线表示一个输入信号
@@ -762,7 +762,7 @@ DSD的主体思想就是这样,每一个采样的值是上一个采样的相对�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;当然这两价格都很感人..之前买的：&lt;/p&gt;
-&lt;img alt="Canon" class="img-responsive align-center" src="//tooisorahe.com/images/SonyPay.PNG"/&gt;
+&lt;img alt="Canon" class="align-center img-responsive" src="//tooisorahe.com/images/SonyPay.PNG"/&gt;
 &lt;p&gt;只是一首，整张专要两百多- -。所谓艺术的代价就是如此吧。
 奈何囊中羞涩，只好另寻他法。国内一些类似于pt站的音乐论坛很好的解决了这个问题。&lt;/p&gt;
 &lt;p&gt;在各个论坛上寻找音源的时候，也见到了不少"真发烧友"。他们热衷于讨论一些看似高深得令人
@@ -832,10 +832,7 @@ DSD这种需要硬件解码播放的格式耗电会比仅需软解码的PCM格�
 &lt;p&gt;一首不懂日语的一般通过逸民可以安心欣赏的流行歌曲(过于高雅，请科学上网观看)&lt;/p&gt;
 &lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/J19q4yqMcj8"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;总的来说这次还是很满意的，听音乐不失为一种排解压力的方式；对于好听的、高质量的音乐，更是如此。
 &lt;del&gt;剩下的就是把时间刷到200小时了&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;:del:`
-索尼大法好，天灭任地狱，退软保平安，人在做，天在看，标清锁区留祸患，
-任氏微软天地灭，赶紧卖机保平安，诚心诚念姨夫好，索尼大法保平安，众生都是为索来，
-现世险恶忘前缘，索尼弟子说真相，教你脱险莫拒绝`&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;索尼大法好，天灭任地狱，退软保平安，人在做，天在看，标清锁区留祸患，任氏微软天地灭，赶紧卖机保平安，诚心诚念姨夫好，索尼大法保平安，众生都是为索来，现世险恶忘前缘，索尼弟子说真相，教你脱险莫拒绝&lt;/del&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
@@ -899,7 +896,7 @@ DSD这种需要硬件解码播放的格式耗电会比仅需软解码的PCM格�
 动物们的故乡是自然，但如今却对铁笼如此趋之若鹜，还是说铁笼才是动物们的故乡？
 (一周目黑魂，有点中毒&lt;/p&gt;
 &lt;p&gt;由于这只鹦鹉的头是黄色的，故命名小黄。上网查了下，品种是黄化玄凤，长这样：&lt;/p&gt;
-&lt;img alt="小黄" class="img-responsive align-center" src="//tooisorahe.com/images/yellow.jpg"/&gt;
+&lt;img alt="小黄" class="align-center img-responsive" src="//tooisorahe.com/images/yellow.jpg"/&gt;
 &lt;p&gt;刚逮住的时候凶得很，一旦有摸它的意图就免不了被咬上一口，竹子都能咬断的咬合力，
 一口出血是再正常不过了；所以也不敢把它放出来，就这样把它晾了一个月；&lt;/p&gt;
 &lt;p&gt;某天晚上回家时发现笼子竟然是开着的，想着它肯定越狱了，没想到开灯之后发现它躲在
@@ -919,7 +916,7 @@ DSD这种需要硬件解码播放的格式耗电会比仅需软解码的PCM格�
 动物们的故乡是自然，但如今却对铁笼如此趋之若鹜，还是说铁笼才是动物们的故乡？
 (一周目黑魂，有点中毒&lt;/p&gt;
 &lt;p&gt;由于这只鹦鹉的头是黄色的，故命名小黄。上网查了下，品种是黄化玄凤，长这样：&lt;/p&gt;
-&lt;img alt="小黄" class="img-responsive align-center" src="//tooisorahe.com/images/yellow.jpg"/&gt;
+&lt;img alt="小黄" class="align-center img-responsive" src="//tooisorahe.com/images/yellow.jpg"/&gt;
 &lt;p&gt;刚逮住的时候凶得很，一旦有摸它的意图就免不了被咬上一口，竹子都能咬断的咬合力，
 一口出血是再正常不过了；所以也不敢把它放出来，就这样把它晾了一个月；&lt;/p&gt;
 &lt;p&gt;某天晚上回家时发现笼子竟然是开着的，想着它肯定越狱了，没想到开灯之后发现它躲在
@@ -940,14 +937,14 @@ rst的行内角色，使用方法是&lt;/p&gt;
 &lt;span class="code-line"&gt;&lt;span class="go"&gt;    :page: 可选分p页&lt;/span&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;del&gt;陈睿震怒&lt;/del&gt;&lt;/p&gt;
-&lt;img alt="叔叔我啊，是真的生气了" class="img-responsive align-center" src="//tooisorahe.com/images/chenrui.jpg"/&gt;
+&lt;img alt="叔叔我啊，是真的生气了" class="align-center img-responsive" src="//tooisorahe.com/images/chenrui.jpg"/&gt;
 &lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1uK4y1x7BT&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;第一次投稿，我也总算是为建设批站出了自己的一份力了！&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="life"></category><category term="writing"></category><category term="pet"></category><category term="parrot"></category></entry><entry><title>为了忘却的记忆</title><link href="//tooisorahe.com/for-the-memory-that-has-been-forgotten.html" rel="alternate"></link><published>2019-08-25T22:10:00+00:00</published><updated>2019-08-25T22:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-25:/for-the-memory-that-has-been-forgotten.html</id><summary type="html">&lt;div class="section" id="ti9"&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
-&lt;img alt="OG" class="img-responsive align-center" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;img alt="OG" class="align-center img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
@@ -969,7 +966,7 @@ TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
-&lt;img alt="OG" class="img-responsive align-center" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;img alt="OG" class="align-center img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
@@ -1128,7 +1125,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;祝愿Dota越来越好！————来自一个曾经获得两届TI冠军的男人(&lt;/p&gt;
-&lt;img alt="冠军盾" class="img-responsive align-center" src="//tooisorahe.com/images/shield.jpg"/&gt;
+&lt;img alt="冠军盾" class="align-center img-responsive" src="//tooisorahe.com/images/shield.jpg"/&gt;
 &lt;/div&gt;
 </content><category term="life"></category><category term="writing"></category></entry><entry><title>一个简单的BMP编码函数 TOYBMP()</title><link href="//tooisorahe.com/simple-c-function-bmp.html" rel="alternate"></link><published>2019-08-04T21:22:00+00:00</published><updated>2019-08-04T21:22:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2019-08-04:/simple-c-function-bmp.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
