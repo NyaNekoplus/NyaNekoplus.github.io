@@ -57,7 +57,7 @@
 需要注意的是OpenGL中渲染三角形时按照顶点的顺序来区分正反面，默认逆时针为正面，顺时针为反面；在下面的反射会
 用到。球坐标中的θ∈[0, π]， φ∈[0,2π]，代码如下。
 
-.. code-block:: console
+.. code-block:: c++
 
     void GetPoint(std::vector<float>& p,float u, float v, float r) {
         constexpr float pi = glm::pi<float>();
@@ -105,7 +105,7 @@
 是真实的，但缺点是如果面数不够生成的地形就会棱角分明，很难看。解决方法是增加面(三角形)的数量，但这样开销也会增大；
 生成顶点的代码如下：
 
-.. code-block:: console
+.. code-block:: c++
 
     (size_t rowLen, size_t colLen) {
 	std::vector<glm::vec3> tv;
@@ -140,7 +140,7 @@
         .. image:: {static}/images/planar.PNG
             :alt: Planar Reflection
 
-.. code-block:: console
+.. code-block:: c++
 
     glm::mat4 result = glm::mat4(1.0);
 	float d = -glm::dot(normal, p);
@@ -175,7 +175,7 @@
         .. image:: {static}/images/FrustumClipping.png
             :alt: FrustumClipping
 
-.. code-block:: console
+.. code-block:: c++
     
     glm::vec4 viewSpacePlane = glm::transpose(glm::inverse(reflectView)) * plane;
 	glm::vec4 ViewSpaceFraPlanePoint = glm::transpose(glm::inverse(projection)) * glm::vec4(sign(viewSpacePlane.x), sign(viewSpacePlane.y), 1, 1);

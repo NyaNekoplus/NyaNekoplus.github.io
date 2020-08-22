@@ -288,82 +288,82 @@ Ux = y
 <p>伪代码( <a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf">来源</a> )</p>
 <img alt="LUP" class="align-center img-responsive" src="//tooisorahe.com/images/LUP.PNG"/>
 <p>我个人的LUP求逆实现。Matrix4x4是我封装的4x4矩阵类，可视作2维数组</p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="go">inline bool LUPdecomposition(Matrix4x4&amp; A, Matrix4x4&amp; L, Matrix4x4&amp; U, int* P) {</span></span>
-<span class="code-line"><span class="go">            const int n = 4;</span></span>
-<span class="code-line"><span class="go">            int row = 0;</span></span>
-<span class="code-line"><span class="go">            for (int i = 0; i &lt; n; ++i)</span></span>
-<span class="code-line"><span class="go">                    P[i] = i;</span></span>
-<span class="code-line"><span class="go">            for (int i = 0; i &lt; n-1; ++i) {</span></span>
-<span class="code-line"><span class="go">                    Float max = 0.0;</span></span>
-<span class="code-line"><span class="go">                    for (int j = i; j &lt; n; ++j) { // 最大元素所在行</span></span>
-<span class="code-line"><span class="go">                            Float cur = std::abs(A[j][i]);</span></span>
-<span class="code-line"><span class="go">                            if (cur &gt; max) {</span></span>
-<span class="code-line"><span class="go">                                    max = cur;</span></span>
-<span class="code-line"><span class="go">                                    row = j;</span></span>
-<span class="code-line"><span class="go">                            }</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">                    if (max == 0) { std::cout &lt;&lt; "Singular matrix" &lt;&lt; "A:\n" &lt;&lt; A &lt;&lt; "L:\n" &lt;&lt; L &lt;&lt; "U:\n" &lt;&lt; U; return false; }</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kr">inline</span> <span class="kt">bool</span> <span class="nf">LUPdecomposition</span><span class="p">(</span><span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">A</span><span class="p">,</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">L</span><span class="p">,</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">U</span><span class="p">,</span> <span class="kt">int</span><span class="o">*</span> <span class="n">P</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">            <span class="k">const</span> <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span></span>
+<span class="code-line">            <span class="kt">int</span> <span class="n">row</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span></span>
+<span class="code-line">                    <span class="n">P</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                    <span class="n">Float</span> <span class="n">max</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 最大元素所在行</span></span>
+<span class="code-line">                            <span class="n">Float</span> <span class="n">cur</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">abs</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">]);</span></span>
+<span class="code-line">                            <span class="k">if</span> <span class="p">(</span><span class="n">cur</span> <span class="o">&gt;</span> <span class="n">max</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                                    <span class="n">max</span> <span class="o">=</span> <span class="n">cur</span><span class="p">;</span></span>
+<span class="code-line">                                    <span class="n">row</span> <span class="o">=</span> <span class="n">j</span><span class="p">;</span></span>
+<span class="code-line">                            <span class="p">}</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">                    <span class="k">if</span> <span class="p">(</span><span class="n">max</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Singular matrix"</span> <span class="o">&lt;&lt;</span> <span class="s">"A:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">A</span> <span class="o">&lt;&lt;</span> <span class="s">"L:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">L</span> <span class="o">&lt;&lt;</span> <span class="s">"U:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">U</span><span class="p">;</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span> <span class="p">}</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">                    if (i != row) { std::swap(P[i], P[row]); } //更新置换矩阵</span></span>
+<span class="code-line">                    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">!=</span> <span class="n">row</span><span class="p">)</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">P</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">P</span><span class="p">[</span><span class="n">row</span><span class="p">]);</span> <span class="p">}</span> <span class="c1">//更新置换矩阵</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">                    for (int j = 0; j &lt; n; ++j) // 应用置换矩阵后的A</span></span>
-<span class="code-line"><span class="go">                            std::swap(A[i][j], A[row][j]);</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="c1">// 应用置换矩阵后的A</span></span>
+<span class="code-line">                            <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="n">j</span><span class="p">]);</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        // LU分解，更新A</span></span>
-<span class="code-line"><span class="go">                    Float u = A[i][i], l = 0.0f;</span></span>
-<span class="code-line"><span class="go">                    for (int j = i + 1; j &lt; n; ++j) {</span></span>
-<span class="code-line"><span class="go">                            l = A[j][i] / u;</span></span>
-<span class="code-line"><span class="go">                            A[j][i] = l;</span></span>
-<span class="code-line"><span class="go">                            for (int k = i + 1; k &lt; n; ++k) {</span></span>
-<span class="code-line"><span class="go">                                    A[j][k] = A[j][k] - l * A[i][k];</span></span>
-<span class="code-line"><span class="go">                            }</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">            }</span></span>
-<span class="code-line"><span class="go">            // 从A中作出L、U</span></span>
-<span class="code-line"><span class="go">            for (int i = 0; i &lt; n; ++i) {</span></span>
-<span class="code-line"><span class="go">                    for (int j = 0; j &lt;= i; ++j) { //下三角</span></span>
-<span class="code-line"><span class="go">                            if (j == i)</span></span>
-<span class="code-line"><span class="go">                                    L[i][j] = 1.0;</span></span>
-<span class="code-line"><span class="go">                            else</span></span>
-<span class="code-line"><span class="go">                                    L[i][j] = A[i][j];</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">                    for (int k = i; k &lt; n; ++k) { // 上三角</span></span>
-<span class="code-line"><span class="go">                            U[i][k] = A[i][k];</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">            }</span></span>
-<span class="code-line"><span class="go">            return true;</span></span>
-<span class="code-line"><span class="go">    }</span></span>
+<span class="code-line">        <span class="c1">// LU分解，更新A</span></span>
+<span class="code-line">                    <span class="n">Float</span> <span class="n">u</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">l</span> <span class="o">=</span> <span class="mf">0.0f</span><span class="p">;</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                            <span class="n">l</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">u</span><span class="p">;</span></span>
+<span class="code-line">                            <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">l</span><span class="p">;</span></span>
+<span class="code-line">                            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">k</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="n">k</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">k</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                                    <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">-</span> <span class="n">l</span> <span class="o">*</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">];</span></span>
+<span class="code-line">                            <span class="p">}</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">            <span class="p">}</span></span>
+<span class="code-line">            <span class="c1">// 从A中作出L、U</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">i</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//下三角</span></span>
+<span class="code-line">                            <span class="k">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">==</span> <span class="n">i</span><span class="p">)</span></span>
+<span class="code-line">                                    <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">;</span></span>
+<span class="code-line">                            <span class="k">else</span></span>
+<span class="code-line">                                    <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">];</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">k</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span> <span class="n">k</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">k</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 上三角</span></span>
+<span class="code-line">                            <span class="n">U</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">];</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">            <span class="p">}</span></span>
+<span class="code-line">            <span class="k">return</span> <span class="nb">true</span><span class="p">;</span></span>
+<span class="code-line">    <span class="p">}</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">    inline void LUPsolve(const Matrix4x4&amp; L, const Matrix4x4&amp; U,const int* P,const Float* b,Float* result) {</span></span>
-<span class="code-line"><span class="go">            const int n = 4;</span></span>
-<span class="code-line"><span class="go">            Float y[n];</span></span>
-<span class="code-line"><span class="go">            for (int i = 0; i &lt; n; ++i) {           // Ly = b 解线性方程组</span></span>
-<span class="code-line"><span class="go">                    y[i] = b[P[i]];</span></span>
-<span class="code-line"><span class="go">                    for (int j = 0; j &lt; i; ++j) {</span></span>
-<span class="code-line"><span class="go">                            y[i] = y[i] - L[i][j] * y[j];</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">            }</span></span>
-<span class="code-line"><span class="go">            for (int i = n - 1; i &gt;= 0; i--) {      // Ux = y</span></span>
-<span class="code-line"><span class="go">                    result[i] = y[i];</span></span>
-<span class="code-line"><span class="go">                    for (int j = n - 1; j &gt; i; j--) {</span></span>
-<span class="code-line"><span class="go">                            result[i] = result[i] - U[i][j] * result[j];</span></span>
-<span class="code-line"><span class="go">                    }</span></span>
-<span class="code-line"><span class="go">                    result[i] /= U[i][i]; // x系数可能不为1</span></span>
-<span class="code-line"><span class="go">            }</span></span>
-<span class="code-line"><span class="go">    }</span></span>
-<span class="code-line"><span class="go">    inline Matrix4x4 Inverse(const Matrix4x4&amp; m) {</span></span>
-<span class="code-line"><span class="go">            const int n = 4;</span></span>
-<span class="code-line"><span class="go">            Matrix4x4 result;</span></span>
-<span class="code-line"><span class="go">            Matrix4x4 IdentityM;</span></span>
-<span class="code-line"><span class="go">            Matrix4x4 A, L, U;</span></span>
-<span class="code-line"><span class="go">            int P[n]{ 0 };</span></span>
-<span class="code-line"><span class="go">            memcpy(A.mat, m.mat, 16 * sizeof(Float));</span></span>
-<span class="code-line"><span class="go">            LUPdecomposition(A, L, U, P);</span></span>
-<span class="code-line"><span class="go">            for (int i = 0; i &lt; n; ++i) {   // 每次传入单位矩阵的一列，最后的结果拼接起来再转置为逆矩阵</span></span>
-<span class="code-line"><span class="go">                    LUPsolve(L, U, P, IdentityM[i], result[i]);</span></span>
-<span class="code-line"><span class="go">            }</span></span>
-<span class="code-line"><span class="go">            return (Transpose(result));</span></span>
-<span class="code-line"><span class="go">    }</span></span>
+<span class="code-line">    <span class="kr">inline</span> <span class="kt">void</span> <span class="nf">LUPsolve</span><span class="p">(</span><span class="k">const</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">L</span><span class="p">,</span> <span class="k">const</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">U</span><span class="p">,</span><span class="k">const</span> <span class="kt">int</span><span class="o">*</span> <span class="n">P</span><span class="p">,</span><span class="k">const</span> <span class="n">Float</span><span class="o">*</span> <span class="n">b</span><span class="p">,</span><span class="n">Float</span><span class="o">*</span> <span class="n">result</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">            <span class="k">const</span> <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span></span>
+<span class="code-line">            <span class="n">Float</span> <span class="n">y</span><span class="p">[</span><span class="n">n</span><span class="p">];</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>           <span class="c1">// Ly = b 解线性方程组</span></span>
+<span class="code-line">                    <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span><span class="p">[</span><span class="n">P</span><span class="p">[</span><span class="n">i</span><span class="p">]];</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                            <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">j</span><span class="p">];</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">            <span class="p">}</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>      <span class="c1">// Ux = y</span></span>
+<span class="code-line">                    <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">];</span></span>
+<span class="code-line">                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="n">i</span><span class="p">;</span> <span class="n">j</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">                            <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">U</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">result</span><span class="p">[</span><span class="n">j</span><span class="p">];</span></span>
+<span class="code-line">                    <span class="p">}</span></span>
+<span class="code-line">                    <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/=</span> <span class="n">U</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">i</span><span class="p">];</span> <span class="c1">// x系数可能不为1</span></span>
+<span class="code-line">            <span class="p">}</span></span>
+<span class="code-line">    <span class="p">}</span></span>
+<span class="code-line">    <span class="kr">inline</span> <span class="n">Matrix4x4</span> <span class="nf">Inverse</span><span class="p">(</span><span class="k">const</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">m</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="code-line">            <span class="k">const</span> <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span></span>
+<span class="code-line">            <span class="n">Matrix4x4</span> <span class="n">result</span><span class="p">;</span></span>
+<span class="code-line">            <span class="n">Matrix4x4</span> <span class="n">IdentityM</span><span class="p">;</span></span>
+<span class="code-line">            <span class="n">Matrix4x4</span> <span class="n">A</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span><span class="p">;</span></span>
+<span class="code-line">            <span class="kt">int</span> <span class="n">P</span><span class="p">[</span><span class="n">n</span><span class="p">]{</span> <span class="mi">0</span> <span class="p">};</span></span>
+<span class="code-line">            <span class="n">memcpy</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">mat</span><span class="p">,</span> <span class="n">m</span><span class="p">.</span><span class="n">mat</span><span class="p">,</span> <span class="mi">16</span> <span class="o">*</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">Float</span><span class="p">));</span></span>
+<span class="code-line">            <span class="n">LUPdecomposition</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">P</span><span class="p">);</span></span>
+<span class="code-line">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">// 每次传入单位矩阵的一列，最后的结果拼接起来再转置为逆矩阵</span></span>
+<span class="code-line">                    <span class="n">LUPsolve</span><span class="p">(</span><span class="n">L</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">P</span><span class="p">,</span> <span class="n">IdentityM</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span></span>
+<span class="code-line">            <span class="p">}</span></span>
+<span class="code-line">            <span class="k">return</span> <span class="p">(</span><span class="n">Transpose</span><span class="p">(</span><span class="n">result</span><span class="p">));</span></span>
+<span class="code-line">    <span class="p">}</span></span>
 </pre></div>
 <p>时间複雜度方面，LU(P)分解和高斯消元都约为 <span class="math">\(O(n^3)\)</span> ，看起来没有必要去使用较复杂的LU(P)分解；网上有很多总结都说
 LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高低取决于不同的条件。
@@ -373,35 +373,35 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 只做一次；设要求的线性方程组数量为m，则LU分解的複雜度为 <span class="math">\(O(n^3)+mO(n^2)\)</span> ，而高斯消元的複雜度为 <span class="math">\(mO(n^3)\)</span> ；
 所以对于求解多个线性方程组(多个b)的情况，使用LU分解更优于高斯消元，且求解的线性方程组数量越多则越明显；反之亦然，如果线性方程
 的数量仅有一个，那么高斯消元效率比较高。对于求逆矩阵，只需要解一个b；按上面所说，用高斯消元会比较快。下面是测试代码</p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="go">int main(int argc, char* argv[]) {</span></span>
-<span class="code-line"><span class="go">        vmath::Matrix4x4 origin;</span></span>
-<span class="code-line"><span class="go">        for (int i = 0; i &lt; 4; i++)</span></span>
-<span class="code-line"><span class="go">                for (int j = 0; j &lt; 4; j++)</span></span>
-<span class="code-line"><span class="go">                        origin[i][j] = (int)(drand48() * 10.0); // [0,10)</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">*</span> <span class="n">argv</span><span class="p">[])</span> <span class="p">{</span></span>
+<span class="code-line">        <span class="n">vmath</span><span class="o">::</span><span class="n">Matrix4x4</span> <span class="n">origin</span><span class="p">;</span></span>
+<span class="code-line">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span></span>
+<span class="code-line">                <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span></span>
+<span class="code-line">                        <span class="n">origin</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="n">drand48</span><span class="p">()</span> <span class="o">*</span> <span class="mf">10.0</span><span class="p">);</span> <span class="c1">// [0,10)</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "origin:\n" &lt;&lt; origin;</span></span>
-<span class="code-line"><span class="go">        std::chrono::steady_clock::time_point LUPstart = std::chrono::steady_clock::now();</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"origin:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">origin</span><span class="p">;</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">time_point</span> <span class="n">LUPstart</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">now</span><span class="p">();</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        vmath::Matrix4x4 LUPinv = vmath::Inverse(origin);</span></span>
-<span class="code-line"><span class="go">        std::chrono::steady_clock::time_point LUPend = std::chrono::steady_clock::now();</span></span>
-<span class="code-line"><span class="go">        std::chrono::duration&lt;Float&gt; LUP_UseTime = std::chrono::duration_cast&lt;std::chrono::duration&lt;Float&gt;&gt;(LUPend - LUPstart);</span></span>
+<span class="code-line">        <span class="n">vmath</span><span class="o">::</span><span class="n">Matrix4x4</span> <span class="n">LUPinv</span> <span class="o">=</span> <span class="n">vmath</span><span class="o">::</span><span class="n">Inverse</span><span class="p">(</span><span class="n">origin</span><span class="p">);</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">time_point</span> <span class="n">LUPend</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">now</span><span class="p">();</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration</span><span class="o">&lt;</span><span class="n">Float</span><span class="o">&gt;</span> <span class="n">LUP_UseTime</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration_cast</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration</span><span class="o">&lt;</span><span class="n">Float</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="n">LUPend</span> <span class="o">-</span> <span class="n">LUPstart</span><span class="p">);</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        std::chrono::steady_clock::time_point GJstart = std::chrono::steady_clock::now();</span></span>
-<span class="code-line"><span class="go">        vmath::Matrix4x4 Gaussinv = vmath::GaussJordan(origin);</span></span>
-<span class="code-line"><span class="go">        std::chrono::steady_clock::time_point GJend = std::chrono::steady_clock::now();</span></span>
-<span class="code-line"><span class="go">        std::chrono::duration&lt;Float&gt; GJ_UseTime = std::chrono::duration_cast&lt;std::chrono::duration&lt;Float&gt;&gt;(GJend - GJstart);</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">time_point</span> <span class="n">GJstart</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">now</span><span class="p">();</span></span>
+<span class="code-line">        <span class="n">vmath</span><span class="o">::</span><span class="n">Matrix4x4</span> <span class="n">Gaussinv</span> <span class="o">=</span> <span class="n">vmath</span><span class="o">::</span><span class="n">GaussJordan</span><span class="p">(</span><span class="n">origin</span><span class="p">);</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">time_point</span> <span class="n">GJend</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">steady_clock</span><span class="o">::</span><span class="n">now</span><span class="p">();</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration</span><span class="o">&lt;</span><span class="n">Float</span><span class="o">&gt;</span> <span class="n">GJ_UseTime</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration_cast</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">duration</span><span class="o">&lt;</span><span class="n">Float</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="n">GJend</span> <span class="o">-</span> <span class="n">GJstart</span><span class="p">);</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "Gauss Jordan Inverse:\n" &lt;&lt; Gaussinv;</span></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "LUP Inverse:\n" &lt;&lt; LUPinv;</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Gauss Jordan Inverse:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">Gaussinv</span><span class="p">;</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"LUP Inverse:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">LUPinv</span><span class="p">;</span></span>
 <span class="code-line"></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "Multiply:\n" &lt;&lt; Gaussinv * origin;</span></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "LUP Use time: " &lt;&lt; LUP_UseTime.count() &lt;&lt; "s\n";</span></span>
-<span class="code-line"><span class="go">        std::cout &lt;&lt; "GJ Use time: " &lt;&lt; GJ_UseTime.count() &lt;&lt; "s\n";</span></span>
-<span class="code-line"><span class="go">}</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Multiply:</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">Gaussinv</span> <span class="o">*</span> <span class="n">origin</span><span class="p">;</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"LUP Use time: "</span> <span class="o">&lt;&lt;</span> <span class="n">LUP_UseTime</span><span class="p">.</span><span class="n">count</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="s">"s</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span></span>
+<span class="code-line">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"GJ Use time: "</span> <span class="o">&lt;&lt;</span> <span class="n">GJ_UseTime</span><span class="p">.</span><span class="n">count</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="s">"s</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span></span>
+<span class="code-line"><span class="p">}</span></span>
 </pre></div>
 <p>上面代码的测试结果(O2)：</p>
 <img alt="Test" class="img-responsive" src="//tooisorahe.com/images/LUPGUASStimetest.PNG"/>
-<p>可以看到结果与元矩阵相乘后的确是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。</p>
+<p>可以看到结果与元矩阵相乘后是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。</p>
 <p>放着一堆带优化的开源数学库不用自己去造轮子，我也是有够无聊(</p>
 <div class="math">
 \begin{equation*}

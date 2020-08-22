@@ -94,7 +94,7 @@ LU分解用于求解线性系统的思路如下(解线性方程组)
 
 我个人的LUP求逆实现。Matrix4x4是我封装的4x4矩阵类，可视作2维数组
 
-.. code-block:: console
+.. code-block:: c++
 
     inline bool LUPdecomposition(Matrix4x4& A, Matrix4x4& L, Matrix4x4& U, int* P) {
 		const int n = 4;
@@ -183,7 +183,7 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 所以对于求解多个线性方程组(多个b)的情况，使用LU分解更优于高斯消元，且求解的线性方程组数量越多则越明显；反之亦然，如果线性方程
 的数量仅有一个，那么高斯消元效率比较高。对于求逆矩阵，只需要解一个b；按上面所说，用高斯消元会比较快。下面是测试代码
 
-.. code-block:: console
+.. code-block:: c++
 
 	int main(int argc, char* argv[]) {
 		vmath::Matrix4x4 origin;
@@ -216,7 +216,7 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 .. image:: {static}/images/LUPGUASStimetest.PNG
     :alt: Test
 
-可以看到结果与元矩阵相乘后的确是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。
+可以看到结果与元矩阵相乘后是一个单位阵。LUP和GJ分别是0.0009ms、0.0007ms，虽然差距很小，但的确是GJ更快一些。
 
 放着一堆带优化的开源数学库不用自己去造轮子，我也是有够无聊(
 
