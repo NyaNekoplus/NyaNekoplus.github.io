@@ -8,11 +8,11 @@
 &lt;p&gt;据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义；
 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。&lt;/p&gt;
 &lt;p&gt;虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。
-如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为O(n^4)(要算出每个元素的代数余子式)；
+如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 &lt;span class="math"&gt;\(O(n^4)\)&lt;/span&gt; (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
 &lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
 &lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
-过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
+过程是利用初等行变换令原矩阵和单位阵同时变换 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
 比较高的要求，所以特地研究一下。&lt;/p&gt;
 &lt;p&gt;在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计；
 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用
@@ -21,7 +21,7 @@
 &lt;p&gt;据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义；
 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。&lt;/p&gt;
 &lt;p&gt;虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。
-如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为O(n^4)(要算出每个元素的代数余子式)；
+如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 &lt;span class="math"&gt;\(O(n^4)\)&lt;/span&gt; (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
 &lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
 &lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
@@ -74,9 +74,21 @@ Ux = y
 &lt;p&gt;其原理和LU分解相似，但逐行消元时要选择该列最大的元素来规避除0(还有保持数值稳定，
 令Lij&amp;lt;=1)。实现的方法是引入一个置换矩阵P，在消元时将该列绝对值最大的项置换到当前行，如果列绝对值
 最大值为0，则这个矩阵是奇异的，不存在逆。&lt;/p&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(L_{n-2}P_{n-2}...L_1P_1L_0P_0A = U\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(PA = LU\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(P = \prod_{i=0}^{n-2}P_i\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+L_{n-2}P_{n-2}...L_1P_1L_0P_0A = U
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+PA = LU
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+P = \prod_{i=0}^{n-2}P_i
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;伪代码( &lt;a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf"&gt;来源&lt;/a&gt; )&lt;/p&gt;
 &lt;img alt="LUP" class="img-responsive align-center" src="//tooisorahe.com/images/LUP.PNG"/&gt;
 &lt;p&gt;我个人的LUP求逆实现。Matrix4x4是我封装的4x4矩阵类，可视作2维数组&lt;/p&gt;
@@ -799,28 +811,31 @@ DSD这种需要硬件解码播放的格式耗电会比仅需软解码的PCM格�
 用笔记本进行高性能的作业还是带着台式到处跑无疑都会带来不被希望的结果。耳塞和头戴
 也是一样，就拿我的情况来举例。我出门不会带耳机，并且在很多时候会非常仔细地去听音乐，
 我会尝试着去听出其中的所有
-音轨，并对它们对应的演奏乐器进行分辨，这算是个人嗜好。因为空间比较大，声波有反射的余地，
+音轨，并对它们对应的演奏乐器进行分辨，这算是个人嗜好。由于空间比较大，声波有反射的余地，
 所以会比较贴近真实录音环境。在这种情况下，头戴式比较适合我；
 事实上这套设备对我的帮助也很大，
 如果用普通的耳机接手机来听音乐，几乎所有的音轨都是混杂在一起的，基本只能听出最明显的
 几条轨，也许是我太菜了。但如果换用这套设备来听同一首曲，是可以听出音轨之间的"距离"的。&lt;/p&gt;
 &lt;p&gt;膜一个巨佬，希望我有一天也能到这水平。每一条音轨单独听都是普通的声音，但组合起来却有着
 震撼人心的效果，这是一种奇妙的感觉。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1XJ411D7DE&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;菊花台由周杰伦作曲，钟兴民编曲
-作曲和编曲的区别：作曲相当于是画一幅素描的草稿，而编曲则是将这幅草稿补完、上色成一幅油画。
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1XJ411D7DE&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;菊花台由周杰伦作曲，钟兴民编曲&lt;/p&gt;
+&lt;p&gt;作曲和编曲的区别：作曲相当于是画一幅素描的草稿，而编曲则是将这幅草稿补完、上色成一幅油画，
+期间颜料、画笔的选用都由编曲选择决定。
 换成程序员的角度，与HTML和CSS的关系类似。&lt;/p&gt;
-&lt;p&gt;作曲虽然是必不可少的，讲究灵感；但编曲才是真正的画龙点睛，注重积累。
-钟兴民老师的弦乐真的是国产顶峰，这首菊花台的弦乐恢宏大气中仍不失细腻婉转；
-我认为周杰伦的唱功配不上这首配乐。
-令我产生这一想法的原因是大概一年前听到了周华健版本的菊花台，
-可惜配乐并不是原版。个人认为这个功力绝对不是周杰伦能比的。&lt;/p&gt;
+&lt;p&gt;作曲讲究灵感，编曲注重积累。虽然作曲作为开端是必不可少的，但相对于画龙点睛的编曲来说还是
+差点意思，只是非专业的个人见解。&lt;/p&gt;
+&lt;p&gt;不得不赞叹钟兴民老师的弦乐真的是国产顶峰，这首菊花台的弦乐恢宏大气中仍不失细腻婉转，令人
+回味无穷。
+这也是我认为周杰伦的唱功配不上这首配乐的其中一个原因；
+另一原因是大概一年前听到了周华健版本的菊花台，其中的情感表达、声音的控制都不是周杰伦能比的，
+可惜配乐并不是原版。&lt;/p&gt;
 &lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Dt411Y7ER&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;说听湿了都不为过，周华健的唱功真的是一言难尽(褒义)，不愧是当年的天王杀手。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;音乐选择&lt;/h2&gt;
 &lt;p&gt;个人的爱好是听器乐；古典分情况，有些觉得好听有些欣赏不来；交响基本都可以。还有些流行
 乐会同时发布的offvocal、instrumental、カラオケ版，不过不知道是什么原因，基本只有
-日本的流行才会发布上述版本。&lt;/p&gt;
+日本的流行才会发布上述版本，国内非常少见。&lt;/p&gt;
 &lt;p&gt;当然带人声的流行乐也很喜欢，ACG占大部分 &lt;del&gt;谁不是个二次元呢&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;我一直都认为旋律才是一首歌的灵魂(除去rap)；不能说歌词是没有必要的，但好的音乐本身就是语言。
 身边有很多人，他们听日语歌的时候并听不懂，但一样觉得好听，并会发表一些有时搭不上边的感情上

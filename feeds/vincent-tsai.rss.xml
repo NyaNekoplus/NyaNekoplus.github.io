@@ -8,11 +8,11 @@
 &lt;p&gt;据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义；
 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。&lt;/p&gt;
 &lt;p&gt;虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。
-如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为O(n^4)(要算出每个元素的代数余子式)；
+如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 &lt;span class="math"&gt;\(O(n^4)\)&lt;/span&gt; (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
 &lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
 &lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
-过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 09 Aug 2020 21:33:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-08-09:/LU-decomposition.html</guid><category>tech</category><category>note</category><category>Math</category></item><item><title>20岁</title><link>//tooisorahe.com/twenty.html</link><description>&lt;p&gt;一些无关紧要的碎碎念&lt;/p&gt;
+过程是利用初等行变换令原矩阵和单位阵同时变换 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 09 Aug 2020 21:33:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-08-09:/LU-decomposition.html</guid><category>tech</category><category>note</category><category>Math</category></item><item><title>20岁</title><link>//tooisorahe.com/twenty.html</link><description>&lt;p&gt;一些无关紧要的碎碎念&lt;/p&gt;
 &lt;p&gt;-以前看过村上春树的《挪威的森林》，里面的一个桥段令我久久不能忘怀&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“对直子的二十岁，我竟有些不可思议。我也好，直子也好，总以为应该
