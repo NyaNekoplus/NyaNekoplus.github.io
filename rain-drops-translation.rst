@@ -11,7 +11,7 @@
 
     **2020年10月22日14:32更新**
 
-:html:`<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=520 height=86 src="//music.163.com/outchain/player?type=2&id=1397480785&auto=0&height=66"></iframe>`
+:html:`<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=470 height=86 src="//music.163.com/outchain/player?type=2&id=1397480785&auto=0&height=66"></iframe>`
 
 爆肝写bug的时候，偶然听到这首「Rain Drops」，点开网逸云详细页面后法线竟然没有歌词，
 我的歌单里居然存在没有歌词的歌？不能忍！而且还是团长和まじま酱的合唱(也不能叫合唱吧，
@@ -201,7 +201,7 @@
 
 ----
 
-主题歌词可以确保准确性，
+主体歌词可以确保准确性，
 不过中间まじま酱的声音被后期过，实在不能完全听清在叨叨什么。
 
 翻译方面感觉这已经是自己的极限了- -，即使能感觉到存在的生硬感，但受限于语文水平也只能就此结束。
