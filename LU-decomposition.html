@@ -24,13 +24,13 @@
 
         <meta name="author" content="Vincent Tsai" />
         <meta name="keywords" content="note,Math" />
-        <meta name="description" content="最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有 比较高的要求，所以特地研究一下。 在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计； 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用 指令集，这是后话。乘法算法我所知的有Definition和Strassen。两种方法差距如下 Strassen： \(O(n^{2.81})\) &lt;-----&gt;Definition： \(O(n^3)\) 据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义； 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。 虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 \(O(n^4)\) (要算出每个元素的代数余子式)； 在大量运算的基础下势必会对运行效率造成影响。 除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法 高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)， 过程是利用初等行变换令原矩阵和单位阵同时变换 …" />
+        <meta name="description" content="最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有 比较高的要求，所以特地研究一下。 在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计； 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用 指令集，这是后话。乘法算法我所知的有Definition和Strassen。两种方法差距如下 Strassen： \(O(n^{2.81})\) &lt;-----&gt;Definition： \(O(n^3)\) 据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义； 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。 虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 \(O(n^4)\) (要算出每个元素的代数余子式)； 在大量运算的基础下势必会对运行效率造成影响。 除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法 高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)， 过程是利用初等行变换令原矩阵和单位阵同时变换 …" />
 
         <meta property="og:site_name" content="悠远的苍穹" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="LU分解求逆矩阵"/>
         <meta property="og:url" content="//tooisorahe.com/LU-decomposition.html"/>
-        <meta property="og:description" content="最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有 比较高的要求，所以特地研究一下。 在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计； 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用 指令集，这是后话。乘法算法我所知的有Definition和Strassen。两种方法差距如下 Strassen： \(O(n^{2.81})\) &lt;-----&gt;Definition： \(O(n^3)\) 据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义； 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。 虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 \(O(n^4)\) (要算出每个元素的代数余子式)； 在大量运算的基础下势必会对运行效率造成影响。 除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法 高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)， 过程是利用初等行变换令原矩阵和单位阵同时变换 …"/>
+        <meta property="og:description" content="最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有 比较高的要求，所以特地研究一下。 在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计； 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用 指令集，这是后话。乘法算法我所知的有Definition和Strassen。两种方法差距如下 Strassen： \(O(n^{2.81})\) &lt;-----&gt;Definition： \(O(n^3)\) 据查到的实验数据显示，只有当矩阵阶数在300以上时Strassen才会明显优于定义； 因我需要计算的只是4阶的方阵，所以直接用定义计算还方便一些。 虽然乘法方面不会对效率产生多少影响；但对于矩阵求逆来说，算法上的优化是有必要的。 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 \(O(n^4)\) (要算出每个元素的代数余子式)； 在大量运算的基础下势必会对运行效率造成影响。 除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法 高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)， 过程是利用初等行变换令原矩阵和单位阵同时变换 …"/>
         <meta property="article:published_time" content="2020-08-09" />
             <meta property="article:section" content="tech" />
             <meta property="article:tag" content="note" />
@@ -232,7 +232,7 @@
 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 <span class="math">\(O(n^4)\)</span> (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。</p>
 <p>除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法</p>
-<p>高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
+<p>高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)，
 过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵。
 编程实现时一般使用其变种Gauss-Jordan elimination，
 <a class="reference external" href="https://baike.baidu.com/item/%E9%AB%98%E6%96%AF-%E8%8B%A5%E5%B0%94%E5%BD%93%E6%B6%88%E5%85%83%E6%B3%95/19969775?fr=aladdin">求解过程</a></p>
@@ -597,6 +597,16 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
     </div>
 <div class="panel-body">
     <ul class="list-group list-inline tagcloud" id="tags">
+            <li class="list-group-item tag-2">
+                <a href="//tooisorahe.com/tag/life.html">
+                    life <sup> 3</sup>
+                </a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="//tooisorahe.com/tag/translation.html">
+                    translation <sup> 1</sup>
+                </a>
+            </li>
             <li class="list-group-item tag-4">
                 <a href="//tooisorahe.com/tag/note.html">
                     note <sup> 1</sup>
@@ -670,11 +680,6 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
             <li class="list-group-item tag-4">
                 <a href="//tooisorahe.com/tag/newpc.html">
                     newPC <sup> 1</sup>
-                </a>
-            </li>
-            <li class="list-group-item tag-2">
-                <a href="//tooisorahe.com/tag/life.html">
-                    life <sup> 2</sup>
                 </a>
             </li>
     </ul>

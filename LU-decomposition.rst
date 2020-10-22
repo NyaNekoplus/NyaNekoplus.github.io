@@ -25,7 +25,7 @@ Strassen： :math:`O(n^{2.81})` <----->Definition： :math:`O(n^3)`
 
 除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法
 
-高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
+高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)，
 过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵。
 编程实现时一般使用其变种Gauss-Jordan elimination，
 `求解过程 <https://baike.baidu.com/item/%E9%AB%98%E6%96%AF-%E8%8B%A5%E5%B0%94%E5%BD%93%E6%B6%88%E5%85%83%E6%B3%95/19969775?fr=aladdin>`_

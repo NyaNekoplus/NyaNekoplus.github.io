@@ -1,5 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/all-zhs.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2020-08-09T21:33:00+00:00</updated><entry><title>LU分解求逆矩阵</title><link href="//tooisorahe.com/LU-decomposition.html" rel="alternate"></link><published>2020-08-09T21:33:00+00:00</published><updated>2020-08-09T21:33:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-08-09:/LU-decomposition.html</id><summary type="html">&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
+<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/all-zhs.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2020-10-18T22:50:00+00:00</updated><entry><title>听译「Rain Drops」</title><link href="//tooisorahe.com/rain-drops-translation.html" rel="alternate"></link><published>2020-10-18T22:50:00+00:00</published><updated>2020-10-18T22:50:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-10-18:/rain-drops-translation.html</id><summary type="html">&lt;div class="label label-warning"&gt;
+&lt;strong&gt;2020年10月22日14:32更新&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;爆肝写bug的时候，偶然听到这首「Rain Drops」，点开网逸云详细页面后法线竟然没有歌词，
+我的歌单里居然存在没有歌词的歌？不能忍！而且还是团长和まじま酱的合唱(也不能叫合唱吧，
+毕竟まじま酱除了开头两句之外全程 &lt;ruby&gt;&lt;rb&gt;乱叫&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;打call&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; - -，不过开头两句的深情真的瞬间
+出戏，「いつまでも君が幸せなら」，一辈子都忘不掉)&lt;/p&gt;
+&lt;p&gt;有歌词的话进行简单的翻译并不算难，
+遂抱着尝试的心态在搜索引擎上翻了翻，发现叫Rain Drops的歌的数量相当多，根本找不到需求版本的歌词。&lt;/p&gt;
+&lt;p&gt;本来想着没有歌词就算了，但越想越不舒服，最后还是决定全部自己上，没有歌词就听嘛。说实话以这首歌的
+语速来说真的是没有难度，第一次听的时候就已经知道每句歌词的意思了  。
+但为了歌词的完整性，单纯的听懂是不够的，必须将每个假名听清楚，这是比较麻烦的地方。&lt;/p&gt;
+&lt;p&gt;得到歌词之后就是翻译。这个地方要简单可以非常简单，直接百度谷歌cv一下完事。要说难的
+话个人觉得并不存在这种标准。首先翻译要做到的最基本的事是忠实原意，而在达意的基础上
+再加以改进则是一件没有上限的事。&lt;/p&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="panel-heading"&gt;
+About Translation&lt;/div&gt;
+&lt;div class="panel-body"&gt;
+&lt;blockquote&gt;
+&lt;img alt="yurusan" class="img-responsive" src="//tooisorahe.com/images/translation.jpg"/&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;其原因是翻译出来的文字是给人看的，但一千个人的心中有一千个哈姆雷特，
+他们的心中所想也不尽相同。如果随性的给翻译加料，在某些人眼中可能会是信达雅，但在某些人眼中就是过犹不及 …&lt;/p&gt;</summary><content type="html">&lt;div class="label label-warning"&gt;
+&lt;strong&gt;2020年10月22日14:32更新&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;爆肝写bug的时候，偶然听到这首「Rain Drops」，点开网逸云详细页面后法线竟然没有歌词，
+我的歌单里居然存在没有歌词的歌？不能忍！而且还是团长和まじま酱的合唱(也不能叫合唱吧，
+毕竟まじま酱除了开头两句之外全程 &lt;ruby&gt;&lt;rb&gt;乱叫&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;打call&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; - -，不过开头两句的深情真的瞬间
+出戏，「いつまでも君が幸せなら」，一辈子都忘不掉)&lt;/p&gt;
+&lt;p&gt;有歌词的话进行简单的翻译并不算难，
+遂抱着尝试的心态在搜索引擎上翻了翻，发现叫Rain Drops的歌的数量相当多，根本找不到需求版本的歌词。&lt;/p&gt;
+&lt;p&gt;本来想着没有歌词就算了，但越想越不舒服，最后还是决定全部自己上，没有歌词就听嘛。说实话以这首歌的
+语速来说真的是没有难度，第一次听的时候就已经知道每句歌词的意思了  。
+但为了歌词的完整性，单纯的听懂是不够的，必须将每个假名听清楚，这是比较麻烦的地方。&lt;/p&gt;
+&lt;p&gt;得到歌词之后就是翻译。这个地方要简单可以非常简单，直接百度谷歌cv一下完事。要说难的
+话个人觉得并不存在这种标准。首先翻译要做到的最基本的事是忠实原意，而在达意的基础上
+再加以改进则是一件没有上限的事。&lt;/p&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="panel-heading"&gt;
+About Translation&lt;/div&gt;
+&lt;div class="panel-body"&gt;
+&lt;blockquote&gt;
+&lt;img alt="yurusan" class="img-responsive" src="//tooisorahe.com/images/translation.jpg"/&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;其原因是翻译出来的文字是给人看的，但一千个人的心中有一千个哈姆雷特，
+他们的心中所想也不尽相同。如果随性的给翻译加料，在某些人眼中可能会是信达雅，但在某些人眼中就是过犹不及。 &lt;del&gt;就像有人在热血歌下面发致郁言论一般，完全无法理解&lt;/del&gt;
+不过说到底翻译本就是用爱发电的工作，自己有爽到就行。 &lt;del&gt;你看着不爽就自己翻呀&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;下面是歌词和翻译(有那么一点国产备胎情歌的味道?)。&lt;/p&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;次におく曲は、何度なしも聞きぬい&lt;/td&gt;
+&lt;td&gt;下一首歌，不论多少次都听不厌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;レインドロップ　聞いてくれ&lt;/td&gt;
+&lt;td&gt;请欣赏：Rain Drops&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;突然降りだした　憂鬱色のレインドロップス　ため息　溶けてくそら&lt;/td&gt;
+&lt;td&gt;在叹息中消融的天空中  忧郁色的雨滴突然降下&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;傘も差せないまま　濡れる体に　後悔が　染み込んでく&lt;/td&gt;
+&lt;td&gt;后悔就这样渗入了因没有打伞而淋湿的身体中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;あたかも、その時点だね&lt;/td&gt;
+&lt;td&gt;就像那时一样呢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ガラス細工みたいな二人の関係　壊さぬように　目をそらした&lt;/td&gt;
+&lt;td&gt;为了不让两人像玻璃艺术品一般脆弱的关系被破坏而刻意将目光移开&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;「傍にいて」が　あの日言えてたら　こんな結末はかえられたの&lt;/td&gt;
+&lt;td&gt;如果那天能说出“留在我身边”的话，这样的结局能被改写吗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;際、際、際がくるで?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;遠く、消えてゆく　あなたの影　無意味な涙が雨のように流れて&lt;/td&gt;
+&lt;td&gt;(看着)消失在远方的你的身影   无意义的泪水像雨滴一般流落&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ずっと 見つめてた　その笑顔は　永遠に色褪せない　まぼろし&lt;/td&gt;
+&lt;td&gt;一直凝视着的     那个笑容是永不褪色的虚幻&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;届かぬ想い　降りやまない雨に重ねた&lt;/td&gt;
+&lt;td&gt;无法传达的思念与无止尽的雨点相互交织&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;レインドロップス　後から スポンジ?に入れ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;雨の跡にかかる　虹を信じながら　ただただ　時は過ぎて&lt;/td&gt;
+&lt;td&gt;始终相信着在雨后会出现的彩虹，但时间就这样流逝而去&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;もしもあの時あの場所に帰れるなら　きっとうまく伝えられる&lt;/td&gt;
+&lt;td&gt;如果能回到过去、回到那个场所  一定就能好好地传递给你了吧&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;もし　もう一度　やり直せるなら　この胸の傷も　癒せるのに&lt;/td&gt;
+&lt;td&gt;如果再一次重来，心中的伤痛也会痊愈&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;際、際、際がくるで?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;決して　戻らない　時計の針　いつかはあなたの　中に生きる私も&lt;/td&gt;
+&lt;td&gt;就像钟表的指针绝不会回转一般，曾经存于你心中的我也是一样&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;積もる　思い出も　この気持ちも　ほこりの霧で　かすれてしまうの&lt;/td&gt;
+&lt;td&gt;累积的回忆和这份心境  会被灰尘组成的雾气掩埋吗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;レインドロップス　ラブ·マジックはー?&lt;/td&gt;
+&lt;td&gt;Rain Drops      Love Magic...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ガラス細工みたいな二人の関係、壊さぬように　目をそらした&lt;/td&gt;
+&lt;td&gt;为了不让两人像玻璃艺术品一般脆弱的关系被破坏而刻意将目光移开&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;「傍にいて」が　あの日言えてたら　こんな現実はかえられてたの&lt;/td&gt;
+&lt;td&gt;如果那天能说出“留在我身边”的话，这样的现实能被改变吗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;遠く、消えてゆく　あなたの影　無意味な涙が雨のように流れて&lt;/td&gt;
+&lt;td&gt;(看着)消失在远方的你的身影   无意义的泪水像雨滴一般流落&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ずっと、見つめてた　その笑顔は　永遠に色褪せない　まぼろし&lt;/td&gt;
+&lt;td&gt;一直凝视着的   那个笑容是永不褪色的虚幻&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;瞳のレインドロップス　いつになれば　虹に変わるの&lt;/td&gt;
+&lt;td&gt;眼中坠落的雨滴，要到什么时候才会化作彩虹呢(听了几次都听成「瞳のないどの」，回头一想也不对啊这tm是什么词，最后联系下主题才明白了唱的是什么。
+&lt;del&gt;果然日本人的英语没救了&lt;/del&gt; )&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%"/&gt;
+&lt;col width="50%"/&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;レインドロップス&lt;/td&gt;
+&lt;td&gt;Rain Drops&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;オレは～まじま～まじまごろお～～サイコウ～ダゼ～&lt;/td&gt;
+&lt;td&gt;直译过来简直是傻气溢出- -，还是算了吧&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;レインドロップス&lt;/td&gt;
+&lt;td&gt;Rain Drops&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;主题歌词可以确保准确性，
+不过中间まじま酱的声音被后期过，实在不能完全听清在叨叨什么。&lt;/p&gt;
+&lt;p&gt;翻译方面感觉这已经是自己的极限了- -，即使能感觉到存在的生硬感，但受限于语文水平也只能就此结束。&lt;/p&gt;
+&lt;p&gt;10月21日：已经上传到网逸云。&lt;/p&gt;
+&lt;img alt="Rain drops" class="img-responsive align-center" src="//tooisorahe.com/images/raindrops.PNG"/&gt;
+&lt;p&gt;不得不吐槽这年头想做点白工也不是件容易的事————本来想着翻译完就可以上传了，想不到网逸云上传歌词翻译居然还要附带时轴..
+无奈打开Au又抠了半小时lrc，所谓送佛也要送到西。不过还好审核还算快，大半天就通过了。&lt;/p&gt;
+</content><category term="life"></category><category term="life"></category><category term="translation"></category></entry><entry><title>LU分解求逆矩阵</title><link href="//tooisorahe.com/LU-decomposition.html" rel="alternate"></link><published>2020-08-09T21:33:00+00:00</published><updated>2020-08-09T21:33:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-08-09:/LU-decomposition.html</id><summary type="html">&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
 比较高的要求，所以特地研究一下。&lt;/p&gt;
 &lt;p&gt;在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计；
 要得到明显的效率提升一般都是从底层入手，可以调整代码的执行顺序以针对访问内存进行优化或是使用
@@ -11,7 +288,7 @@
 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 &lt;span class="math"&gt;\(O(n^4)\)&lt;/span&gt; (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
 &lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
-&lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
+&lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)，
 过程是利用初等行变换令原矩阵和单位阵同时变换 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
 比较高的要求，所以特地研究一下。&lt;/p&gt;
 &lt;p&gt;在矩阵阶数比较小且算法不会过于复杂的前提下，改变矩阵乘法算法带来的效率提升可以小到忽略不计；
@@ -24,7 +301,7 @@
 如果使用定义法，先算出伴随矩阵后再除以行列式来求逆，其时间複雜度为 &lt;span class="math"&gt;\(O(n^4)\)&lt;/span&gt; (要算出每个元素的代数余子式)；
 在大量运算的基础下势必会对运行效率造成影响。&lt;/p&gt;
 &lt;p&gt;除伴随矩阵法之外，我所知的矩阵求逆方法还有高斯消元法和LU分解法&lt;/p&gt;
-&lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identify Matrix)，
+&lt;p&gt;高斯消元法(Gauss elimination)是考试常用方法，求A的逆矩阵时b为单位阵(Identity Matrix)，
 过程是利用初等行变换令原矩阵和单位阵同时变换，当原矩阵转换单位阵时元单位阵即为逆矩阵。
 编程实现时一般使用其变种Gauss-Jordan elimination，
 &lt;a class="reference external" href="https://baike.baidu.com/item/%E9%AB%98%E6%96%AF-%E8%8B%A5%E5%B0%94%E5%BD%93%E6%B6%88%E5%85%83%E6%B3%95/19969775?fr=aladdin"&gt;求解过程&lt;/a&gt;&lt;/p&gt;
@@ -314,7 +591,9 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 虽然已经有了明确的目标，但目前来看仍有相当距离，所以要在此之上还要努力学习才是..
 以及一年至少做一次总结，多回顾过去，思考自己当前的不足。&lt;/p&gt;
 &lt;p&gt;写于太阳直射的广州&lt;/p&gt;
-</content><category term="life"></category><category term="writing"></category><category term="birthday"></category></entry><entry><title>火之将熄</title><link href="//tooisorahe.com/the-fire-fades.html" rel="alternate"></link><published>2020-06-25T12:10:00+00:00</published><updated>2020-06-25T12:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-06-25:/the-fire-fades.html</id><summary type="html">&lt;p&gt;只是一篇零碎的游戏体验&lt;/p&gt;
+</content><category term="life"></category><category term="writing"></category><category term="birthday"></category></entry><entry><title>火之将熄</title><link href="//tooisorahe.com/the-fire-fades.html" rel="alternate"></link><published>2020-06-25T12:10:00+00:00</published><updated>2020-06-25T12:10:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-06-25:/the-fire-fades.html</id><summary type="html">&lt;div class="label label-warning"&gt;
+&lt;strong&gt;2020年10月21日21:00更新&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;只是一篇零碎的游戏体验&lt;/p&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;源初的火焰&lt;/h2&gt;
 &lt;p&gt;前段时间通关了黑魂系列，之后因忙于一些意义不明的学校作业，一直没有时间，
@@ -333,7 +612,9 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 &lt;p&gt;可以想象，一次又一次地被新手村boss一戟剁死，然后在如此场景循环往复的跑图是
 多么无聊而又痛苦的事。然后我就被云劝退了(丢人&lt;/p&gt;
 &lt;p&gt;第二次接触魂3是在好友家中。大一暑假时去好友家里作客，此君算是个 &lt;ruby&gt;&lt;rb&gt;资深宅男&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;?&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; ,
-热衷于推Galgame， &lt;del&gt;当然我也喜欢&lt;/del&gt; ；交流了一波推Galgame的心得后 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;只是一篇零碎的游戏体验&lt;/p&gt;
+热衷于推Galgame …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="label label-warning"&gt;
+&lt;strong&gt;2020年10月21日21:00更新&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;只是一篇零碎的游戏体验&lt;/p&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;源初的火焰&lt;/h2&gt;
 &lt;p&gt;前段时间通关了黑魂系列，之后因忙于一些意义不明的学校作业，一直没有时间，
@@ -355,9 +636,20 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
 热衷于推Galgame， &lt;del&gt;当然我也喜欢&lt;/del&gt; ；交流了一波推Galgame的心得后，话题不知为何
 转到了游戏的剧情，他正好通关魂3不久，便开始宣扬受苦的好处，诸如剧情好、画面好云云。&lt;/p&gt;
 &lt;p&gt;不过真正让我下决心玩这个游戏的原因并不是这个，而是我无意中看到了魂3的开场cg&lt;/p&gt;
-&lt;div align="center" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ps411z7CY&amp;amp;page=3&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;巨人尤姆的那段真的太震撼了，可以说我是为了这个boss才去受苦的；然而这个boss
-的地图是整个游戏中最小的，相关背景故事也少的可怜，boss战大概是最简单的了吧，
-毕竟只有风暴才能击倒大树（。网上有说法是因为经费不足的
+&lt;div align="center" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ps411z7CY&amp;amp;page=3&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;巨人尤姆的那段真的太震撼了，那咆哮中痛苦的来源，并不只因为被灼烧的身体，还有再无应守护之物的悲伤；
+可以说我是为了这个boss才去受苦的。然而这个boss
+的地图是整个游戏中最小的，相关背景故事也少的可怜；大概就是罪业之火的出现给罪业之都带来了影响，
+居民中有些人变成了畸形的生物，尤姆以为传火能解决问题，谁知道一去传火罪业之火反而爆发了，罪业之都中再
+没有一个正常的人。&lt;/p&gt;
+&lt;p&gt;游戏中物品的介绍：&lt;/p&gt;
+&lt;blockquote&gt;
+罪业火焰（可能来自一代四王魂）由尤姆守护及压制，他也因此成为罪业之都的王，但罪都的人民只是需要
+有人来压制火焰而已。罪都的火焰使之繁荣，也毁灭于此。来自洛斯里克城的王命，许诺帮助压制火焰，
+以此换取尤姆传火。而被派遣至此的年轻法师沙力万也从罪业火焰中发现了力量，宛如当初魔女的实验一般。
+罪业火焰爆发了，吞噬了罪都的人们。复活的尤姆回到罪都，失去了自己所守护的子民的王，舍弃了大盾，
+只提起柴刀坐在王座上等待终结自己的人的到来。&lt;/blockquote&gt;
+&lt;p&gt;而与主角一起复活的洋葱骑士将来到此处，杀死那个已经不配为王的悲哀男人，自己的老友。&lt;/p&gt;
+&lt;p&gt;boss战应该最简单的，毕竟只有风暴才能击倒大树（。网上有说法是因为经费不足的
 原因被阉割掉了，这是令我相当失望的一个点，这么震撼的cg结果整出来就这？&lt;/p&gt;
 &lt;p&gt;cg里对尤姆的描述原文：
 ‘the reclusive lord of the Profaned Capital, Yhorm the Giant.’&lt;/p&gt;
@@ -477,7 +769,7 @@ weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种�
 否则会被小棺家封号...解决方案是上某宝买点小号建个账号池，如果被封换个Cookie就
 完事了。&lt;/p&gt;
 &lt;p&gt;虽然只是个小玩具，但基本达到了目的。至于结论，不用多说也心知肚明，笑一笑就好。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1FV411d7u7&amp;amp;page=11&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;这都整的什么烂活&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1FV411d7u7&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;这都整的什么烂活&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="tech"></category><category term="toy"></category><category term="python"></category></entry><entry><title>丐版池塘夜雨</title><link href="//tooisorahe.com/raining-pool-poor-ver.html" rel="alternate"></link><published>2020-03-30T17:00:00+00:00</published><updated>2020-03-30T17:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</id><summary type="html">&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
@@ -680,7 +972,7 @@ steam上买了很久的游戏一次都没玩过... &lt;del&gt;我都花钱买了
 &lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
 &lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
 至于花这么多钱吗？&lt;/p&gt;
-&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resulotion)的态度就有所改观，
+&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resolution)的态度就有所改观，
 这要从国内音乐平台的变动上说起。2015年前，国内的音乐平台哪家都差不多(某逸,某q)，
 当时并没有现在的版权意识，绝大部分的音乐都能免费听，充会员最多是
 升级一个所谓的SQ音质(实则没有任何用处)，还是可以接受的。
@@ -695,7 +987,7 @@ steam上买了很久的游戏一次都没玩过... &lt;del&gt;我都花钱买了
 &lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
 &lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
 至于花这么多钱吗？&lt;/p&gt;
-&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resulotion)的态度就有所改观，
+&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resolution)的态度就有所改观，
 这要从国内音乐平台的变动上说起。2015年前，国内的音乐平台哪家都差不多(某逸,某q)，
 当时并没有现在的版权意识，绝大部分的音乐都能免费听，充会员最多是
 升级一个所谓的SQ音质(实则没有任何用处)，还是可以接受的。
@@ -1103,7 +1395,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 游戏，偶尔跟朋友玩上几把，足够了。&lt;/p&gt;
 &lt;p&gt;经历过Dota1时代的玩家想必不会对蛋疼集锦陌生，当时的直播行业并没有现在这么发达，主流的还是自制视频。蛋疼集锦是其中的佼佼者，可惜也
 在两年前断更。而片头的音乐是堀江由衣演唱的&amp;lt;桜&amp;gt;，对当时的我来说，听见这一段音乐，就代表了欢乐时光的开始。&lt;/p&gt;
-&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="table docutils borderless"&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Ks411B7cR&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -1115,7 +1407,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
@@ -1127,7 +1419,7 @@ bgm时只能用心潮澎湃来形容，那种仿佛置身史诗战场的感觉�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table border="0" class="table docutils borderless"&gt;
+&lt;table border="0" class="borderless docutils table"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%"/&gt;
 &lt;col width="50%"/&gt;
