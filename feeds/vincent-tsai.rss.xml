@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Sun, 18 Oct 2020 22:50:00 +0000</lastBuildDate><item><title>听译「Rain Drops」</title><link>//tooisorahe.com/rain-drops-translation.html</link><description>&lt;div class="label label-warning"&gt;
 &lt;strong&gt;2020年10月22日14:32更新&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;&lt;iframe border="0" class="embed-responsive-item" frameborder="no" height="86" marginheight="0" marginwidth="0" src="//music.163.com/outchain/player?type=2&amp;amp;id=1397480785&amp;amp;auto=0&amp;amp;height=66" width="520"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;爆肝写bug的时候，偶然听到这首「Rain Drops」，点开网逸云详细页面后法线竟然没有歌词，
 我的歌单里居然存在没有歌词的歌？不能忍！而且还是团长和まじま酱的合唱(也不能叫合唱吧，
 毕竟まじま酱除了开头两句之外全程 &lt;ruby&gt;&lt;rb&gt;乱叫&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;打call&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; - -，不过开头两句的深情真的瞬间
@@ -10,9 +11,6 @@
 &lt;p&gt;本来想着没有歌词就算了，但越想越不舒服，最后还是决定全部自己上，没有歌词就听嘛。说实话以这首歌的
 语速来说真的是没有难度，第一次听的时候就已经知道每句歌词的意思了  。
 但为了歌词的完整性，单纯的听懂是不够的，必须将每个假名听清楚，这是比较麻烦的地方。&lt;/p&gt;
-&lt;p&gt;得到歌词之后就是翻译。这个地方要简单可以非常简单，直接百度谷歌cv一下完事。要说难的
-话个人觉得并不存在这种标准。首先翻译要做到的最基本的事是忠实原意，而在达意的基础上
-再加以改进则是一件没有上限的事。&lt;/p&gt;
 &lt;div class="panel panel-default"&gt;
 &lt;div class="panel-heading"&gt;
 About Translation&lt;/div&gt;
@@ -22,6 +20,9 @@ About Translation&lt;/div&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;p&gt;得到歌词之后就是翻译。这个地方要简单可以非常简单，直接百度谷歌cv一下完事。要说难的
+话个人觉得并不存在这种标准。首先翻译要做到的最基本的事是忠实原意，而在达意的基础上
+再加以改进则是一件没有上限的事。&lt;/p&gt;
 &lt;p&gt;其原因是翻译出来的文字是给人看的，但一千个人的心中有一千个哈姆雷特，
 他们的心中所想也不尽相同。如果随性的给翻译加料，在某些人眼中可能会是信达雅，但在某些人眼中就是过犹不及 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Sun, 18 Oct 2020 22:50:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-10-18:/rain-drops-translation.html</guid><category>life</category><category>life</category><category>translation</category></item><item><title>LU分解求逆矩阵</title><link>//tooisorahe.com/LU-decomposition.html</link><description>&lt;p&gt;最近在写一个小玩意，需要进行大量的4*4矩阵运算(乘法、求逆)，且对性能有
 比较高的要求，所以特地研究一下。&lt;/p&gt;
