@@ -11,7 +11,7 @@
 
     **2020年10月22日14:32更新**
 
-:html:`<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=470 height=86 src="//music.163.com/outchain/player?type=2&id=1397480785&auto=0&height=66"></iframe>`
+:html:`<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=470 height=86 src="https://music.163.com/outchain/player?type=2&id=1397480785&auto=0&height=66"></iframe>`
 
 爆肝写bug的时候，偶然听到这首「Rain Drops」，点开网逸云详细页面后法线竟然没有歌词，
 我的歌单里居然存在没有歌词的歌？不能忍！而且还是团长和まじま酱的合唱(也不能叫合唱吧，
@@ -207,7 +207,7 @@
 翻译方面感觉这已经是自己的极限了- -，即使能感觉到存在的生硬感，但受限于语文水平也只能就此结束。
 
 
-10月21日：已经上传到网逸云。
+10月21日：已经上传到网逸云 `->> <https://music.163.com/#/song?id=1397480785>`_
 
 .. image:: {static}/images/raindrops.PNG
     :alt: Rain drops
