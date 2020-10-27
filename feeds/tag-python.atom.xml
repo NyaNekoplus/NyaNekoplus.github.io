@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹 - python</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/tag-python.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2020-05-28T09:00:00+00:00</updated><entry><title>肖战，永远滴神！</title><link href="//tooisorahe.com/xz666.html" rel="alternate"></link><published>2020-05-28T09:00:00+00:00</published><updated>2020-05-28T09:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-05-28:/xz666.html</id><summary type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
+自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
+&lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
+上面提出的问题，这种类型的数据对我而言没有意义，就没有选择这类网站。正苦恼
+于选择什么网站时，QQ上收到一张图片，内容大概是某群友跟肖战狂热粉丝的对线内
+容。肖战这个名字，就算是不关注娱乐圈的我也是如雷贯耳，此人如今的名气甚至一
+度超越身为2019年度之星的坤坤(当然是不好的方面)；想当年，坤坤靠一曲鸡你太美变态出道，
+成为全网津津乐道的对象。而当今肖战则更胜一筹，个人实力什么的无所谓，只要粉
+丝够多够无脑，我就是饭圈当之无愧的扛把子。&lt;/p&gt;
+&lt;p&gt;本人亦有幸被肖战的粉丝 &lt;ruby&gt;&lt;rb&gt;临幸&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;攻击&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 过，其言语之粗鄙，其态度之恶劣，实在
+是所有键盘侠的楷模。藉此次机会，我决定爬一爬肖战的微博，研究一下他
+粉丝的构成。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
+&lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;python课大作业的题目是爬任意一个网站，获取数据进行统计。我平时很少看电影，
+就算看也不会特意去研究一部电影的评分和影评，电影的好与坏是非常主观的，只有
+自己看过后才能得出结论，听风就是雨的行为实在是naive。&lt;/p&gt;
+&lt;p&gt;我了解到的大多数人都是选择爬取诸如豆瓣、猫眼之类的影评或者书评网站，考虑到
+上面提出的问题，这种类型的数据对我而言没有意义，就没有选择这类网站。正苦恼
+于选择什么网站时，QQ上收到一张图片，内容大概是某群友跟肖战狂热粉丝的对线内
+容。肖战这个名字，就算是不关注娱乐圈的我也是如雷贯耳，此人如今的名气甚至一
+度超越身为2019年度之星的坤坤(当然是不好的方面)；想当年，坤坤靠一曲鸡你太美变态出道，
+成为全网津津乐道的对象。而当今肖战则更胜一筹，个人实力什么的无所谓，只要粉
+丝够多够无脑，我就是饭圈当之无愧的扛把子。&lt;/p&gt;
+&lt;p&gt;本人亦有幸被肖战的粉丝 &lt;ruby&gt;&lt;rb&gt;临幸&lt;/rb&gt;&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;攻击&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 过，其言语之粗鄙，其态度之恶劣，实在
+是所有键盘侠的楷模。藉此次机会，我决定爬一爬肖战的微博，研究一下他
+粉丝的构成。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;详细(实现具有时效性，一段时间后可能失效)&lt;/h2&gt;
+&lt;p&gt;按照软件工程的说法，首先要对目标进行可行性分析(避免技术力不足造成的尴尬)。我
+了解到微博有三个域名：weibo.cn, m.weibo.cn, weibo.com。其中weibo.cn是旧时代的遗物，页面简单，
+但信息少；在三个域名中是最好爬的。m.weibo.cn是手机端的页面，信息足够。
+weibo.com则是微博的网页版，信息最多，但也最难爬(包含各种验证码、机器识别)，
+自带劝退属性。考虑到这次做的只是一个玩具，那么答案已经呼之欲出了————m.weibo.cn，
+就决定是你了！&lt;/p&gt;
+&lt;p&gt;然后是对网页的json数据结构的解析。我的目标是获得肖战每一篇微博下的评论人的
+信息，所以主要研究的是页面的跳转问题(微博-&amp;gt;评论页-&amp;gt;评论人个人信息页)。&lt;/p&gt;
+&lt;p&gt;程序的入口是肖战的 &lt;a class="reference external" href="https://m.weibo.cn/u/1792951112?uid=1792951112&amp;amp;t=0&amp;amp;luicode=10000011&amp;amp;lfid=100103type%3D1%26q%3D%E8%82%96%E6%88%98"&gt;微博首页&lt;/a&gt;
+这个主页有五个分类：主页，微博，视频，超话，相册；每个类有各自的containerid。
+由此可知有containerid就能跳转到相应的分类。手机端的微博页并不是将所有微博一次
+全部显示出来，而是隐式的将x条微博划分为一页。易知手机的操作方式是往下划动，
+所以这里的翻页方式是当滚动条划动到接近当页最后一条微博时请求下一页的所有微博
+信息。而每一页微博会有一个since_id指向下一页，所以翻页的方式就很浅显了。
+每条微博有专有的id，一条微博的评论页可以通过id获取；评论的翻页方式与微博相同，
+不过参数是max_id。&lt;/p&gt;
+&lt;p&gt;数据可视化使用了pyecharts库，很简单，很好用， &lt;a class="reference external" href="http://gallery.pyecharts.org/#/README"&gt;官方文档&lt;/a&gt; 的介绍非常详尽&lt;/p&gt;
+&lt;p&gt;大抵的思路就是这样，下面看下结果。&lt;/p&gt;
+&lt;p&gt;虽然只有8000个样本，但也足以初见端倪&lt;/p&gt;
+&lt;img alt="性别统计" class="img-responsive" src="//tooisorahe.com/images/gender.PNG"/&gt;
+&lt;p&gt;性别是没有悬念的，至于那10%的男性身份也很好推定。&lt;/p&gt;
+&lt;img alt="热力图" class="img-responsive" src="//tooisorahe.com/images/geoHeat.PNG"/&gt;
+&lt;p&gt;粉丝的地理分布，北上广深没得跑，意外的是川渝也很密集。&lt;/p&gt;
+&lt;img alt="世代统计" class="img-responsive" src="//tooisorahe.com/images/generation.PNG"/&gt;
+&lt;p&gt;从肖战粉丝的言论看来，这样的世代分布很合理，毕竟是后浪嘛。
+不过最令我惊讶的是居然还有5%的10后...真-后浪。&lt;/p&gt;
+&lt;img alt="注册时间" class="img-responsive" src="//tooisorahe.com/images/signup.PNG"/&gt;
+&lt;p&gt;2009年8月14日，新浪微博开始内测。&lt;/p&gt;
+&lt;img alt="词频" class="img-responsive" src="//tooisorahe.com/images/frequency.PNG"/&gt;
+&lt;p&gt;得益于现在强大的控评和公关，并没有什么参考价值&lt;/p&gt;
+&lt;p&gt;写这东西大概用时三天，上课边摸边写的，程序本身没有任何难度，逻辑也非常简单；
+如果硬要说有坑的话，大概是手机端的微博经常会出现莫名其妙的丢包导致返回不正确
+的json数据，在必要的地方加异常处理就可以完美解决。还有就是请求频率不能过快,
+否则会被小棺家封号...解决方案是上某宝买点小号建个账号池，如果被封换个Cookie就
+完事了。&lt;/p&gt;
+&lt;p&gt;虽然只是个小玩具，但基本达到了目的。至于结论，不用多说也心知肚明，笑一笑就好。&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1FV411d7u7&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;这都整的什么烂活&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="tech"></category><category term="toy"></category><category term="python"></category></entry></feed>

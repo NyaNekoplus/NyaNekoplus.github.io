@@ -1,16 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹 - music</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/tag-music.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2019-05-09T21:20:00+00:00</updated><entry><title>那些令我感到温暖的声音</title><link href="//tooisorahe.com/warm-voice.html" rel="alternate"></link><published>2019-05-09T21:20:00+00:00</published><updated>2019-05-09T21:20:00+00:00</updated><author><name>Edward Tsai</name></author><id>tag:tooisorahe.com,2019-05-09:/warm-voice.html</id><content type="html">&lt;p&gt;不知不觉距搭建好这个博客已有一段时间，然而这里还是空空荡荡。搭这个博客的意义是什麽呢？(自我怀疑中)&lt;/p&gt;
-&lt;p&gt;这个博客目前有life和technology两个类别，life用於记录一些生活琐事，tech用於记录一些技术实现上的体会。
-那麽这里长草的原因就很显然了——发不出技术博是因为太菜，发不出日常是因为每天都 &lt;del&gt;摸鱼&lt;/del&gt; 很忙。&lt;/p&gt;
-&lt;p&gt;——为什麽这么忙？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;del&gt;垃圾水课gc课程表&lt;/del&gt; ！————来自一个 &lt;del&gt;被迫&lt;/del&gt; 使用游戏时间来敲代码的辣鸡的深深怨念&lt;/blockquote&gt;
-&lt;p&gt;人在疲惫的时候总是需要一些放松的方式。&lt;/p&gt;
-&lt;p&gt;敲完代码，时间已近 &lt;del&gt;断网时间&lt;/del&gt; 11点。看来今晚不能跟小伙伴们快乐dota了。打开某易云...&lt;/p&gt;
-&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/pXHJH71H3xY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;人果然是因为这样的声音才活着的。这些或温暖，或充满元气的声音，总能令疲惫的身心得以放松。&lt;/p&gt;
-&lt;p&gt;11：30，该睡觉了。明天又是 &lt;del&gt;摸鱼&lt;/del&gt; 美好的一天。&lt;/p&gt;
-&lt;p&gt;Q：为什麽是Youtube？&lt;/p&gt;
-&lt;p&gt;A：这首
-&lt;a class="reference external" href="https://music.163.com/#/song?id=36270494"&gt;きみがくれたシャイニーストーリー&lt;/a&gt;
-已被某易购买了版权，所以不能使用外链&lt;/p&gt;
-</content><category term="life"></category><category term="music"></category><category term="writing"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>悠远的苍穹 - music</title><link href="//tooisorahe.com/" rel="alternate"></link><link href="//tooisorahe.com/feeds/tag-music.atom.xml" rel="self"></link><id>//tooisorahe.com/</id><updated>2020-03-20T20:00:00+00:00</updated><entry><title>声临其境</title><link href="//tooisorahe.com/the-reality-of-the-sound.html" rel="alternate"></link><published>2020-03-20T20:00:00+00:00</published><updated>2020-03-20T20:00:00+00:00</updated><author><name>Vincent Tsai</name></author><id>tag:tooisorahe.com,2020-03-20:/the-reality-of-the-sound.html</id><summary type="html">&lt;p&gt;前段时间入了索大法的zx300a和1am2一套，记录下相关的一些东西。&lt;/p&gt;
+&lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
+&lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
+至于花这么多钱吗？&lt;/p&gt;
+&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resolution)的态度就有所改观，
+这要从国内音乐平台的变动上说起。2015年前，国内的音乐平台哪家都差不多(某逸,某q)，
+当时并没有现在的版权意识，绝大部分的音乐都能免费听，充会员最多是
+升级一个所谓的SQ音质(实则没有任何用处)，还是可以接受的。
+2015年后，音乐版权问题引起了重视，很多音乐都变得要付费才能听————这是好事，音乐
+是经过劳动产生的，它本身就带有价值————我并不排斥这种收费行为。但事情逐渐演变成了
+各个音乐平台之间的竞争。为了得到更多的流量，平台开始买断热门歌手的版权；版权一旦
+被一个平台买断，那就意味着这个歌手的歌要在其他平台下架。
+如此循环往复，最终的结果就是版权的割裂，用户可能要同时安装几个音乐平台才能听到自己
+想听的歌。耗费如此力气，用户的体验反而变差了，颇有南辕北辙的意味。&lt;/p&gt;
+&lt;p&gt;在各个音乐平台间来回切换实在过于麻烦。早期的解决方法是将各个平台上的音乐下载到本地，
+然后选定一个平台使用。但这只是一时之计，没过多久各个平台就发布了自己的加密格式 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;前段时间入了索大法的zx300a和1am2一套，记录下相关的一些东西。&lt;/p&gt;
+&lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
+&lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
+至于花这么多钱吗？&lt;/p&gt;
+&lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resolution)的态度就有所改观，
+这要从国内音乐平台的变动上说起。2015年前，国内的音乐平台哪家都差不多(某逸,某q)，
+当时并没有现在的版权意识，绝大部分的音乐都能免费听，充会员最多是
+升级一个所谓的SQ音质(实则没有任何用处)，还是可以接受的。
+2015年后，音乐版权问题引起了重视，很多音乐都变得要付费才能听————这是好事，音乐
+是经过劳动产生的，它本身就带有价值————我并不排斥这种收费行为。但事情逐渐演变成了
+各个音乐平台之间的竞争。为了得到更多的流量，平台开始买断热门歌手的版权；版权一旦
+被一个平台买断，那就意味着这个歌手的歌要在其他平台下架。
+如此循环往复，最终的结果就是版权的割裂，用户可能要同时安装几个音乐平台才能听到自己
+想听的歌。耗费如此力气，用户的体验反而变差了，颇有南辕北辙的意味。&lt;/p&gt;
+&lt;p&gt;在各个音乐平台间来回切换实在过于麻烦。早期的解决方法是将各个平台上的音乐下载到本地，
+然后选定一个平台使用。但这只是一时之计，没过多久各个平台就发布了自己的加密格式，相当
+於在原有的数据上多加一道编码锁，只有在自家平台上才能解码播放(.ncm)。虽然已经有人破解
+了解码方式并开源在GitHub上，可以反向转换回元格式；但这无疑会更麻烦，软件进行加密的目的
+并不是禁止你使用它，而是增加你使用的成本。&lt;/p&gt;
+&lt;p&gt;既然如此我也不做人了！免去切换播放器的无用功，顺便体验一下hires，这就是买这套设备的初衷。&lt;/p&gt;
+&lt;p&gt;要听到高音质的音乐，好的设备并不是最关键的，重要的是音源的质量。音乐本身是一段信息，音质
+只是衡量信息密度的说法；
+首先要有足够的信息，而能不能听出来是另一回事。
+国内音乐平台开会员才能听的所谓SQ，实质上只是16bit/44.1kHz的普通无损；不开会员甚至只是
+320k mp3，这种音源只能用差劲来形容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以下文字有可能存在错误&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为了在设备上区别於其他数据，不同类型的数据以不同的后缀名(编码格式)来表示。音频类常见的有mp3、aac、
+ape、flac、wav。mp3和aac属于有损压缩格式，通过牺牲超过20kHz高频信息来压缩空间；一般的mp3都会带着
+‘320kbps’(320Kb Per Second|每秒的数据量)，这是mp3格式能解码的最高比特率，所以mp3占用容量很小。
+ape、flac、wav属于无损格式，且三者互相转换也不会丢失信息。最普遍的无损(从cd中抓取)的比特率
+一般在1k以上；kbps越高代表信息越多，这首歌的细节就越丰富，所以无损的听感会比mp3更好。&lt;/p&gt;
+&lt;p&gt;这些格式都属于PCM(
+&lt;a class="reference external" href="https://baike.baidu.com/item/PCM/1568054?fr=aladdin"&gt;Pulse Code Modulation|脉冲编码调制&lt;/a&gt;
+)。它的录音方式用最直白的方式来说就是描点————就像画统计图一样，根据所给数据在坐标系上描点后再连起来。
+首先给定一些作为标准的二进制电平-&amp;gt;接收从麦克风传过来的模拟信号-&amp;gt;每隔一段时间对模拟信号采样一次作为
+采样电平-&amp;gt;然后找出最接近采样电平的标准电平记录下来-&amp;gt;下一次采样。最后得到的数字信号就是PCM。&lt;/p&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="panel-heading"&gt;
+Signal Wave&lt;/div&gt;
+&lt;div class="panel-body"&gt;
+&lt;img alt="pcm" class="img-responsive" src="//tooisorahe.com/images/PCM.jpg"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;图中的红线表示一个输入信号
+纵坐标表示标准电平值，横坐标表示时间
+横向每一格对应一个采样点，图中蓝色的点为采样电平
+采样电平一般不会刚好等于标准电平，所以要找相近的电平值来近似这个采样，
+用四舍五入的办法来记录接近的电平值。
+绿线表示记录的值还原后的信号曲线，可以看出和原信号相比有明显失真。
+这整个过程中输出信号与输入信号间的差叫做量化误差.量化误差对于信号而言是一种噪声,所以也被称为量化噪声。
+右图为了更明显地表现量化噪声夸大了误差的程度。&lt;/p&gt;
+&lt;p&gt;cd中抓取的无损都是16bit/44.1kHz的PCM，44.1kHz代表对输入信号每秒采样44100次，
+然后用 &lt;span class="math"&gt;\(2^{16}=65536\)&lt;/span&gt; 个标准电平去近似采样电平。由此可知采样数越高信息就
+越多，bit越高就越接近原本的信号。目前多见的标准有24bit/96kHz、24bit/192kHz。
+当然PCM的缺点也很致命，由于本身的原理是规定标准近似，相当于每一个采样都有少许
+偏移，它的曲线趋于平缓，这样一来就算不断提高采样深度和采样次数也无法再得到大的提升。&lt;/p&gt;
+&lt;p&gt;为了再进一步，DSD(
+&lt;a class="reference external" href="https://baike.baidu.com/item/DSD/3873923?fr=aladdin"&gt;Direct Stream Digital&lt;/a&gt;
+)格式应运而生，它用1bit比特流的方式取样，采样率一般为2.8224MHz（为44.1kHz采样的64倍）&lt;/p&gt;
+&lt;p&gt;对于16bit PCM，每记录一个采样点需要用到16bit数据，但是DSD对于每一个采样点，用1bit就可以记录，也就是说，仅仅用表示“否”的“0”和表示“是”的“1”去记录这一个采样点的电平值。
+DSD的编码过程中,对信号进行量化的方式和PCM完全不一样。
+此处引入 &lt;span class="math"&gt;\(\Delta\)&lt;/span&gt; 调制概念，,不像PCM那样用一组规定电平值去度量，而是只使用一个固定值" &lt;span class="math"&gt;\(\Delta\)&lt;/span&gt; "去度量原始信号.
+依然是隔一段固定时间采样一次,每次采样得到的电平会用于与上一次采样的信号进行比较,如果其
+插值大于 &lt;span class="math"&gt;\(\Delta\)&lt;/span&gt; ,则输出1,如果插值小于 &lt;span class="math"&gt;\(\Delta\)&lt;/span&gt; 或者为负数,则输出0。这样,每个采样点就能以1bit的形式被记录下来。
+DSD的主体思想就是这样,每一个采样的值是上一个采样的相对值,前后采样点相互连系。这种量化方式的思想因为其连续性,更加接近录音时原本的声音。&lt;/p&gt;
+&lt;p&gt;我不是这方面的专业人士，也没有系统学习过相关的知识。上一段文字只是最基本的知识，专业
+领域不敢不懂装懂，更深入就不写了。&lt;/p&gt;
+&lt;p&gt;无论如何，DSD相较于PCM都是更高级的一种格式，这是在录音层面就已经决定了的、
+一道不可逾越的鸿沟；但奇怪的是我在数个音乐论坛中都看见了“PCM比DSD更好听”的观点。
+从原理上来说，DSD致力于“原本的声音”，在录音方式和极高体积的前提下无疑比PCM更接近於原声；PCM作为
+缺失的一方，却被认为是更好的，这令人费解。也许完美和真实并不是一件好事，录音时
+的信息缺失反而令歌曲本身更“顺耳”也是可能的吧。&lt;/p&gt;
+&lt;p&gt;像上面所说的24bit/96kHz的音源，我没在国内任何一家音乐平台上找到，24bit/48kHz也是寥寥，
+更不用说DSD了。不过如果用手机作为播放器，那么使用DSD音源是没有任何必要的行为；它需要单独
+的硬件来解码播放，强引软件解码只会将DSD转换成PCM后再播放。如果是使用普通的耳机(苹果原装类似?)
+来听高采样的PCM也是没有必要的，大概率听个响，开脑放除外 &lt;del&gt;不如省点空间装涩图&lt;/del&gt; 。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;那么要在哪里才有高质量音源呢？&lt;/p&gt;
+&lt;p&gt;索尼大法官方商城：大部分是instrumental的，极少vocal&lt;/p&gt;
+&lt;p&gt;Mora：ACG向&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然这两价格都很感人..之前买的：&lt;/p&gt;
+&lt;img alt="Canon" class="img-responsive align-center" src="//tooisorahe.com/images/SonyPay.PNG"/&gt;
+&lt;p&gt;只是一首，整张专要两百多- -。所谓艺术的代价就是如此吧。
+奈何囊中羞涩，只好另寻他法。国内一些类似于pt站的音乐论坛很好的解决了这个问题。&lt;/p&gt;
+&lt;p&gt;在各个论坛上寻找音源的时候，也见到了不少"真发烧友"。他们热衷于讨论一些看似高深得令人
+望而却步的话题，例如"这首歌的低频不行"、"某某耳机的音域太窄了"等等。一旦你与他们讨论时
+表示出某个细节没有听出来————你是木耳朵！但如果从稍微专业一点的角度讨论，这些人嘴里
+蹦出的还是"饱满"、"单薄"、"太沉了"这类虚无的词汇，并对
+原理表现出不屑一顾的样子，继续四处点评并以自己听到的作为标准，以自己是"金耳朵"为豪。
+不能说他们不是"发烧友"，只是可能烧的部位不太一样。听觉比起视觉更难以比较，
+这种非常主观的东西总是千人千面，毕竟自己的耳朵不可能安在别人身上。&lt;/p&gt;
+&lt;p&gt;木耳朵既不是你，也不是我；木耳朵可能是你，也可能是我。&lt;/p&gt;
+&lt;div class="section" id="x300a1am2"&gt;
+&lt;h2&gt;为什么选x300a和1am2?&lt;/h2&gt;
+&lt;p&gt;最开始决定入坑的时候就打算买索尼了，毕竟"索尼大法好"也听了十几年，该说是品牌效应吗..&lt;/p&gt;
+&lt;p&gt;由于刚接触，也没打算买高端产品，挑差不多的入门级买就行了。当时搜播放器出现频率最高的就是
+zx300a，不过选择它的主要原因是它带4.4平衡输出；一直以来用的手机都是3.5，这次尝下鲜；
+买回来听了下的确是比3.5输出口的好听，虽然我也不知道原理是啥。既然有4.4口，那就得选个
+支持4.4的耳机。耳机这方面就更玄学了，不谈发声原理和你扯什么"推力"、"声场"的大有人在，
+索性就选同价位且支持4.4输出的。这么一筛选，结果就只剩1am2了。&lt;/p&gt;
+&lt;p&gt;zx300a的续航方面在我看来相当不错。我有每天睡前听半小时音乐的习惯，每次听完就让它保持待机状态，
+在充满电的前提下可以持续使用一周左右。或许有些奇怪，但这个左右的却取决于听的音乐的格式。
+DSD这种需要硬件解码播放的格式耗电会比仅需软解码的PCM格式更多，证据是每次听完DSD输出口
+都会明显发烫，PCM则不会。&lt;/p&gt;
+&lt;p&gt;听感这方面我扯不出那些看似高深的"专业"词汇，但播16bit/44.1kHz的普通无损手机比同这一套相比就
+是一耳朵能听出来的差距，更高规格的音源就更不用说了。zx300a甚至还有个"煲机"的说法，播放满
+200小时激活电容后音质会更好，不懂原理也不敢说是玄学 &lt;del&gt;然而我买了4个月还没到100小时&lt;/del&gt; 。
+除此之外，就像所有的播放器一样，它也带有均衡器。不过我的目标本来就是原始的声音，这个功能
+就显得鸡肋了。&lt;/p&gt;
+&lt;p&gt;虽然zx300a的续航和播放效果都不错，但它的系统做得多少不尽人意。整个系统只带一个音乐播放器，
+但仅这一个播放器都做得不能说好用。给自定义歌单添加音乐的时候要等3、4秒，导入新的音乐后编辑
+数据库也要等，甚至还没有"下一首播放"选项。&lt;/p&gt;
+&lt;p&gt;1am2属于头戴式耳机，也就是俗称的"大耳"；另一种是入耳式的耳塞。
+耳塞和头戴的选择方面，我觉得这取决于不同人的追求————是单纯的听音乐还是想欣赏音乐？
+这个问题和笔记本与台式电脑的取舍是相似的。笔记本注重便捷，而台式注重性能；无论是
+用笔记本进行高性能的作业还是带着台式到处跑无疑都会带来不被希望的结果。耳塞和头戴
+也是一样，就拿我的情况来举例。我出门不会带耳机，并且在很多时候会非常仔细地去听音乐，
+我会尝试着去听出其中的所有
+音轨，并对它们对应的演奏乐器进行分辨，这算是个人嗜好。由于空间比较大，声波有反射的余地，
+所以会比较贴近真实录音环境。在这种情况下，头戴式比较适合我；
+事实上这套设备对我的帮助也很大，
+如果用普通的耳机接手机来听音乐，几乎所有的音轨都是混杂在一起的，基本只能听出最明显的
+几条轨，也许是我太菜了。但如果换用这套设备来听同一首曲，是可以听出音轨之间的"距离"的。&lt;/p&gt;
+&lt;p&gt;膜一个巨佬，希望我有一天也能到这水平。每一条音轨单独听都是普通的声音，但组合起来却有着
+震撼人心的效果，这是一种奇妙的感觉。&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1XJ411D7DE&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;菊花台由周杰伦作曲，钟兴民编曲&lt;/p&gt;
+&lt;p&gt;作曲和编曲的区别：作曲相当于是画一幅素描的草稿，而编曲则是将这幅草稿补完、上色成一幅油画，
+期间颜料、画笔的选用都由编曲选择决定。
+换成程序员的角度，与HTML和CSS的关系类似。&lt;/p&gt;
+&lt;p&gt;作曲讲究灵感，编曲注重积累。虽然作曲作为开端是必不可少的，但相对于画龙点睛的编曲来说还是
+差点意思，只是非专业的个人见解。&lt;/p&gt;
+&lt;p&gt;不得不赞叹钟兴民老师的弦乐真的是国产顶峰，这首菊花台的弦乐恢宏大气中仍不失细腻婉转，令人
+回味无穷。
+这也是我认为周杰伦的唱功配不上这首配乐的其中一个原因；
+另一原因是大概一年前听到了周华健版本的菊花台，其中的情感表达、声音的控制都不是周杰伦能比的，
+可惜配乐并不是原版。&lt;/p&gt;
+&lt;div align="left" class="embed-responsive embed-responsive-16by9"&gt;&lt;embed allowfullscreen="allowfullscreen" class="embed-responsive-item" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" scrolling="no" src="https://player.bilibili.com/player.html?bvid=1Dt411Y7ER&amp;amp;page=1&amp;amp;as_wide=1&amp;amp;high_quality=1&amp;amp;danmaku=1"/&gt;&lt;/div&gt;&lt;p&gt;说听湿了都不为过，周华健的唱功真的是一言难尽(褒义)，不愧是当年的天王杀手。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;音乐选择&lt;/h2&gt;
+&lt;p&gt;个人的爱好是听器乐；古典分情况，有些觉得好听有些欣赏不来；交响基本都可以。还有些流行
+乐会同时发布的offvocal、instrumental、カラオケ版，不过不知道是什么原因，基本只有
+日本的流行才会发布上述版本，国内非常少见。&lt;/p&gt;
+&lt;p&gt;当然带人声的流行乐也很喜欢，ACG占大部分 &lt;del&gt;谁不是个二次元呢&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我一直都认为旋律才是一首歌的灵魂(除去rap)；不能说歌词是没有必要的，但好的音乐本身就是语言。
+身边有很多人，他们听日语歌的时候并听不懂，但一样觉得好听，并会发表一些有时搭不上边的感情上
+的言论(详见网易云评论区)。&lt;/p&gt;
+&lt;p&gt;就像这首法语歌(出自美食总动员，我最喜欢的一部迪士尼动画)，我不懂法语，但的确是好听极了。&lt;/p&gt;
+&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/v-3Z3jmDiL0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;关於“歌曲的旋律才是最重要的，歌词并不重要”的一个有力证据(&lt;/h2&gt;
+&lt;p&gt;一首不懂日语的一般通过逸民可以安心欣赏的流行歌曲(过于高雅，请科学上网观看)&lt;/p&gt;
+&lt;div align="left" class="youtube embed-responsive embed-responsive-16by9"&gt;&lt;iframe class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/J19q4yqMcj8"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;总的来说这次还是很满意的，听音乐不失为一种排解压力的方式；对于好听的、高质量的音乐，更是如此。
+&lt;del&gt;剩下的就是把时间刷到200小时了&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;索尼大法好，天灭任地狱，退软保平安，人在做，天在看，标清锁区留祸患，任氏微软天地灭，赶紧卖机保平安，诚心诚念姨夫好，索尼大法保平安，众生都是为索来，现世险恶忘前缘，索尼弟子说真相，教你脱险莫拒绝&lt;/del&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="life"></category><category term="writing"></category><category term="sony"></category><category term="music"></category></entry></feed>
