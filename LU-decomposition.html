@@ -276,7 +276,7 @@ Ux = y
 </div>
 <p>当b为单位阵时x为逆矩阵。</p>
 <p>伪代码( <a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf">来源</a> )</p>
-<img alt="LU" class="img-responsive align-center" src="//tooisorahe.com/images/LU.PNG"/>
+<img alt="LU" class="align-center img-responsive" src="//tooisorahe.com/images/LU.PNG"/>
 <p>但这样的算法在计算机上实现时会有运算问题，当Ujj为0时分母为0；为了避免这一点，需要使用LU分解
 的变种LUP分解。</p>
 <p>其原理和LU分解相似，但逐行消元时要选择该列最大的元素来规避除0(还有保持数值稳定，
@@ -298,7 +298,7 @@ P = \prod_{i=0}^{n-2}P_i
 \end{equation*}
 </div>
 <p>伪代码( <a class="reference external" href="http://iacs-courses.seas.harvard.edu/courses/am205/slides/am205_lec07.pdf">来源</a> )</p>
-<img alt="LUP" class="img-responsive align-center" src="//tooisorahe.com/images/LUP.PNG"/>
+<img alt="LUP" class="align-center img-responsive" src="//tooisorahe.com/images/LUP.PNG"/>
 <p>我个人的LUP求逆实现。Matrix4x4是我封装的4x4矩阵类，可视作2维数组</p>
 <div class="highlight"><pre><span class="code-line"><span></span><span class="kr">inline</span> <span class="kt">bool</span> <span class="nf">LUPdecomposition</span><span class="p">(</span><span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">A</span><span class="p">,</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">L</span><span class="p">,</span> <span class="n">Matrix4x4</span><span class="o">&amp;</span> <span class="n">U</span><span class="p">,</span> <span class="kt">int</span><span class="o">*</span> <span class="n">P</span><span class="p">)</span> <span class="p">{</span></span>
 <span class="code-line">            <span class="k">const</span> <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span></span>
@@ -597,6 +597,11 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
     </div>
 <div class="panel-body">
     <ul class="list-group list-inline tagcloud" id="tags">
+            <li class="list-group-item tag-1">
+                <a href="//tooisorahe.com/tag/writing.html">
+                    writing <sup> 8</sup>
+                </a>
+            </li>
             <li class="list-group-item tag-2">
                 <a href="//tooisorahe.com/tag/life.html">
                     life <sup> 3</sup>
@@ -615,11 +620,6 @@ LU(P)分解优于高斯消元，但这种说法是片面的，它们的效率高
             <li class="list-group-item tag-4">
                 <a href="//tooisorahe.com/tag/math.html">
                     Math <sup> 1</sup>
-                </a>
-            </li>
-            <li class="list-group-item tag-1">
-                <a href="//tooisorahe.com/tag/writing.html">
-                    writing <sup> 8</sup>
                 </a>
             </li>
             <li class="list-group-item tag-4">
