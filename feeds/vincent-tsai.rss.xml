@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Wed, 30 Dec 2020 16:03:00 +0000</lastBuildDate><item><title>虚幻2020</title><link>//tooisorahe.com/unreal-2020.html</link><description>&lt;div class="section" id="id2"&gt;
+<rss version="2.0"><channel><title>悠远的苍穹 - Vincent Tsai</title><link>//tooisorahe.com/</link><description></description><lastBuildDate>Mon, 25 Jan 2021 11:38:00 +0000</lastBuildDate><item><title>考试的意义</title><link>//tooisorahe.com/the-meaning-of-exams.html</link><description>&lt;p&gt;上一年12月忙里偷闲去考了N1，今早11点整发布了成绩&lt;/p&gt;
+&lt;img alt="Score" class="img-responsive align-center" src="//tooisorahe.com/images/n1score.PNG"/&gt;
+&lt;p&gt;考完之后就知道过是可以过的，就是最后分数多少的问题；
+记得早道的估分器算出的分数是139，
+但Jlpt与常规的考试不同，它
+的题目并没有明确的分值，而是使用一种名叫‘尺度得点’的记分方法(出于好奇，考完
+我还特地研究了一下)。简单来说就是
+如果有一道简单题多数人对了，那么错的人可能会被扣很多分；如果一道难题多数人错了，
+那么对的少数人也可能不得分。当然这只是规则的部分；&lt;/p&gt;
+&lt;p&gt;这样的规则经过汇聚后可以用一个函数来表示，详细可以看
+&lt;a class="reference external" href="https://www.jianshu.com/p/0d98c4b63a52"&gt;这篇文章&lt;/a&gt; 。
+&lt;del&gt;连一个人是不是乱蒙的答案都可以通过计算得出，充分展示了数学是万物起源的道理&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;当然即使这背后有着如此科学且复杂的数学模型支撑，我也不认为考试能真正反映出受验者的能力。&lt;/p&gt;
+&lt;p&gt;言语说到底还是用来交流的，但以现在的我来说，虽然合格了N1，但要和日本人流利对话还是存在
+一定的障碍，玩生肉galgame时不时也要
+查下单词；而在日多年从事旅游业的前辈则表示考了四次N1都没过..绝大部分的考试大概考的都是应试技巧，
+而不是实际能力。&lt;/p&gt;
+&lt;img alt="Weibo" class="img-responsive align-center" src="//tooisorahe.com/images/n1fail.PNG"/&gt;
+&lt;p&gt;由此可知考试的意义除了一纸证书之外再无其他。对提升能力毫无帮助之余，还要为其付出额外的时间（和金钱）；
+某种意义上可以说是弊大于利，这是我极度厌恶考试的原因&lt;/p&gt;
+&lt;p&gt;钱倒是小事，但由于这次疫情考点缩减，广东地区只有两个考点，去考场光坐地铁就横穿了大半个广州。
+考前一周还跑去医院做了次核酸检测。这都是时间成本。&lt;/p&gt;
+&lt;p&gt;此外还有无谓的担心 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 25 Jan 2021 11:38:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2021-01-25:/the-meaning-of-exams.html</guid><category>life</category><category>writing</category></item><item><title>虚幻2020</title><link>//tooisorahe.com/unreal-2020.html</link><description>&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;2019的尾巴似乎还在昨天&lt;/h2&gt;
 &lt;p&gt;实在是过于老套的开头————没有办法，能正确表达出我现在的所想的也只有这句了&lt;/p&gt;
 &lt;p&gt;事实就是如此。现在是2020年12月30号17：21分，虽然今年已经接近尾声，
@@ -129,7 +151,7 @@ About Translation&lt;/div&gt;
 &lt;p&gt;先放上结果：&lt;/p&gt;
 &lt;img alt="池塘夜雨" class="img-responsive" src="//tooisorahe.com/images/rainingpool.PNG"/&gt;
 &lt;p&gt;完成了 …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Vincent Tsai</dc:creator><pubDate>Mon, 30 Mar 2020 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:tooisorahe.com,2020-03-30:/raining-pool-poor-ver.html</guid><category>tech</category><category>toy</category><category>c++</category><category>cg</category></item><item><title>声临其境</title><link>//tooisorahe.com/the-reality-of-the-sound.html</link><description>&lt;p&gt;前段时间入了索大法的zx300a和1am2一套，记录下相关的一些东西。&lt;/p&gt;
-&lt;img alt="x300a 1am2" class="align-center img-responsive" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
+&lt;img alt="x300a 1am2" class="img-responsive align-center" src="//tooisorahe.com/images/zx300a1am2.JPG"/&gt;
 &lt;p&gt;以前我对发烧圈都抱着不置可否的态度，但多多少少是嗤之以鼻的————听歌罢了，什么不是听个响，
 至于花这么多钱吗？&lt;/p&gt;
 &lt;p&gt;当然这是之前的事了。从大概两年前开始我对hires(high resolution)的态度就有所改观，
@@ -149,7 +171,7 @@ About Translation&lt;/div&gt;
 动物们的故乡是自然，但如今却对铁笼如此趋之若鹜，还是说铁笼才是动物们的故乡？
 (一周目黑魂，有点中毒&lt;/p&gt;
 &lt;p&gt;由于这只鹦鹉的头是黄色的，故命名小黄。上网查了下，品种是黄化玄凤，长这样：&lt;/p&gt;
-&lt;img alt="小黄" class="align-center img-responsive" src="//tooisorahe.com/images/yellow.jpg"/&gt;
+&lt;img alt="小黄" class="img-responsive align-center" src="//tooisorahe.com/images/yellow.jpg"/&gt;
 &lt;p&gt;刚逮住的时候凶得很，一旦有摸它的意图就免不了被咬上一口，竹子都能咬断的咬合力，
 一口出血是再正常不过了；所以也不敢把它放出来，就这样把它晾了一个月；&lt;/p&gt;
 &lt;p&gt;某天晚上回家时发现笼子竟然是开着的，想着它肯定越狱了，没想到开灯之后发现它躲在
@@ -167,7 +189,7 @@ About Translation&lt;/div&gt;
 &lt;h2&gt;TI9的完美落幕&lt;/h2&gt;
 &lt;p&gt;几个小时前，在中国上海的梅赛德斯奔驰场馆内，OG在BO5的总决赛中以3：1的比分击败Liquid，夺得
 TI9的冠军，也借此成为TI九年历史中的第一个双冠队伍，恭喜OG。&lt;/p&gt;
-&lt;img alt="OG" class="align-center img-responsive" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
+&lt;img alt="OG" class="img-responsive align-center" src="//tooisorahe.com/images/ti9og.jpg"/&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;写在前面&lt;/h2&gt;
