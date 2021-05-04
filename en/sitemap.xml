@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>//tooisorahe.com/en/</loc>
-<lastmod>2021-03-05T20:05:42-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/en/</loc>
+<lastmod>2021-05-04T16:53:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/archives.html</loc>
-<lastmod>2021-03-05T20:05:42-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/en/archives.html</loc>
+<lastmod>2021-05-04T16:53:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/tags.html</loc>
-<lastmod>2021-03-05T20:05:42-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/en/tags.html</loc>
+<lastmod>2021-05-04T16:53:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/categories.html</loc>
-<lastmod>2021-03-05T20:05:42-00:00</lastmod>
+<loc>https://NyaNekoplus.github.io/en/categories.html</loc>
+<lastmod>2021-05-04T16:53:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/about.html</loc>
+<loc>https://NyaNekoplus.github.io/en/about.html</loc>
 <lastmod>2019-04-21T20:50:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/HELLO WORLD.html</loc>
+<loc>https://NyaNekoplus.github.io/en/HELLO WORLD.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/category/life.html</loc>
+<loc>https://NyaNekoplus.github.io/en/category/life.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/tag/life.html</loc>
+<loc>https://NyaNekoplus.github.io/en/tag/life.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>//tooisorahe.com/en/author/vincent-tsai.html</loc>
+<loc>https://NyaNekoplus.github.io/en/author/vincent-tsai.html</loc>
 <lastmod>2019-04-21T15:30:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
